@@ -1,0 +1,17 @@
+﻿<Controls:MetroWindow x:Class="SteamworkGUI.Output"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                      Title="Output" 
+                      Height="370.175" 
+                      Width="401.96" 
+                      WindowStartupLocation="CenterScreen" Closing="MetroWindow_Closing">
+
+
+    <Window.Effect>
+        <DropShadowEffect BlurRadius="15" Direction="-90" RenderingBias="Quality" ShadowDepth="2"/>
+    </Window.Effect>
+    <Grid>
+        <TextBox Name="output" IsReadOnly="True" VerticalScrollBarVisibility="Auto"/>
+    </Grid>
+</Controls:MetroWindow>
