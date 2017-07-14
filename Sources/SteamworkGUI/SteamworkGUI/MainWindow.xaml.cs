@@ -5,7 +5,8 @@ using System.Windows.Controls;
 using System;
 using System.Windows.Threading;
 using System.Windows.Media;
-
+using System.Windows.Media.Imaging;
+using System.IO;
 namespace SteamworkGUI
 {
 
@@ -27,6 +28,7 @@ namespace SteamworkGUI
         public Status status;
         public Core cmd;
         public Output output_window=new Output();
+        String UploadPath="";
         bool Loggedin;
         public MainWindow()
         {
@@ -101,8 +103,18 @@ namespace SteamworkGUI
                 if (e.Data.GetDataPresent(DataFormats.FileDrop))
                 {
                     msg = ((System.Array)e.Data.GetData(DataFormats.FileDrop)).GetValue(0).ToString();
-                    filespath.Content = msg;
-                }
+                if (!Directory.Exists(msg)) return;
+                    filespath.Content = Path.GetFileNameWithoutExtension(msg);
+                    Fullpath.Content = msg;
+                    UploadPath = msg;
+
+                BitmapImage bi = new BitmapImage();
+                bi.BeginInit();
+                bi.UriSource = new Uri(@"Images/Folder1.png", UriKind.RelativeOrAbsolute);
+                bi.EndInit();
+                FilesIcon.Source =bi; 
+                UploadButton.Background = new SolidColorBrush(Colors.Green);
+            }
         }
         private void Output_Click(object sender, RoutedEventArgs e)
         {

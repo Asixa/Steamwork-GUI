@@ -186,3 +186,32 @@ successfully
 [2017-07-14 20:07:46] Flushed store 'userlocal' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\userdata\210726895\config\localconfig.vdf'
 [2017-07-14 20:09:18] Flushed store 'userlocal' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\userdata\210726895\config\localconfig.vdf'
 [2017-07-14 20:13:36] Flushed store 'userlocal' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\userdata\210726895\config\localconfig.vdf'
+[2017-07-14 20:28:32] Flushed store 'install' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf'
+[2017-07-14 20:28:36] Flushed store 'userlocal' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\userdata\210726895\config\localconfig.vdf'
+[2017-07-14 20:43:36] Flushed store 'userlocal' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\userdata\210726895\config\localconfig.vdf'
+[2017-07-14 20:58:36] Flushed store 'userlocal' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\userdata\210726895\config\localconfig.vdf'
+[2017-07-14 21:13:40] Flushed store 'userlocal' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\userdata\210726895\config\localconfig.vdf'
+
+
+[2017-07-14 21:27:06] Loaded store 'install' from 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf' successfully
+[2017-07-14 21:27:06] Loaded store 'install' from 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf' successfully
+
+
+[2017-07-14 21:29:10] Loaded store 'install' from 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf' successfully
+[2017-07-14 21:29:10] Loaded store 'install' from 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf' successfully
+
+
+[2017-07-14 21:30:38] Loaded store 'install' from 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf' successfully
+[2017-07-14 21:30:38] Loaded store 'install' from 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf' successfully
+
+
+[2017-07-14 21:31:53] Loaded store 'install' from 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf' successfully
+[2017-07-14 21:31:53] Loaded store 'install' from 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf' successfully
+
+
+[2017-07-14 21:33:07] Loaded store 'install' from 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf' successfully
+[2017-07-14 21:33:07] Loaded store 'install' from 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf' successfully
+
+
+[2017-07-14 21:34:36] Loaded store 'install' from 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf' successfully
+[2017-07-14 21:34:36] Loaded store 'install' from 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf' successfully

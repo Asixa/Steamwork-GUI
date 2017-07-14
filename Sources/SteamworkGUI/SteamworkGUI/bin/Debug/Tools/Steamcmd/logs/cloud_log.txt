@@ -117,3 +117,20 @@
 [2017-07-14 19:54:25] [AppID 7] File is in sync serverbrowser_hist.vdf
 [2017-07-14 19:54:25] [AppID 7] File is in sync sharedconfig.vdf
 [2017-07-14 19:54:25] [AppID 7] Download complete in build list
+
+
+[2017-07-14 19:58:15] [U:1:210726895] [AppID 7] Init cache request complete
+[2017-07-14 19:58:15] Starting sync job
+[2017-07-14 19:58:15] [AppID 7] Starting sync (init)
+[2017-07-14 19:58:31] [U:1:210726895] [AppID 7] Init cache request complete
+[2017-07-14 19:58:31] Starting sync job
+[2017-07-14 19:58:31] [AppID 7] Starting sync (init)
+[2017-07-14 19:58:35] Starting sync job
+[2017-07-14 19:58:35] [AppID 7] Starting sync (download)
+[2017-07-14 19:58:35] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2017-07-14 19:58:35] [AppID 7] File is in sync sharedconfig.vdf
+[2017-07-14 19:58:35] [AppID 7] Eval complete
+[2017-07-14 19:58:35] [AppID 7] Download complete in build list
+[2017-07-14 19:59:34] [U:1:210726895] [AppID 7] Init cache request complete
+[2017-07-14 19:59:34] Starting sync job
+[2017-07-14 19:59:34] [AppID 7] Starting sync (init)

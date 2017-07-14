@@ -47,3 +47,17 @@
 [2017-07-14 19:54:24] UpdatesJob: requesting 4 apps, 0 packages (meta data, 1024 prev attempts)
 [2017-07-14 19:54:26] UpdatesJob: requested 3 access tokens, 0 received, 3 denied
 [2017-07-14 19:54:26] UpdatesJob: finished OK, nAppsUpdated 0 (0 KB), nPackagesUpdated 0 (0 KB)
+
+
+[2017-07-14 19:58:35] RequestAppInfoUpdate: nNumAppIDs 1
+[2017-07-14 19:58:35] UpdatesJob: requesting 4 apps, 0 packages (meta data, 1024 prev attempts)
+[2017-07-14 19:58:39] UpdatesJob: requested 3 access tokens, 0 received, 3 denied
+[2017-07-14 19:58:39] UpdatesJob: finished OK, nAppsUpdated 0 (0 KB), nPackagesUpdated 0 (0 KB)
+[2017-07-14 20:13:35] ProductInfoChanges: change number 3189722->3189770, apps: 0/35, packages: 0/6
+[2017-07-14 20:43:35] ProductInfoChanges: change number 3189813->3189856, apps: 0/32, packages: 0/1
+[2017-07-14 20:58:35] ProductInfoChanges: change number 3189856->3189898, apps: 0/29, packages: 0/7
+[2017-07-14 21:13:38] ProductInfoChanges: change number 3189898->3189951, apps: 2/44, packages: 0/3
+[2017-07-14 21:13:38] UpdatesJob: requesting 2 apps, 0 packages (meta data, 1024 prev attempts)
+[2017-07-14 21:13:39] UpdatesJob: requesting 2 apps, 0 packages (full data, 1024 prev attempts)
+[2017-07-14 21:13:39] UpdatesJob: finished OK, nAppsUpdated 2 (10 KB), nPackagesUpdated 0 (0 KB)
+[2017-07-14 21:13:54] Starting async write E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd/appcache/appinfo.vdf (591111 bytes)

@@ -28,7 +28,6 @@ E:\Programing\C#\项目\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI_MarkupC
 E:\Programing\C#\项目\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI.csprojResolveAssemblyReference.cache
 E:\Programing\C#\项目\SteamworkGUI\SteamworkGUI\obj\Debug\Output.baml
 E:\Programing\C#\项目\SteamworkGUI\SteamworkGUI\obj\Debug\Output.g.cs
-E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Images\standard.png
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\SteamworkGUI.exe.config
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\SteamworkGUI.exe
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\SteamworkGUI.pdb

@@ -31,7 +31,7 @@ namespace SteamworkGUI
 
         private void Source_Click(object sender, RoutedEventArgs e)
         {
-            try { System.Diagnostics.Process.Start("https://github.com/asixa"); } catch { }
+            try { System.Diagnostics.Process.Start("https://github.com/Asixa/Steamwork-GUI/"); } catch { }
         }
     }
 }

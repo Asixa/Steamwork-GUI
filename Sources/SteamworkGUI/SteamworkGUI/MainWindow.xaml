@@ -10,7 +10,7 @@
         TitleForeground="#999988"
         Height="600"
         Width="800"
-        MinHeight="350"
+        MinHeight="600"
         MinWidth="525" Closing="MetroWindow_Closing"
     >
 
@@ -19,7 +19,7 @@
         <Controls:WindowCommands>
             <Button Name="LoginButton" Content="Login" Foreground="Red" Click="Login_Click" />
             <Button Content="Output"  Click="Output_Click" />
-            
+
             <Button Content="Option" Click="Option_Click" />
         </Controls:WindowCommands>
     </Controls:MetroWindow.WindowCommands>
@@ -39,7 +39,7 @@
         <Grid>
 
             <Grid Height="71" Margin="0,0,0.4,0" VerticalAlignment="Top" Background="#FF1E1E1E">
-                <TextBlock Height="41" Canvas.Left="10" TextWrapping="Wrap" Text="Game: 477140" Canvas.Top="20" Width="420" FontSize="25" Foreground="White" Margin="10,20,0,10" HorizontalAlignment="Left"/>
+                <TextBlock Canvas.Left="10" TextWrapping="Wrap" Text="Appid: 477140" Canvas.Top="20" Width="420" FontSize="25" Foreground="White" Margin="10,20,0,20" HorizontalAlignment="Left"/>
             </Grid>
             <StackPanel Margin="10,76,0,-51.2" HorizontalAlignment="Left" Width="178">
                 <TextBlock Margin="0,10,0,10" FontSize="18" Foreground="{StaticResource Foreground}" Text="Actions"/>
@@ -54,14 +54,16 @@
             </StackPanel>
 
             <Grid x:Name="UploadPanel"  Margin="188,71,0.4,-0.2" Background="#FF3F3F46">
-                <Grid x:Name="FilesDrop" Canvas.Left="43" Canvas.Top="31" Margin="10,67,10,30" Background="#FF2D2D30" AllowDrop="True" Drop="FilesDrop_Drop">
-                    <Label x:Name="filespath" Content="Drop the files here" Height="61" Canvas.Top="10" FontSize="40" Foreground="#FF6F6F6F" FontStyle="Italic" Margin="10,10,0.6,0" VerticalAlignment="Top"/>
+                <Grid x:Name="FilesDrop"  Margin="10,67,10,30" Background="#FF2D2D30" AllowDrop="True" Drop="FilesDrop_Drop">
 
+                    <Label x:Name="filespath" Content="Drop the folder here" Canvas.Top="10" FontSize="40" Foreground="#FF989898" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,242,-0.2,52.2" />
 
+                    <Image Name="FilesIcon" Height="118"  Source="Images/Folder2.png"  Width="150"/>
 
                 </Grid>
-                <Label Content="Upload" HorizontalAlignment="Left" Height="66" Margin="10,10,0,0" VerticalAlignment="Top" Width="203" FontSize="30" Foreground="White"/>
-                <Button Content="Upload" Height="52" Margin="0,10,10,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="94" FontSize="20"/>
+                <Label Content="Upload" HorizontalAlignment="Left" Height="52" Margin="10,10,0,0" VerticalAlignment="Top" Width="203" FontSize="30" Foreground="White"/>
+                <Button Name="UploadButton" Content="Upload" Height="44" Margin="0,10,10.2,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="94" FontSize="20" Background="Red"/>
+                <Label Name="Fullpath"  Height="35" Margin="130,19,109.2,0" VerticalAlignment="Top" FontSize="20" Foreground="White"/>
             </Grid>
 
             <Grid x:Name="ScriptPanel"  Margin="188,71,0.4,-0.2" Background="#FF3F3F46" Visibility="Hidden">

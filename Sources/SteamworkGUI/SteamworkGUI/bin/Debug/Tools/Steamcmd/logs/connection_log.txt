@@ -247,3 +247,33 @@
 [2017-07-14 19:59:34] [3,10] SetSteamID( [U:1:210726895] )
 [2017-07-14 19:59:34] [3,10] SetSteamID( [U:1:210726895] )
 [2017-07-14 19:59:34] [3,10] LogOn() called, but user already logging on.
+
+
+[2017-07-14 21:27:06] Log session started
+[2017-07-14 21:27:06] [0,0] SetSteamID( [U:1:0] )
+[2017-07-14 21:27:06] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-14 21:29:10] Log session started
+[2017-07-14 21:29:10] [0,0] SetSteamID( [U:1:0] )
+[2017-07-14 21:29:10] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-14 21:30:38] Log session started
+[2017-07-14 21:30:38] [0,0] SetSteamID( [U:1:0] )
+[2017-07-14 21:30:38] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-14 21:31:53] Log session started
+[2017-07-14 21:31:53] [0,0] SetSteamID( [U:1:0] )
+[2017-07-14 21:31:53] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-14 21:33:07] Log session started
+[2017-07-14 21:33:07] [0,0] SetSteamID( [U:1:0] )
+[2017-07-14 21:33:07] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-14 21:34:36] Log session started
+[2017-07-14 21:34:36] [0,0] SetSteamID( [U:1:0] )
+[2017-07-14 21:34:36] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
