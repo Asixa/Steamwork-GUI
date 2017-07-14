@@ -20,3 +20,21 @@
 [2017-07-14 18:47:52] 	Base list: 0 ()
 [2017-07-14 18:47:52] 	No custom list
 [2017-07-14 18:47:52] 	No enabled features
+
+
+[2017-07-14 19:52:07] Validating parental settings
+[2017-07-14 19:52:07] Settings dump:
+[2017-07-14 19:52:07] 	Account ID: 210726895
+[2017-07-14 19:52:07] 	Enabled: false
+[2017-07-14 19:52:07] 	Base list: 0 ()
+[2017-07-14 19:52:07] 	No custom list
+[2017-07-14 19:52:07] 	No enabled features
+
+
+[2017-07-14 19:54:24] Validating parental settings
+[2017-07-14 19:54:24] Settings dump:
+[2017-07-14 19:54:24] 	Account ID: 210726895
+[2017-07-14 19:54:24] 	Enabled: false
+[2017-07-14 19:54:24] 	Base list: 0 ()
+[2017-07-14 19:54:24] 	No custom list
+[2017-07-14 19:54:24] 	No enabled features

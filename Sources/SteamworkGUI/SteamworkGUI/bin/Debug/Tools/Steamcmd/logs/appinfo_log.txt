@@ -33,3 +33,17 @@
 [2017-07-14 18:47:57] UpdatesJob: requesting 5 apps, 0 packages (full data, 1024 prev attempts)
 [2017-07-14 18:47:58] UpdatesJob: finished OK, nAppsUpdated 7 (71 KB), nPackagesUpdated 0 (0 KB)
 [2017-07-14 18:48:13] Starting async write E:\Steamcmd/appcache/appinfo.vdf (591111 bytes)
+
+
+[2017-07-14 19:52:07] RequestAppInfoUpdate: nNumAppIDs 1
+[2017-07-14 19:52:07] ProductInfoChanges: change number 3189553->3189696, apps: 0/105, packages: 0/23
+[2017-07-14 19:52:07] UpdatesJob: requesting 4 apps, 0 packages (meta data, 1024 prev attempts)
+[2017-07-14 19:52:10] UpdatesJob: requested 3 access tokens, 0 received, 3 denied
+[2017-07-14 19:52:10] UpdatesJob: finished OK, nAppsUpdated 0 (0 KB), nPackagesUpdated 0 (0 KB)
+
+
+[2017-07-14 19:54:24] RequestAppInfoUpdate: nNumAppIDs 1
+[2017-07-14 19:54:24] ProductInfoChanges: change number 3189696->3189704, apps: 0/7, packages: 0/0
+[2017-07-14 19:54:24] UpdatesJob: requesting 4 apps, 0 packages (meta data, 1024 prev attempts)
+[2017-07-14 19:54:26] UpdatesJob: requested 3 access tokens, 0 received, 3 denied
+[2017-07-14 19:54:26] UpdatesJob: finished OK, nAppsUpdated 0 (0 KB), nPackagesUpdated 0 (0 KB)

@@ -27,10 +27,10 @@
     <DockPanel>
 
 
-        <StatusBar Name="StatusBar"  Height="23" DockPanel.Dock="Bottom" Background="#FF007ACC" >
+        <StatusBar Name="StatusBar"  Height="23" DockPanel.Dock="Bottom" Background="Red" >
             <StatusBarItem>
                 <StackPanel Orientation="Horizontal">
-                    <TextBlock Name="StatusBartext" Foreground="{StaticResource Foreground}" Width="245">Ready</TextBlock>
+                    <TextBlock Name="StatusBartext" Foreground="{StaticResource Foreground}" Width="245">Preparing</TextBlock>
                     <TextBlock Margin="5,0,0,0" Foreground="{StaticResource Foreground}" Text="{Binding SelectedItem.Content, ElementName=cmbAlarm}"/>
                 </StackPanel>
             </StatusBarItem>
@@ -64,7 +64,7 @@
                 <Button Content="Upload" Height="52" Margin="0,10,10,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="94" FontSize="20"/>
             </Grid>
 
-            <Grid x:Name="ScriptPanel"  Margin="188,71,0.4,-0.2" Background="#FF3F3F46" Visibility="Visible">
+            <Grid x:Name="ScriptPanel"  Margin="188,71,0.4,-0.2" Background="#FF3F3F46" Visibility="Hidden">
                 <avalonedit:TextEditor x:Name="Code" Margin="0,0,0.2,-0.2" Background="#FF1E1E1E" Foreground="White" ShowLineNumbers="True" LineNumbersForeground="#FF3399FF" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" FontSize="18"/>
             </Grid>
 

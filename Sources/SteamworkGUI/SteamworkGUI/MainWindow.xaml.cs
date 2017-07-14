@@ -54,21 +54,33 @@ namespace SteamworkGUI
             Window_output(s);
             switch (s)
             {
-                case "Loading Steam API...OK.": status = Status.ready; break;
-                case "FAILED with result code 5":MessageBox.Show("Password Wrong"); break;
-                case "Waiting for user info...OK":
-                        LoginWindow.Hide();
-                        LoginButton.Content="logged in";
-                        LoginButton.Foreground= new SolidColorBrush(Colors.LightGreen);
-                        Loggedin = true;
+                case "Loading Steam API...OK.":
+                    {
+                        status = Status.ready;
+                        SetStatusBar("Ready - (Not Logged In)", 1);
                         break;
+                    }
+                case "FAILED with result code 5":
+                    {
+                        MessageBox.Show("Password Wrong");
+                        break;
+                    }
+                case "Waiting for user info...OK":
+                    {
+                        LoginWindow.Hide();
+                        LoginButton.Content = "logged in";
+                        LoginButton.Foreground = new SolidColorBrush(Colors.LightGreen);
+                        Loggedin = true;
+                        SetStatusBar("Ready - (Logged In)", 0);
+                        break;
+                    }
                 default:  break;
             }
         }
 
         void Window_output(string s)
         {
-            output_window.output.Text += ">> " + s + Environment.NewLine;
+            output_window.output.Text +="["+ DateTime.Now.ToLongTimeString().ToString()+"]>> " + s + Environment.NewLine;
             output_window.output.ScrollToEnd();
         }
 
@@ -96,5 +108,19 @@ namespace SteamworkGUI
         {
             output_window.Show();
         }
+
+#region StatusBar
+        public void SetStatusBar(string s,int color)
+        {
+            StatusBartext.Text = s;
+            var bc = new BrushConverter();
+            switch (color)
+            {
+                case 0: { StatusBar.Background = (Brush)bc.ConvertFrom("#FF007ACC"); break; }
+                case 1: { StatusBar.Background = (Brush)bc.ConvertFrom("#FFFF0000"); break; }
+            }
+            
+        }
+#endregion
     }
 }
