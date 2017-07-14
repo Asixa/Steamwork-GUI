@@ -42,26 +42,26 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ICSharpCode.AvalonEdit">
-      <HintPath>..\..\..\WPF模板\CodeEditor\Net40\ICSharpCode.AvalonEdit.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\WPF模板\CodeEditor\Net40\ICSharpCode.AvalonEdit.dll</HintPath>
     </Reference>
     <Reference Include="MahApps.Metro">
       <HintPath>..\lib\MahApps.Metro.dll</HintPath>
     </Reference>
     <Reference Include="Selen.Wpf.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dc472ed4b6daaa58, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\WPF模板\VS\Dll\Selen.Wpf.Core.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\WPF模板\VS\Dll\Selen.Wpf.Core.dll</HintPath>
     </Reference>
     <Reference Include="Selen.Wpf.GenericAppTree, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dc472ed4b6daaa58, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\WPF模板\VS\Dll\Selen.Wpf.GenericAppTree.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\WPF模板\VS\Dll\Selen.Wpf.GenericAppTree.dll</HintPath>
     </Reference>
     <Reference Include="Selen.Wpf.GenericAppTree.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dc472ed4b6daaa58, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\WPF模板\VS\Dll\Selen.Wpf.GenericAppTree.Contracts.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\WPF模板\VS\Dll\Selen.Wpf.GenericAppTree.Contracts.dll</HintPath>
     </Reference>
     <Reference Include="Selen.Wpf.SystemStyles, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dc472ed4b6daaa58, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\WPF模板\VS\Dll\Selen.Wpf.SystemStyles.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\WPF模板\VS\Dll\Selen.Wpf.SystemStyles.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

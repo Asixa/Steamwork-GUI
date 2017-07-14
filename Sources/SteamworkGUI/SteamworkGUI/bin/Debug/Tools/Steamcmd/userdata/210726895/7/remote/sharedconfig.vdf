@@ -1,0 +1,171 @@
+"UserRoamingConfigStore"
+{
+	"Software"
+	{
+		"Valve"
+		{
+			"Steam"
+			{
+				"SteamDefaultDialog"		"#app_store"
+				"DesktopShortcutCheck"		"1"
+				"StartMenuShortcutCheck"		"1"
+				"apps"
+				{
+					"304930"
+					{
+						"cloudenabled"		"1"
+					}
+					"4000"
+					{
+						"cloudenabled"		"1"
+					}
+					"9310"
+					{
+						"cloudenabled"		"1"
+					}
+					"271590"
+					{
+						"tags"
+						{
+							"0"		"favorite"
+						}
+					}
+					"222880"
+					{
+						"cloudenabled"		"1"
+					}
+					"477140"
+					{
+						"tags"
+						{
+							"0"		"我开发的游戏"
+						}
+					}
+					"410210"
+					{
+						"tags"
+						{
+							"0"		"喜+1"
+						}
+					}
+					"251570"
+					{
+					}
+					"238430"
+					{
+						"tags"
+						{
+							"0"		"喜+1"
+						}
+					}
+					"91310"
+					{
+						"tags"
+						{
+							"0"		"喜+1"
+						}
+					}
+					"216250"
+					{
+						"tags"
+						{
+							"0"		"喜+1"
+						}
+					}
+					"222900"
+					{
+						"tags"
+						{
+							"0"		"喜+1"
+						}
+					}
+					"70000"
+					{
+						"tags"
+						{
+							"0"		"喜+1"
+						}
+					}
+					"286340"
+					{
+						"tags"
+						{
+							"0"		"喜+1"
+						}
+					}
+					"328600"
+					{
+						"tags"
+						{
+							"0"		"喜+1"
+						}
+					}
+					"214420"
+					{
+						"tags"
+						{
+							"0"		"喜+1"
+						}
+					}
+					"303260"
+					{
+						"tags"
+						{
+							"0"		"喜+1"
+						}
+					}
+					"370100"
+					{
+						"tags"
+						{
+							"0"		"喜+1"
+						}
+					}
+					"255520"
+					{
+						"tags"
+						{
+							"0"		"喜+1"
+						}
+					}
+					"510050"
+					{
+						"tags"
+						{
+							"0"		"喜+1"
+						}
+					}
+				}
+				"SSAVersion"		"3"
+			}
+		}
+	}
+	"Web"
+	{
+		"WebFav0_URL"		"https://www.google.com/"
+		"WebFav0_Name"		"Google"
+		"WebFav1_URL"		"http://www.youtube.com/"
+		"WebFav1_Name"		"YouTube"
+		"WebFav2_URL"		"http://www.twitter.com/"
+		"WebFav2_Name"		"Twitter"
+		"WebFav3_URL"		"http://www.facebook.com/"
+		"WebFav3_Name"		"Facebook"
+		"WebFav4_URL"		"http://www.reddit.com/"
+		"WebFav4_Name"		"Reddit"
+		"WebRecent0_URL"		"http://steamcommunity.com/app/271590/discussions/"
+		"WebRecent0_Name"		"Grand Theft Auto V General Discussions :: Steam Community"
+		"WebFrequent0_URL"		"https://www.baidu.com/"
+		"WebFrequent0_Name"		"百度一下，你就知道"
+		"WebFrequent0_Access"		"1"
+		"WebRecent1_URL"		"http://www.google.com/search?q=%E7%81%AB%E8%8A%B1%E7%BB%B4%E5%BA%A6"
+		"WebRecent1_Name"		"www.google.com/search?q=火花维度"
+		"WebFrequent1_URL"		"http://steamcommunity.com/app/271590/discussions/"
+		"WebFrequent1_Name"		"Grand Theft Auto V General Discussions :: Steam Community"
+		"WebFrequent1_Access"		"1"
+		"WebRecent2_URL"		"https://www.baidu.com/"
+		"WebRecent2_Name"		"百度一下，你就知道"
+		"WebFrequent2_URL"		"http://www.google.com/search?q=%E7%81%AB%E8%8A%B1%E7%BB%B4%E5%BA%A6"
+		"WebFrequent2_Name"		"www.google.com/search?q=火花维度"
+		"WebFrequent2_Access"		"1"
+	}
+}

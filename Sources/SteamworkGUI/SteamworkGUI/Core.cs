@@ -33,7 +33,7 @@ namespace SteamworkGUI
             psi.RedirectStandardOutput = true;    
             psi.RedirectStandardInput = true;           
             psi.RedirectStandardError = true;
-            psi.FileName = "E:/Steamcmd/steamcmd.exe";               
+            psi.FileName = "Tools/Steamcmd/steamcmd.exe";               
             psi.UseShellExecute = false;                  
             psi.CreateNoWindow = true;
             cmd = Process.Start(psi);                 

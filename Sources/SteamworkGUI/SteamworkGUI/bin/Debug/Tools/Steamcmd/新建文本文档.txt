@@ -1,0 +1,14 @@
+
+Logging in user 'AsixaChen' to Steam Public...Login Failure: Account Logon Denied
+
+This computer has not been authenticated for your account using Steam Guard.
+Please check your email for the message from Steam, and enter the Steam Guard
+ code from that message.
+You can also enter this code at any time using 'set_steam_guard_code'
+ at the console.
+
+
+
+
+Logging in user 'AsixaChen' to Steam Public...Logged in OK
+Waiting for user info...OK
