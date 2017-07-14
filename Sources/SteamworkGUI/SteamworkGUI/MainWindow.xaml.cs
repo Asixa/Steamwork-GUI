@@ -1,9 +1,5 @@
-﻿using System.Collections.ObjectModel;
-using System.Dynamic;
-using System.Windows;
-using System.Windows.Controls;
+﻿using System.Windows;
 using System;
-using System.Windows.Threading;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.IO;
@@ -13,7 +9,11 @@ namespace SteamworkGUI
     public partial class MainWindow
     {
         public static MainWindow _instance;
-        Login LoginWindow = new Login();
+        public Core cmd;
+
+        public Login LoginWindow = new Login();
+        public Output output_window = new Output();
+
         public enum Status
         {
             preparing,
@@ -24,12 +24,11 @@ namespace SteamworkGUI
             UploadDLC,
             OpeningScript
         };
-
         public Status status;
-        public Core cmd;
-        public Output output_window=new Output();
-        String UploadPath="";
+
         bool Loggedin;
+        String UploadPath = "";
+
         public MainWindow()
         {
             status = Status.preparing;
@@ -39,6 +38,63 @@ namespace SteamworkGUI
             cmd.init();
         }
 
+        #region StatusBar
+        public void SetStatusBar(string s, int color)
+        {
+            StatusBartext.Text = s;
+            var bc = new BrushConverter();
+            switch (color)
+            {
+                case 0: { StatusBar.Background = (Brush)bc.ConvertFrom("#FF007ACC"); break; }
+                case 1: { StatusBar.Background = (Brush)bc.ConvertFrom("#FFFF0000"); break; }
+            }
+        }
+        #endregion
+
+        #region Upload
+        private void UploadButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Auto Generate vpf scripts
+
+            //CMDinput("run_app_build ..\scripts\app_build_1000.vdf");
+            
+        }
+        private void FilesDrop_Drop(object sender, DragEventArgs e)
+        {
+            string msg = "Drop";
+            if (e.Data.GetDataPresent(DataFormats.FileDrop))
+            {
+                msg = ((System.Array)e.Data.GetData(DataFormats.FileDrop)).GetValue(0).ToString();
+                if (!Directory.Exists(msg)) return;
+                filespath.Content = Path.GetFileNameWithoutExtension(msg);
+                Fullpath.Content = msg;
+                UploadPath = msg;
+
+                BitmapImage bi = new BitmapImage();
+                bi.BeginInit();
+                bi.UriSource = new Uri(@"Images/Folder1.png", UriKind.RelativeOrAbsolute);
+                bi.EndInit();
+                FilesIcon.Source = bi;
+                UploadButton.Background = new SolidColorBrush(Colors.Green);
+            }
+        }
+
+        #endregion
+
+        #region Output_window
+        void Window_output(string s)
+        {
+            output_window.output.Text +="["+ DateTime.Now.ToLongTimeString().ToString()+"]>> " + s + Environment.NewLine;
+            output_window.output.ScrollToEnd();
+        }
+
+        private void Output_Click(object sender, RoutedEventArgs e)
+        {
+            output_window.Show();
+        }
+        #endregion
+
+        #region UI_Events
         private void Option_Click(object sender, RoutedEventArgs e)
         {
             Option window = new Option();
@@ -51,6 +107,15 @@ namespace SteamworkGUI
             if (status == Status.preparing) return;
             LoginWindow.Show();
         }
+
+        private void ChangeGames_Click(object sender, RoutedEventArgs e)
+        {
+            ChooseAppid window = new ChooseAppid();
+            window.ShowDialog();
+        }
+        #endregion
+
+        #region CMD
         public void AnalyzeReturn(string s)
         {
             Window_output(s);
@@ -76,62 +141,27 @@ namespace SteamworkGUI
                         SetStatusBar("Ready - (Logged In)", 0);
                         break;
                     }
-                default:  break;
+                default:
+                    {
+                        if (!String.IsNullOrEmpty(s))
+                        {
+                            if (s.Contains("You can also enter this code at any time using 'set_steam_guard_code'"))
+                            {
+                                LoginWindow.VerifyCode.Visibility = Visibility.Visible;
+                                LoginWindow.Password.Visibility = Visibility.Hidden;
+                            }
+                        }
+                        break;
+                    }
             }
-        }
-
-        void Window_output(string s)
-        {
-            output_window.output.Text +="["+ DateTime.Now.ToLongTimeString().ToString()+"]>> " + s + Environment.NewLine;
-            output_window.output.ScrollToEnd();
         }
 
         public void CMDinput(string s)
         {
             cmd.cmd.StandardInput.WriteLine(s);
         }
+        #endregion
 
-        private void MetroWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
-        {
-            if(cmd!=null)
-            cmd.Clear();
-        }
-
-        private void FilesDrop_Drop(object sender, DragEventArgs e)
-        {
-                string msg = "Drop";
-                if (e.Data.GetDataPresent(DataFormats.FileDrop))
-                {
-                    msg = ((System.Array)e.Data.GetData(DataFormats.FileDrop)).GetValue(0).ToString();
-                if (!Directory.Exists(msg)) return;
-                    filespath.Content = Path.GetFileNameWithoutExtension(msg);
-                    Fullpath.Content = msg;
-                    UploadPath = msg;
-
-                BitmapImage bi = new BitmapImage();
-                bi.BeginInit();
-                bi.UriSource = new Uri(@"Images/Folder1.png", UriKind.RelativeOrAbsolute);
-                bi.EndInit();
-                FilesIcon.Source =bi; 
-                UploadButton.Background = new SolidColorBrush(Colors.Green);
-            }
-        }
-        private void Output_Click(object sender, RoutedEventArgs e)
-        {
-            output_window.Show();
-        }
-
-#region StatusBar
-        public void SetStatusBar(string s,int color)
-        {
-            StatusBartext.Text = s;
-            var bc = new BrushConverter();
-            switch (color)
-            {
-                case 0: { StatusBar.Background = (Brush)bc.ConvertFrom("#FF007ACC"); break; }
-                case 1: { StatusBar.Background = (Brush)bc.ConvertFrom("#FFFF0000"); break; }
-            }
-        }
-#endregion
+  
     }
 }

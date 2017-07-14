@@ -134,3 +134,74 @@
 [2017-07-14 19:59:34] [U:1:210726895] [AppID 7] Init cache request complete
 [2017-07-14 19:59:34] Starting sync job
 [2017-07-14 19:59:34] [AppID 7] Starting sync (init)
+[2017-07-14 22:53:22] [U:1:210726895] [AppID 7] Init cache request complete
+[2017-07-14 22:53:22] Starting sync job
+[2017-07-14 22:53:22] [AppID 7] Starting sync (init)
+[2017-07-14 22:53:33] [U:1:210726895] [AppID 7] Init cache request complete
+[2017-07-14 22:53:33] Starting sync job
+[2017-07-14 22:53:33] [AppID 7] Starting sync (init)
+[2017-07-14 22:53:35] Starting sync job
+[2017-07-14 22:53:35] [AppID 7] Starting sync (download)
+[2017-07-14 22:53:36] [AppID 7] Download complete in build list
+[2017-07-14 22:53:49] [U:1:210726895] [AppID 7] Init cache request complete
+[2017-07-14 22:53:49] Starting sync job
+[2017-07-14 22:53:49] [AppID 7] Starting sync (init)
+[2017-07-14 23:21:03] [U:1:210726895] [AppID 7] Init cache request complete
+[2017-07-14 23:21:03] Starting sync job
+[2017-07-14 23:21:03] [AppID 7] Starting sync (init)
+[2017-07-14 23:21:05] [U:1:210726895] [AppID 7] Init cache request complete
+[2017-07-14 23:21:05] Starting sync job
+[2017-07-14 23:21:05] [AppID 7] Starting sync (init)
+[2017-07-14 23:21:08] [U:1:210726895] [AppID 7] Init cache request complete
+[2017-07-14 23:21:08] Starting sync job
+[2017-07-14 23:21:08] [AppID 7] Starting sync (init)
+[2017-07-14 23:21:11] [U:1:210726895] [AppID 7] Init cache request complete
+[2017-07-14 23:21:11] Starting sync job
+[2017-07-14 23:21:11] [AppID 7] Starting sync (init)
+[2017-07-14 23:21:13] [U:1:210726895] [AppID 7] Init cache request complete
+[2017-07-14 23:21:13] Starting sync job
+[2017-07-14 23:21:13] [AppID 7] Starting sync (init)
+[2017-07-14 23:21:15] [U:1:210726895] [AppID 7] Init cache request complete
+[2017-07-14 23:21:15] Starting sync job
+[2017-07-14 23:21:15] [AppID 7] Starting sync (init)
+[2017-07-14 23:21:16] [U:1:210726895] [AppID 7] Init cache request complete
+[2017-07-14 23:21:16] Starting sync job
+[2017-07-14 23:21:16] [AppID 7] Starting sync (init)
+[2017-07-14 23:21:17] [U:1:210726895] [AppID 7] Init cache request complete
+[2017-07-14 23:21:17] Starting sync job
+[2017-07-14 23:21:17] [AppID 7] Starting sync (init)
+[2017-07-14 23:21:19] [U:1:210726895] [AppID 7] Init cache request complete
+[2017-07-14 23:21:19] Starting sync job
+[2017-07-14 23:21:19] [AppID 7] Starting sync (init)
+[2017-07-14 23:21:21] [U:1:210726895] [AppID 7] Init cache request complete
+[2017-07-14 23:21:21] Starting sync job
+[2017-07-14 23:21:21] [AppID 7] Starting sync (init)
+[2017-07-14 23:21:23] [U:1:210726895] [AppID 7] Init cache request complete
+[2017-07-14 23:21:23] Starting sync job
+[2017-07-14 23:21:23] [AppID 7] Starting sync (init)
+
+
+[2017-07-15 00:15:19] [U:1:210726895] [AppID 7] Init cache request complete
+[2017-07-15 00:15:19] Starting sync job
+[2017-07-15 00:15:19] [AppID 7] Starting sync (init)
+[2017-07-15 00:15:22] Starting sync job
+[2017-07-15 00:15:22] [AppID 7] Starting sync (download)
+[2017-07-15 00:15:23] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2017-07-15 00:15:23] [AppID 7] File is in sync sharedconfig.vdf
+[2017-07-15 00:15:23] [AppID 7] Eval complete
+[2017-07-15 00:15:23] [AppID 7] Download complete in build list
+[2017-07-15 00:22:12] [U:1:210726895] [AppID 7] Init cache request complete
+[2017-07-15 00:22:12] Starting sync job
+[2017-07-15 00:22:12] [AppID 7] Starting sync (init)
+[2017-07-15 00:22:19] [U:1:210726895] [AppID 7] Init cache request complete
+[2017-07-15 00:22:19] Starting sync job
+[2017-07-15 00:22:19] [AppID 7] Starting sync (init)
+[2017-07-15 00:22:21] Starting sync job
+[2017-07-15 00:22:21] [AppID 7] Starting sync (download)
+[2017-07-15 00:22:21] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2017-07-15 00:22:21] [AppID 7] File is in sync sharedconfig.vdf
+[2017-07-15 00:22:21] [AppID 7] Eval complete
+[2017-07-15 00:22:21] [AppID 7] Download complete in build list
+[2017-07-15 00:22:39] [U:1:210726895] [AppID 7] Init cache request complete
+[2017-07-15 00:22:39] Starting sync job
+[2017-07-15 00:22:39] [AppID 7] Starting sync (init)

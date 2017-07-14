@@ -57,3 +57,5 @@ E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\S
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Selen.Wpf.GenericAppTree.Contracts.dll
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Selen.Wpf.GenericAppTree.dll
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Selen.Wpf.SystemStyles.dll
+E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\ChooseAppid.baml
+E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\ChooseAppid.g.cs

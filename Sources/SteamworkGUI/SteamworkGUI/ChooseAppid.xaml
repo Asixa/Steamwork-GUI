@@ -1,0 +1,20 @@
+﻿<Controls:MetroWindow x:Class="SteamworkGUI.ChooseAppid"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                      Title="Choose" 
+                      Height="341.375" 
+                      Width="401.96" 
+                      WindowStartupLocation="CenterScreen" 
+
+                      
+                      >
+
+
+    <Window.Effect>
+        <DropShadowEffect BlurRadius="15" Direction="-90" RenderingBias="Quality" ShadowDepth="2"/>
+    </Window.Effect>
+    <Grid>
+
+    </Grid>
+</Controls:MetroWindow>
