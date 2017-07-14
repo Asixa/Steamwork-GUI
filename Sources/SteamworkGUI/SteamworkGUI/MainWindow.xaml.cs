@@ -57,12 +57,12 @@ namespace SteamworkGUI
                 case "Loading Steam API...OK.":
                     {
                         status = Status.ready;
-                        SetStatusBar("Ready - (Not Logged In)", 1);
+                        SetStatusBar("Not Ready - (Not Logged In)", 1);
                         break;
                     }
                 case "FAILED with result code 5":
                     {
-                        MessageBox.Show("Password Wrong");
+                        MessageBox.Show("Invalid Password,Please try again.", "Invalid Password");
                         break;
                     }
                 case "Waiting for user info...OK":
@@ -119,7 +119,6 @@ namespace SteamworkGUI
                 case 0: { StatusBar.Background = (Brush)bc.ConvertFrom("#FF007ACC"); break; }
                 case 1: { StatusBar.Background = (Brush)bc.ConvertFrom("#FFFF0000"); break; }
             }
-            
         }
 #endregion
     }

@@ -158,3 +158,31 @@ successfully
 [2017-07-14 19:54:26] Flushed store 'userlocal' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\userdata\210726895\config\localconfig.vdf'
 [2017-07-14 19:54:26] Flushed store 'install' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf'
 [2017-07-14 19:54:30] Flushed store 'userlocal' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\userdata\210726895\config\localconfig.vdf'
+
+
+[2017-07-14 19:57:10] Loaded store 'install' from 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf' successfully
+[2017-07-14 19:57:10] Loaded store 'install' from 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf' successfully
+
+
+[2017-07-14 19:58:00] Loaded store 'install' from 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf' successfully
+[2017-07-14 19:58:00] Loaded store 'install' from 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf' successfully
+[2017-07-14 19:58:15] Loaded store 'install' from 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf' successfully
+[2017-07-14 19:58:15] Loaded store 'userlocal' from 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\userdata\210726895\config\localconfig.vdf' successfully
+[2017-07-14 19:58:16] Flushed store 'userlocal' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\userdata\210726895\config\localconfig.vdf'
+[2017-07-14 19:58:16] Flushed store 'install' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf'
+[2017-07-14 19:58:31] Loaded store 'install' from 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf' successfully
+[2017-07-14 19:58:31] Loaded store 'userlocal' from 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\userdata\210726895\config\localconfig.vdf' successfully
+[2017-07-14 19:58:31] Flushed store 'userlocal' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\userdata\210726895\config\localconfig.vdf'
+[2017-07-14 19:58:35] Flushed store 'install' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf'
+[2017-07-14 19:58:36] Flushed store 'userlocal' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\userdata\210726895\config\localconfig.vdf'
+[2017-07-14 19:58:39] Flushed store 'userlocal' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\userdata\210726895\config\localconfig.vdf'
+[2017-07-14 19:58:39] Flushed store 'install' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf'
+[2017-07-14 19:58:41] Flushed store 'userlocal' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\userdata\210726895\config\localconfig.vdf'
+[2017-07-14 19:59:34] Loaded store 'install' from 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf' successfully
+[2017-07-14 19:59:34] Loaded store 'userlocal' from 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\userdata\210726895\config\localconfig.vdf' successfully
+[2017-07-14 19:59:34] Flushed store 'userlocal' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\userdata\210726895\config\localconfig.vdf'
+[2017-07-14 19:59:34] Flushed store 'install' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf'
+[2017-07-14 20:02:16] Flushed store 'install' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\config\config.vdf'
+[2017-07-14 20:07:46] Flushed store 'userlocal' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\userdata\210726895\config\localconfig.vdf'
+[2017-07-14 20:09:18] Flushed store 'userlocal' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\userdata\210726895\config\localconfig.vdf'
+[2017-07-14 20:13:36] Flushed store 'userlocal' to 'E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\userdata\210726895\config\localconfig.vdf'

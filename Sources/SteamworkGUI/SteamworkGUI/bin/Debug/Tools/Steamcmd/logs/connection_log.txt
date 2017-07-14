@@ -221,3 +221,29 @@
 [2017-07-14 19:54:23] [1,2] Connect() starting connection (eNetQOSLevelHigh, 203.80.149.67:27019, UDP)
 [2017-07-14 19:54:24] [1,2] ConnectionCompleted() (153.254.86.142:27021, UDP)
 [2017-07-14 19:54:24] [1,2] RecvMsgClientLogOnResponse() : [U:1:210726895] 'OK'
+
+
+[2017-07-14 19:57:10] Log session started
+[2017-07-14 19:57:10] [0,0] SetSteamID( [U:1:0] )
+[2017-07-14 19:57:10] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-14 19:58:00] Log session started
+[2017-07-14 19:58:00] [0,0] SetSteamID( [U:1:0] )
+[2017-07-14 19:58:00] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+[2017-07-14 19:58:15] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-14 19:58:15] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-14 19:58:15] [1,2] Connect() starting connection (eNetQOSLevelHigh, 203.80.149.67:27020, UDP)
+[2017-07-14 19:58:25] [1,2] ConnectionCompleted() (180.101.192.200:27021, UDP)
+[2017-07-14 19:58:26] [1,2] RecvMsgClientLogOnResponse() : [U:1:210726895] 'Invalid Password'
+[2017-07-14 19:58:26] [1,2] AsyncDisconnect()
+[2017-07-14 19:58:26] [0,0] ConnectionDisconnected('Disconnected By Remote Host') : 'Invalid Password' (180.101.192.200:27021, UDP)
+[2017-07-14 19:58:26] [0,0] ConnectionDisconnected() not auto reconnecting due to eResultLogonSession specifies no reconnect
+[2017-07-14 19:58:31] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-14 19:58:31] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-14 19:58:31] [1,10] Connect() starting connection (eNetQOSLevelHigh, 203.80.149.67:27020, UDP)
+[2017-07-14 19:58:31] [1,10] ConnectionCompleted() (180.101.192.199:27020, UDP)
+[2017-07-14 19:58:35] [1,10] RecvMsgClientLogOnResponse() : [U:1:210726895] 'OK'
+[2017-07-14 19:59:34] [3,10] SetSteamID( [U:1:210726895] )
+[2017-07-14 19:59:34] [3,10] SetSteamID( [U:1:210726895] )
+[2017-07-14 19:59:34] [3,10] LogOn() called, but user already logging on.
