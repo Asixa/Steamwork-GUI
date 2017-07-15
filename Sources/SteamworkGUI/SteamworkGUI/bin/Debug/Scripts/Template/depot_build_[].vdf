@@ -1,0 +1,23 @@
+"DepotBuildConfig"
+{
+	// 写Appid
+	"DepotID" "[Appid]"
+
+	// 定义根目录，写上我调用函数时输入的路径
+	"ContentRoot"	"[P_Game_path]"
+
+	
+  "FileMapping"
+  {
+  	// 填写你游戏文件存放的路径， 这个路径我调用函数的时候输入，* 你加上
+    "LocalPath" "[Game_path]"
+    
+    "DepotPath" "."
+    
+    "recursive" "1"
+  }
+
+	// but exclude all symbol files  
+	// This can be a full path, or a path relative to ContentRoot
+ 	 "FileExclusion" "*.pdb"
+}

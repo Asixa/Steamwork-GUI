@@ -17,3 +17,6 @@
 =======
 [2017-07-15 14:23:40] Loaded 0 apps from install folder "E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\steamapps\appmanifest_*.acf".
 >>>>>>> 9532405b97730971b59bc3820dd2f13e6f564135
+
+
+[2017-07-15 15:18:17] Loaded 0 apps from install folder "G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\steamapps\appmanifest_*.acf".

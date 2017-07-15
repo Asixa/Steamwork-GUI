@@ -185,3 +185,25 @@
 [2017-07-15 14:23:40] [0,0] SetSteamID( [U:1:0] )
 [2017-07-15 14:23:40] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
 >>>>>>> 9532405b97730971b59bc3820dd2f13e6f564135
+
+
+[2017-07-15 15:18:17] [0,0] SetSteamID( [U:1:0] )
+[2017-07-15 15:18:17] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+[2017-07-15 15:19:17] [0,0] SetSteamID( [U:1:0] )
+[2017-07-15 15:19:17] [0,0] SetSteamID( [U:1:0] )
+[2017-07-15 15:19:17] [1,2] Connect() starting connection (eNetQOSLevelHigh, 203.80.149.68:27019, UDP)
+[2017-07-15 15:19:21] [1,2] RecvMsgClientLogOnResponse() : [U:1:306794314] 'Invalid Password'
+[2017-07-15 15:19:21] [1,2] AsyncDisconnect()
+[2017-07-15 15:19:21] [0,0] ConnectionDisconnected('Disconnected By Remote Host') : 'Invalid Password' (153.254.86.142:27017, UDP)
+[2017-07-15 15:19:21] [0,0] ConnectionDisconnected() not auto reconnecting due to eResultLogonSession specifies no reconnect
+[2017-07-15 15:21:46] [0,0] SetSteamID( [U:1:0] )
+[2017-07-15 15:21:46] [0,0] SetSteamID( [U:1:0] )
+[2017-07-15 15:21:46] [1,10] Connect() starting connection (eNetQOSLevelHigh, 203.80.149.68:27019, UDP)
+[2017-07-15 15:21:48] [1,10] RecvMsgClientLogOnResponse() : [U:1:306794314] 'Account Logon Denied'
+[2017-07-15 15:21:48] [1,10] AsyncDisconnect()
+[2017-07-15 15:21:48] [0,0] ConnectionDisconnected('Disconnected By Remote Host') : 'Account Logon Denied' (180.101.192.200:27017, UDP)
+[2017-07-15 15:21:48] [0,0] ConnectionDisconnected() not auto reconnecting due to eResultLogonSession specifies no reconnect
+[2017-07-15 15:21:58] [1,14] ConnectionCompleted() (203.80.149.67:27019, UDP)
+[2017-07-15 15:21:58] [1,14] AsyncDisconnect()
+[2017-07-15 15:21:58] [0,0] ConnectionDisconnected('Disconnected By Remote Host') : 'Invalid Login Auth Code' (203.80.149.67:27019, UDP)
+[2017-07-15 15:21:58] [0,0] ConnectionDisconnected() not auto reconnecting due to eResultLogonSession specifies no reconnect
