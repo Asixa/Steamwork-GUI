@@ -90,7 +90,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="ChooseAppid.xaml">
+    <Page Include="Windows\ChooseAppid.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -102,35 +102,36 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ChooseAppid.xaml.cs">
+    <Compile Include="Classes\ScriptGenerator.cs" />
+    <Compile Include="Windows\ChooseAppid.xaml.cs">
       <DependentUpon>ChooseAppid.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Core.cs" />
+    <Compile Include="Classes\Core.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Login.xaml">
+    <Page Include="Windows\Login.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Option.xaml">
+    <Page Include="Windows\Option.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Output.xaml">
+    <Page Include="Windows\Output.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Login.xaml.cs">
+    <Compile Include="Windows\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Option.xaml.cs">
+    <Compile Include="Windows\Option.xaml.cs">
       <DependentUpon>Option.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Output.xaml.cs">
+    <Compile Include="Windows\Output.xaml.cs">
       <DependentUpon>Output.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">

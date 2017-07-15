@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 [2017-07-15 08:43:06] Log session started
@@ -154,3 +155,33 @@
 [2017-07-15 10:29:27] Log session started
 [2017-07-15 10:29:27] [0,0] SetSteamID( [U:1:0] )
 [2017-07-15 10:29:27] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+=======
+[2017-07-15 13:55:14] [0,0] SetSteamID( [U:1:0] )
+[2017-07-15 13:55:27] [0,0] SetSteamID( [U:1:0] )
+[2017-07-15 13:55:27] [0,0] SetSteamID( [U:1:0] )
+[2017-07-15 13:55:27] CCMInterface::YieldingConnect -- no CMs cached locally, calling ISteamDirectory/GetCMList web api. . .
+[2017-07-15 13:55:29] CCMInterface::YieldingConnect -- got 100 CMs from ISteamDirectory/GetCMList.
+[2017-07-15 13:55:29] [1,2] Connect() starting connection (eNetQOSLevelHigh, 180.101.192.200:27020, UDP)
+[2017-07-15 13:55:32] [1,2] ConnectionCompleted() (203.80.149.67:27020, UDP)
+[2017-07-15 13:55:33] [1,2] AsyncDisconnect()
+[2017-07-15 13:55:33] [0,0] ConnectionDisconnected('Disconnected By Remote Host') : 'Account Logon Denied' (203.80.149.67:27020, UDP)
+[2017-07-15 13:55:33] [0,0] ConnectionDisconnected() not auto reconnecting due to eResultLogonSession specifies no reconnect
+[2017-07-15 13:55:55] [0,0] SetSteamID( [U:1:0] )
+[2017-07-15 13:55:55] [1,10] Connect() starting connection (eNetQOSLevelHigh, 180.101.192.200:27020, UDP)
+[2017-07-15 13:55:56] [1,10] ConnectionCompleted() (203.80.149.67:27018, UDP)
+[2017-07-15 13:55:56] [1,10] RecvMsgClientLogOnResponse() : [U:1:210726895] 'OK'
+[2017-07-15 13:56:25] [3,10] ResetVoiceRecording() (was recording: 0) (last get voice time: 1500098185 seconds ago)
+[2017-07-15 13:56:25] [3,10] LogOff()
+[2017-07-15 13:56:25] [2,10] AsyncDisconnect()
+[2017-07-15 13:56:25] [2,10] Log session ended
+
+
+[2017-07-15 14:22:59] Log session started
+[2017-07-15 14:22:59] [0,0] SetSteamID( [U:1:0] )
+[2017-07-15 14:22:59] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-15 14:23:40] Log session started
+[2017-07-15 14:23:40] [0,0] SetSteamID( [U:1:0] )
+[2017-07-15 14:23:40] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+>>>>>>> 9532405b97730971b59bc3820dd2f13e6f564135

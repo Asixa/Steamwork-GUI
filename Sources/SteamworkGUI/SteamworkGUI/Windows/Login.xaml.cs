@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using MahApps.Metro.Controls.Dialogs;
+using System.Windows;
 using System.Windows.Input;
 
 namespace SteamworkGUI
@@ -16,12 +17,15 @@ namespace SteamworkGUI
 
         private void Login_Click(object sender, RoutedEventArgs e)
         {
+            if (string.IsNullOrEmpty(account.Text) || string.IsNullOrEmpty(password.Password)) return;
             SetProgressing(true);
+           
             MainWindow._instance.CMDinput("Login "+account.Text+" "+password.Password);
         }
 
         private void Vcode_confirm_Click(object sender, RoutedEventArgs e)
         {
+            if (string.IsNullOrEmpty(vcode.Text)) return;
             SetProgressing(true);
             if (firstVcode)
             {
@@ -68,6 +72,18 @@ namespace SteamworkGUI
             }
         }
 
-        
+
+
+        public void ShowMyDiolog(string content, string title)
+        {
+            var mySettings = new MetroDialogSettings()
+            {
+                AffirmativeButtonText = "OK",
+                ColorScheme = MetroDialogOptions.ColorScheme
+            };
+
+            MessageDialogResult result = this.ShowModalMessageExternal(title, content,
+                MessageDialogStyle.Affirmative, mySettings);
+        }
     }
 }

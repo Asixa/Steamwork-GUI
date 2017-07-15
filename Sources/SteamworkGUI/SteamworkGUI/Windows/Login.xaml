@@ -5,6 +5,7 @@
                       Title="Login" 
                       Height="341.375" 
                       Width="401.96" 
+                      NonActiveWindowTitleBrush="#FF2D2D30"
                       WindowStartupLocation="CenterScreen" Closing="MetroWindow_Closing" 
                       ResizeMode="NoResize"
                        Style="{DynamicResource VSWindowStyleKey}"
@@ -29,8 +30,11 @@
         
         <Button Content="Login" HorizontalAlignment="Left" Height="52" Margin="43,210,0,0" VerticalAlignment="Top" Width="309" Click="Login_Click"/>
         <PasswordBox Name="password" HorizontalAlignment="Left" Height="49" Margin="43,137,0,0" VerticalAlignment="Top" Width="309" Background="#FF3F3F46" FontSize="20" VerticalContentAlignment="Center" Foreground="White" SelectionBrush="{x:Null}" BorderBrush="{x:Null}" KeyDown="password_KeyDown"/>
+      
+            
         <Label Content="Accout" HorizontalAlignment="Left" Height="25" Margin="43,25,0,0" VerticalAlignment="Top" Width="80" Foreground="White"/>
         <Label Content="Password" HorizontalAlignment="Left" Height="25" Margin="43,112,0,0" VerticalAlignment="Top" Width="80" Foreground="White"/>
+           
         </Grid>
 
         <Grid Name="VerifyCode" Visibility="Hidden">

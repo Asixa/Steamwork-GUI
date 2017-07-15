@@ -5,6 +5,7 @@
                       Title="Output" 
                       Height="370.175" 
                       Width="401.96" 
+                      NonActiveWindowTitleBrush="#FF2D2D30"
                       Style="{DynamicResource VSWindowStyleKey}"
                       WindowStartupLocation="CenterScreen" Closing="MetroWindow_Closing">
 

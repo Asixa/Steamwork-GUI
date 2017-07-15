@@ -1,9 +1,8 @@
 ﻿<Controls:MetroWindow
-    
-                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                      xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
-                      xmlns:System="clr-namespace:System;assembly=mscorlib"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:System="clr-namespace:System;assembly=mscorlib"
         Style="{DynamicResource VSWindowStyleKey}"
         xmlns:avalonedit="http://icsharpcode.net/sharpdevelop/avalonedit" xmlns:local="clr-namespace:SteamworkGUI" x:Class="SteamworkGUI.MainWindow" 
         WindowStartupLocation="CenterScreen"
@@ -13,7 +12,7 @@
         Height="600"
         Width="800"
         MinHeight="600"
-        MinWidth="525"
+        MinWidth="525" NonActiveWindowTitleBrush="#FF2D2D30" Closed="MetroWindow_Closed" Closing="MetroWindow_Closing"
     >
     <Window.Resources>
         <ResourceDictionary>
@@ -80,7 +79,11 @@
                 <avalonedit:TextEditor x:Name="Code" Margin="0,0,0.2,-0.2" Background="#FF1E1E1E" Foreground="White" ShowLineNumbers="True" LineNumbersForeground="#FF3399FF" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" FontSize="18"/>
             </Grid>
 
-
+            <Grid Name="preparing" Background="#FF2D2D30">
+                <Controls:ProgressRing Foreground="White"
+                                        Width="100"
+                                       Height="100"  />
+            </Grid>
         </Grid>
     </DockPanel>
 </Controls:MetroWindow>

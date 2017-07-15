@@ -5,6 +5,7 @@
                       Title="Option" 
                       Height="411.2" 
                       Width="305.6" 
+                      NonActiveWindowTitleBrush="#FF2D2D30"
                        Style="{DynamicResource VSWindowStyleKey}"
                       WindowStartupLocation="CenterScreen">
     <Window.Resources>
