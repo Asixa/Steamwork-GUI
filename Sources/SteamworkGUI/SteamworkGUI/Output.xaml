@@ -5,9 +5,17 @@
                       Title="Output" 
                       Height="370.175" 
                       Width="401.96" 
+                      Style="{DynamicResource VSWindowStyleKey}"
                       WindowStartupLocation="CenterScreen" Closing="MetroWindow_Closing">
 
-
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/VS/Colors.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/VS/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
     <Window.Effect>
         <DropShadowEffect BlurRadius="15" Direction="-90" RenderingBias="Quality" ShadowDepth="2"/>
     </Window.Effect>

@@ -8,6 +8,7 @@ namespace SteamworkGUI
     /// </summary>
     public partial class Login 
     {
+        public bool firstVcode = true;
         public Login()
         {
             InitializeComponent();
@@ -15,12 +16,22 @@ namespace SteamworkGUI
 
         private void Login_Click(object sender, RoutedEventArgs e)
         {
+            SetProgressing(true);
             MainWindow._instance.CMDinput("Login "+account.Text+" "+password.Password);
         }
 
         private void Vcode_confirm_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow._instance.CMDinput(vcode.Text);
+            SetProgressing(true);
+            if (firstVcode)
+            {
+                MainWindow._instance.CMDinput(vcode.Text);
+                firstVcode = false;
+            }
+            else
+            {
+                MainWindow._instance.CMDinput("set_steam_guard_code "+vcode.Text);
+            }
         }
 
         private void MetroWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
@@ -42,6 +53,18 @@ namespace SteamworkGUI
             if ((e.Key) == Key.Enter)
             {
                 Login_Click(new object(), new RoutedEventArgs());
+            }
+        }
+
+        public void SetProgressing(bool tf)
+        {
+            if (!tf)
+            {
+                progressing.Visibility = Visibility.Hidden;
+            }
+            else
+            {
+                progressing.Visibility = Visibility.Visible;
             }
         }
 

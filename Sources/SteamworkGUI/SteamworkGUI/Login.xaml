@@ -7,13 +7,22 @@
                       Width="401.96" 
                       WindowStartupLocation="CenterScreen" Closing="MetroWindow_Closing" 
                       ResizeMode="NoResize"
-                      
+                       Style="{DynamicResource VSWindowStyleKey}"
                       >
 
-
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/VS/Colors.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/VS/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
     <Window.Effect>
         <DropShadowEffect BlurRadius="15" Direction="-90" RenderingBias="Quality" ShadowDepth="2"/>
     </Window.Effect>
+    
+    
     <Grid>
         <Grid Name="Password" Visibility="Visible">
         <TextBox Name="account" HorizontalAlignment="Left" Height="49" Margin="43,50,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="309" VerticalContentAlignment="Center" FontSize="20"/>
@@ -26,8 +35,13 @@
 
         <Grid Name="VerifyCode" Visibility="Hidden">
             <TextBox Name="vcode" HorizontalAlignment="Left" Height="84" Margin="43,50,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="309" VerticalContentAlignment="Center" FontSize="30" HorizontalContentAlignment="Center" KeyDown="vcode_KeyDown"/>
-            <Button Content="Confirm" HorizontalAlignment="Left" Height="52" Margin="43,210,0,0" VerticalAlignment="Top" Width="309" Click="Login_Click"/>
+            <Button Content="Confirm" HorizontalAlignment="Left" Height="52" Margin="43,210,0,0" VerticalAlignment="Top" Width="309" Click="Vcode_confirm_Click"/>
             <Label Content="Verify Code" HorizontalAlignment="Left" Height="25" Margin="43,25,0,0" VerticalAlignment="Top" Width="134" Foreground="White"/>
+        </Grid>
+        <Grid Name="progressing" Background="#FF2D2D30" Visibility="Hidden">
+            <Controls:ProgressRing Grid.Column="1"
+                                       Width="80"
+                                       Height="80" Foreground="White" />
         </Grid>
     </Grid>
 </Controls:MetroWindow>

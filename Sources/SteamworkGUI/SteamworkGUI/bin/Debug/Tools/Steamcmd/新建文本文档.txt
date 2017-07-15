@@ -12,3 +12,9 @@ You can also enter this code at any time using 'set_steam_guard_code'
 
 Logging in user 'AsixaChen' to Steam Public...Logged in OK
 Waiting for user info...OK
+
+Steam Guard code:Login Failure: Invalid Login Auth Code 
+
+Steam Guard code:Login Failure: Rate Limit Exceeded
+
+FAILED with result code 84
