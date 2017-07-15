@@ -83,8 +83,8 @@ namespace SteamworkGUI
 
         #region Output_window
         void Window_output(string s,bool input=false)
-        {
-            output_window.output.Text +="["+ DateTime.Now.ToLongTimeString().ToString()+"]>> " + s + Environment.NewLine;
+        {   
+            output_window.output.Text +="["+ DateTime.Now.ToLongTimeString().ToString()+"]"+(input?">> ":"<< ")  + s + Environment.NewLine;
             output_window.output.ScrollToEnd();
         }
 

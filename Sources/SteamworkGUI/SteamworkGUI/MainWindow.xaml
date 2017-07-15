@@ -1,9 +1,8 @@
 ﻿<Controls:MetroWindow
-    
-                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                      xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
-                      xmlns:System="clr-namespace:System;assembly=mscorlib"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:System="clr-namespace:System;assembly=mscorlib"
         Style="{DynamicResource VSWindowStyleKey}"
         xmlns:avalonedit="http://icsharpcode.net/sharpdevelop/avalonedit" xmlns:local="clr-namespace:SteamworkGUI" x:Class="SteamworkGUI.MainWindow" 
         WindowStartupLocation="CenterScreen"
