@@ -34,6 +34,7 @@
             
         <Label Content="Accout" HorizontalAlignment="Left" Height="25" Margin="43,25,0,0" VerticalAlignment="Top" Width="80" Foreground="White"/>
         <Label Content="Password" HorizontalAlignment="Left" Height="25" Margin="43,112,0,0" VerticalAlignment="Top" Width="80" Foreground="White"/>
+           
         </Grid>
 
         <Grid Name="VerifyCode" Visibility="Hidden">

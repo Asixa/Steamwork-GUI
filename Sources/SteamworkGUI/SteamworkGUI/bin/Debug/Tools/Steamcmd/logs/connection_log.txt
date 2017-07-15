@@ -16,3 +16,13 @@
 [2017-07-15 13:56:25] [3,10] LogOff()
 [2017-07-15 13:56:25] [2,10] AsyncDisconnect()
 [2017-07-15 13:56:25] [2,10] Log session ended
+
+
+[2017-07-15 14:22:59] Log session started
+[2017-07-15 14:22:59] [0,0] SetSteamID( [U:1:0] )
+[2017-07-15 14:22:59] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-15 14:23:40] Log session started
+[2017-07-15 14:23:40] [0,0] SetSteamID( [U:1:0] )
+[2017-07-15 14:23:40] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam

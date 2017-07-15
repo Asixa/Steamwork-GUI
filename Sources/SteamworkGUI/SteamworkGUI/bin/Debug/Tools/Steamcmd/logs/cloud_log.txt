@@ -14,3 +14,14 @@
 [2017-07-15 13:56:17] [AppID 7] HTTP download for file 'sharedconfig.vdf' from host 'steamcloudsg.blob.core.windows.net' - Success.
 [2017-07-15 13:56:17] [AppID 7] Download OK for file sharedconfig.vdf
 [2017-07-15 13:56:17] [AppID 7] Download complete, result OK
+
+
+[2017-07-15 14:40:16] [U:1:210726895] [AppID 7] Init cache request complete
+[2017-07-15 14:40:16] Starting sync job
+[2017-07-15 14:40:16] [AppID 7] Starting sync (init)
+[2017-07-15 14:40:26] Starting sync job
+[2017-07-15 14:40:26] [AppID 7] Starting sync (download)
+[2017-07-15 14:40:27] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2017-07-15 14:40:27] [AppID 7] File is in sync sharedconfig.vdf
+[2017-07-15 14:40:27] [AppID 7] Eval complete
+[2017-07-15 14:40:27] [AppID 7] Download complete in build list

@@ -12,7 +12,7 @@
         Height="600"
         Width="800"
         MinHeight="600"
-        MinWidth="525" NonActiveWindowTitleBrush="#FF2D2D30" Closed="MetroWindow_Closed"
+        MinWidth="525" NonActiveWindowTitleBrush="#FF2D2D30" Closed="MetroWindow_Closed" Closing="MetroWindow_Closing"
     >
     <Window.Resources>
         <ResourceDictionary>

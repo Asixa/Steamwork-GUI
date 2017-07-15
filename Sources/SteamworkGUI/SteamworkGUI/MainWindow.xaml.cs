@@ -3,6 +3,8 @@ using System;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.IO;
+using MahApps.Metro.Controls.Dialogs;
+
 namespace SteamworkGUI
 {
 
@@ -130,7 +132,7 @@ namespace SteamworkGUI
                     }
                 case "FAILED with result code 5":
                     {
-                        MessageBox.Show("Invalid Password,Please try again.", "Invalid Password");
+                        LoginWindow.ShowMyDiolog("Invalid Password,Please try again.", "Invalid Password");
                         LoginWindow.SetProgressing(false);
                         
                         break;
@@ -147,7 +149,7 @@ namespace SteamworkGUI
                     }
                 case "Steam Guard code:Login Failure: Invalid Login Auth Code":
                     {
-                        MessageBox.Show("Invalid Login Auth Code,Please try again.", "Invalid Login Auth Code");
+                        LoginWindow.ShowMyDiolog("Invalid Login Auth Code,Please try again.", "Invalid Login Auth Code");
                         LoginWindow.SetProgressing(false);
                         break;
                     }
@@ -164,7 +166,7 @@ namespace SteamworkGUI
                             }
                             else if (s.Contains("Steam Guard code:Login Failure: Invalid Login Auth Code"))
                             {
-                                MessageBox.Show("Invalid Login Auth Code,Please try again.", "Invalid Login Auth Code");
+                                LoginWindow.ShowMyDiolog("Invalid Login Auth Code,Please try again.", "Invalid Login Auth Code");
                                 LoginWindow.SetProgressing(false);
                                 LoginWindow.firstVcode = false;
                                 break;
@@ -172,7 +174,8 @@ namespace SteamworkGUI
                             }
                             else if(s.Contains("Rate Limit Exceeded"))
                             {
-                                MessageBox.Show("Rate Limit Exceeded,Please try again later.", "Rate Limit Exceeded");
+                               
+                                LoginWindow.ShowMyDiolog("Rate Limit Exceeded,Please try again later.", "Rate Limit Exceeded");
                                 LoginWindow.SetProgressing(false);
                                 break;
                             }
@@ -193,9 +196,39 @@ namespace SteamworkGUI
 
         private void MetroWindow_Closed(object sender, EventArgs e)
         {
-            CMDinput("quit");
-            cmd.cmd.Kill();
-            Application.Current.Shutdown(-1);
+          //  CMDinput("quit");
+          //  cmd.cmd.Kill();
+          //  Application.Current.Shutdown(-1);
         }
+        private bool _shutdown;
+        private async void MetroWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            if (e.Cancel) return;
+            e.Cancel = true;
+            if (_shutdown) return;
+
+            var mySettings = new MetroDialogSettings()
+            {
+                AffirmativeButtonText = "Quit",
+                NegativeButtonText = "Cancel",
+                AnimateShow = true,
+                AnimateHide = false
+            };
+
+            var result = await this.ShowMessageAsync("Quit application?",
+                "Sure you want to quit application?",
+                MessageDialogStyle.AffirmativeAndNegative, mySettings);
+
+            _shutdown = result == MessageDialogResult.Affirmative;
+
+            if (_shutdown)
+            {
+                CMDinput("quit");
+                cmd.cmd.Kill();
+                Application.Current.Shutdown();
+            }
+        }
+
+
     }
 }

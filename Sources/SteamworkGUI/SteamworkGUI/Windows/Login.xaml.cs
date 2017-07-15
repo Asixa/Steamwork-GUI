@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using MahApps.Metro.Controls.Dialogs;
+using System.Windows;
 using System.Windows.Input;
 
 namespace SteamworkGUI
@@ -71,6 +72,18 @@ namespace SteamworkGUI
             }
         }
 
-        
+
+
+        public void ShowMyDiolog(string content, string title)
+        {
+            var mySettings = new MetroDialogSettings()
+            {
+                AffirmativeButtonText = "OK",
+                ColorScheme = MetroDialogOptions.ColorScheme
+            };
+
+            MessageDialogResult result = this.ShowModalMessageExternal(title, content,
+                MessageDialogStyle.Affirmative, mySettings);
+        }
     }
 }

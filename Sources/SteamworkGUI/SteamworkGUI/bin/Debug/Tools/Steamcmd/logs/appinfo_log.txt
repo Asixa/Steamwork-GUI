@@ -12,3 +12,8 @@
 [2017-07-15 13:56:05] UpdatesJob: requesting 299 apps, 0 packages (full data, 1024 prev attempts)
 [2017-07-15 13:56:11] UpdatesJob: finished OK, nAppsUpdated 315 (792 KB), nPackagesUpdated 0 (0 KB)
 [2017-07-15 13:56:25] Starting async write E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd/appcache/appinfo.vdf (593405 bytes)
+
+
+[2017-07-15 14:40:26] RequestAppInfoUpdate: nNumAppIDs 1
+[2017-07-15 14:40:26] ProductInfoChanges: change number 3192461->3192461, apps: 0/0, packages: 0/0
+[2017-07-15 14:40:28] UpdatesJob: finished OK, nAppsUpdated 0 (0 KB), nPackagesUpdated 0 (0 KB)
