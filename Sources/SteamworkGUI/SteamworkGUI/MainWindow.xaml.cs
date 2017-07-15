@@ -37,13 +37,14 @@ namespace SteamworkGUI
 
         bool Loggedin;
         String UploadPath = "";
+        public int Appid = 480;
 
         public MainWindow()
         {
             
             status = Status.preparing;
             InitializeComponent();
-            preparing.Visibility = Visibility.Visible;
+          //  preparing.Visibility = Visibility.Visible;
             _instance = this;
             cmd = new Core();
             cmd.init();
@@ -67,7 +68,8 @@ namespace SteamworkGUI
         {
             // Auto Generate vpf scripts
 
-            //CMDinput("run_app_build ..\scripts\app_build_1000.vdf");
+            MessageBox.Show(ScriptGenerator.Generate(Appid, UploadPath));
+           // CMDinput("run_app_build ..\scripts\app_build_1000.vdf");
             
         }
         private void FilesDrop_Drop(object sender, DragEventArgs e)
@@ -87,6 +89,7 @@ namespace SteamworkGUI
                 bi.EndInit();
                 FilesIcon.Source = bi;
                 UploadButton.Background = new SolidColorBrush(Colors.Green);
+                UploadButton.IsEnabled = true;
             }
         }
 

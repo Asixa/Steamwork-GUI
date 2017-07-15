@@ -1,10 +1,10 @@
 "DepotBuildConfig"
 {
-	"DepotID" "[Appid]"
-	"ContentRoot"	"[P_Game_path]"
+	"DepotID" "480"
+	"ContentRoot"	"\Tools\steamcmd\content"
 	"FileMapping"
 	{
-    "LocalPath" "[Game_path]"
+    "LocalPath" "\Game\*"
     "DepotPath" "."
     "recursive" "1"
 	}

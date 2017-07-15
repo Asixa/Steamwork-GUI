@@ -68,7 +68,7 @@
 
                 </Grid>
                 <Label Content="Upload" HorizontalAlignment="Left" Height="52" Margin="10,10,0,0" VerticalAlignment="Top" Width="203" FontSize="30" Foreground="White"/>
-                <Button Name="UploadButton" Content="Upload" Height="44" Margin="0,10,10.2,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="94" FontSize="20" Background="Red" Click="UploadButton_Click"/>
+                <Button Name="UploadButton" Content="Upload" Height="44" Margin="0,10,10.2,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="94" FontSize="20" Background="Red" Click="UploadButton_Click" IsEnabled="False"/>
                 <Label Name="Fullpath"  Height="35" Margin="130,19,109.2,0" VerticalAlignment="Top" FontSize="20" Foreground="White"/>
             </Grid>
 

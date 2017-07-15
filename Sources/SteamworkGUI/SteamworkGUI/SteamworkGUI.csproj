@@ -164,7 +164,7 @@
     <Resource Include="Images\Folder2.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Languages\English.xml" />
+    <Resource Include="Windows\English.xml" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Languages\Chinese.xml" />

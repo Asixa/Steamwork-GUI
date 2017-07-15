@@ -1,67 +1,98 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
 
 namespace SteamworkGUI
 {
     class ScriptGenerator
     {
-        static FileStream w_fs;
-        static FileStream r_fs;
-        static StreamWriter sw;
-        static StreamReader sr;
+        static FileStream write_filestream;
+        static FileStream read_filestream;
+        static StreamWriter stream_writer;
+        static StreamReader stream_reader;
 
-        public static string Generator(int Appid,String game_path)
+        public static string Generate(int Appid, String game_path)
         {
-            string str = Directory.GetCurrentDirectory();
-            string filePath = str + @"\Scripts\app_build_[" + Appid + "].vpf";
-            r_fs = new FileStream(str + @"\Scripts\Template\app_build_[].vpf", FileMode.Open);
-            w_fs = new FileStream(filePath, FileMode.CreateNew);
-            sw = new StreamWriter(w_fs);
-            sr = new StreamReader(r_fs);
-            string s1 = sr.ReadToEnd();
-            s1 = s1.Replace("[Appid]", Appid.ToString());
-            s1 = s1.Replace("[Appid1]", (Appid + 1).ToString());
-            sw.WriteLine(s1);
-            sw.Close();
-            sr.Close();
-            w_fs.Close();
-            r_fs.Close();
+            string path = Directory.GetCurrentDirectory();
+            
+            if (Directory.Exists(path + @"\Tools\steamcmd\content")) 
+            Directory.Delete(path + @"\Tools\steamcmd\content");
+            CopyDir(game_path, path+ @"\Tools\steamcmd\content\" +Path.GetFileNameWithoutExtension(game_path));
 
-            filePath = str + @"\Scripts\depot_build_[" + Appid + "].vpf";
-            r_fs = new FileStream(str + @"\Scripts\Template\depot_build_[].vdf", FileMode.Open);
-            w_fs = new FileStream(filePath, FileMode.CreateNew);
-            sw = new StreamWriter(w_fs);
-            sr = new StreamReader(r_fs);
-            string s2 = sr.ReadToEnd();
-            s2 = s2.Replace("[Appid]", Appid.ToString());
-            s2 = s2.Replace("[P_Game_path]", Directory.GetParent(game_path).FullName);
-            s2 = s2.Replace("[Game_path]", game_path + @"\*");
-            sw.WriteLine(s2);
-            sw.Close();
-            sr.Close();
-            w_fs.Close();
-            r_fs.Close();
-            return filePath;
-            #region 奇怪的注释
-            //string s1 = "{\n" +
-            //    "	\"appid\"	\"233330\"\n" +
-            //    "	\"desc\" \"Your build description here\"\n" +
-            //    "	\"buildoutput\" \".." + "\"" + @"\output\" + "\"\n" +
-            //    "	\"contentroot\" \".." + "\"" + @"\content\" + "\"\n" +
-            //    "	\"setlive\"	\"\" \n" +
-            //    "	\"preview\"	\"0\"\n" +
-            //    "	\"local\"	\"\" \n" +
-            //    "\n" +
-            //    "	\"depots\"" +
-            //    "{\n" +
-            //    Appid + 1 + " depot_build_" + Appid + 1 + "1" + ".vdf\n" +
-            //    "}\n" +
-            //    "}";
-            #endregion
+            
+            string filePath = path + @"\Scripts\app_build_" + Appid + ".vpf";
+            string app_build_script_path = filePath;
+            if (File.Exists(filePath))
+            {
+                File.Delete(filePath);
+            }
+            read_filestream = new FileStream(path + @"\Scripts\Template\app_build_[].vpf", FileMode.Open);
+            write_filestream = new FileStream(filePath, FileMode.CreateNew);
+            stream_writer = new StreamWriter(write_filestream);
+            stream_reader = new StreamReader(read_filestream);
+            string app_build_script = stream_reader.ReadToEnd();
+            app_build_script = app_build_script.Replace("[Appid]", Appid.ToString());
+            app_build_script = app_build_script.Replace("[Appid1]", (Appid + 1).ToString());
+            stream_writer.WriteLine(app_build_script);
+            stream_writer.Close();
+            stream_reader.Close();
+            write_filestream.Close();
+            read_filestream.Close();
+
+            filePath = path + @"\Scripts\depot_build_" + Appid + ".vpf";
+            if (File.Exists(filePath))
+            {
+                File.Delete(filePath);
+            }
+            read_filestream = new FileStream(path + @"\Scripts\Template\depot_build_[].vdf", FileMode.Open);
+            write_filestream = new FileStream(filePath, FileMode.CreateNew);
+            stream_writer = new StreamWriter(write_filestream);
+            stream_reader = new StreamReader(read_filestream);
+            string depot_build_script = stream_reader.ReadToEnd();
+            depot_build_script = depot_build_script.Replace("[Appid]", Appid.ToString());
+            //depot_build_script = depot_build_script.Replace("[P_Game_path]", Directory.GetParent(game_path).FullName); @"\Scripts\Template\depot_build_[].vdf"
+            depot_build_script = depot_build_script.Replace("[P_Game_path]", @"\Tools\steamcmd\content");
+            depot_build_script = depot_build_script.Replace("[Game_path]", "\\"+Path.GetFileNameWithoutExtension(game_path) + @"\*");
+            stream_writer.WriteLine(depot_build_script);
+            stream_writer.Close();
+            stream_reader.Close();
+            write_filestream.Close();
+            read_filestream.Close();
+            return app_build_script_path;
+        }
+
+        public static void CopyDir(string fromDir, string toDir)
+        {
+            if (!Directory.Exists(fromDir))
+                return;
+
+            if (!Directory.Exists(toDir))
+            {
+                Directory.CreateDirectory(toDir);
+            }
+
+            string[] files = Directory.GetFiles(fromDir);
+            foreach (string formFileName in files)
+            {
+                string fileName = Path.GetFileName(formFileName);
+                string toFileName = Path.Combine(toDir, fileName);
+                File.Copy(formFileName, toFileName);
+            }
+            string[] fromDirs = Directory.GetDirectories(fromDir);
+            foreach (string fromDirName in fromDirs)
+            {
+                string dirName = Path.GetFileName(fromDirName);
+                string toDirName = Path.Combine(toDir, dirName);
+                CopyDir(fromDirName, toDirName);
+            }
+        }
+
+        public static void MoveDir(string fromDir, string toDir)
+        {
+            if (!Directory.Exists(fromDir))
+                return;
+
+            CopyDir(fromDir, toDir);
+            Directory.Delete(fromDir, true);
         }
     }
 }

@@ -1,0 +1,114 @@
+
+
+[2017-07-15 20:25:24] Log session started
+[2017-07-15 20:25:24] [0,0] SetSteamID( [U:1:0] )
+[2017-07-15 20:25:24] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+[2017-07-15 20:25:44] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:25:44] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:25:44] [1,2] Connect() starting connection (eNetQOSLevelHigh, 203.80.149.67:27020, UDP)
+[2017-07-15 20:25:45] [1,2] ConnectionCompleted() (153.254.86.142:27020, UDP)
+[2017-07-15 20:25:45] [1,2] RecvMsgClientLogOnResponse() : [U:1:210726895] 'Rate Limit Exceeded'
+[2017-07-15 20:25:45] [0,0] ConnectionDisconnected('Disconnected By Remote Host') : 'Rate Limit Exceeded' (153.254.86.142:27020, UDP)
+[2017-07-15 20:25:45] [0,0] ConnectionDisconnected() not auto reconnecting due to eResultLogonSession specifies no reconnect
+
+
+[2017-07-15 20:26:19] Log session started
+[2017-07-15 20:26:19] [0,0] SetSteamID( [U:1:0] )
+[2017-07-15 20:26:19] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+[2017-07-15 20:26:54] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:26:54] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:26:54] [1,2] Connect() starting connection (eNetQOSLevelHigh, 203.80.149.67:27020, UDP)
+[2017-07-15 20:26:55] [1,2] ConnectionCompleted() (153.254.86.142:27020, UDP)
+[2017-07-15 20:26:55] [1,2] RecvMsgClientLogOnResponse() : [U:1:210726895] 'Rate Limit Exceeded'
+[2017-07-15 20:26:55] [1,2] AsyncDisconnect()
+[2017-07-15 20:26:55] [0,0] ConnectionDisconnected('Disconnected By Remote Host') : 'Rate Limit Exceeded' (153.254.86.142:27020, UDP)
+[2017-07-15 20:26:55] [0,0] ConnectionDisconnected() not auto reconnecting due to eResultLogonSession specifies no reconnect
+[2017-07-15 20:27:53] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:27:53] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:27:53] [1,10] Connect() starting connection (eNetQOSLevelHigh, 203.80.149.67:27020, UDP)
+[2017-07-15 20:27:54] [1,10] ConnectionCompleted() (153.254.86.143:27018, UDP)
+[2017-07-15 20:27:54] [1,10] RecvMsgClientLogOnResponse() : [U:1:210726895] 'Rate Limit Exceeded'
+[2017-07-15 20:27:54] [0,0] ConnectionDisconnected('Disconnected By Remote Host') : 'Rate Limit Exceeded' (153.254.86.143:27018, UDP)
+[2017-07-15 20:27:54] [0,0] ConnectionDisconnected() not auto reconnecting due to eResultLogonSession specifies no reconnect
+[2017-07-15 20:27:54] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:27:54] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:27:54] [1,14] Connect() starting connection (eNetQOSLevelHigh, 203.80.149.67:27020, UDP)
+[2017-07-15 20:27:55] [1,14] ConnectionCompleted() (153.254.86.142:27019, UDP)
+[2017-07-15 20:27:55] [1,14] RecvMsgClientLogOnResponse() : [U:1:210726895] 'Rate Limit Exceeded'
+[2017-07-15 20:27:55] [1,14] AsyncDisconnect()
+[2017-07-15 20:27:55] [0,0] ConnectionDisconnected('Disconnected By Remote Host') : 'Rate Limit Exceeded' (153.254.86.142:27019, UDP)
+[2017-07-15 20:27:55] [0,0] ConnectionDisconnected() not auto reconnecting due to eResultLogonSession specifies no reconnect
+[2017-07-15 20:27:56] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:27:56] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:27:56] [1,18] Connect() starting connection (eNetQOSLevelHigh, 203.80.149.67:27020, UDP)
+[2017-07-15 20:27:56] [1,18] ConnectionCompleted() (203.80.149.67:27019, UDP)
+[2017-07-15 20:27:57] [1,18] RecvMsgClientLogOnResponse() : [U:1:210726895] 'Rate Limit Exceeded'
+[2017-07-15 20:27:57] [1,18] AsyncDisconnect()
+[2017-07-15 20:27:57] [0,0] ConnectionDisconnected('Disconnected By Remote Host') : 'Rate Limit Exceeded' (203.80.149.67:27019, UDP)
+[2017-07-15 20:27:57] [0,0] ConnectionDisconnected() not auto reconnecting due to eResultLogonSession specifies no reconnect
+[2017-07-15 20:27:57] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:27:57] [1,22] Connect() starting connection (eNetQOSLevelHigh, 203.80.149.67:27020, UDP)
+[2017-07-15 20:27:57] [1,22] ConnectionCompleted() (203.80.149.67:27021, UDP)
+[2017-07-15 20:27:58] [1,22] RecvMsgClientLogOnResponse() : [U:1:210726895] 'Rate Limit Exceeded'
+[2017-07-15 20:27:58] [1,22] AsyncDisconnect()
+[2017-07-15 20:27:58] [0,0] ConnectionDisconnected('Disconnected By Remote Host') : 'Rate Limit Exceeded' (203.80.149.67:27021, UDP)
+[2017-07-15 20:27:58] [0,0] ConnectionDisconnected() not auto reconnecting due to eResultLogonSession specifies no reconnect
+[2017-07-15 20:27:58] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:27:58] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:27:58] [1,26] Connect() starting connection (eNetQOSLevelHigh, 203.80.149.67:27020, UDP)
+[2017-07-15 20:27:59] [1,26] ConnectionCompleted() (153.254.86.142:27020, UDP)
+[2017-07-15 20:27:59] [1,26] RecvMsgClientLogOnResponse() : [U:1:210726895] 'Rate Limit Exceeded'
+[2017-07-15 20:27:59] [1,26] AsyncDisconnect()
+[2017-07-15 20:27:59] [0,0] ConnectionDisconnected('Disconnected By Remote Host') : 'Rate Limit Exceeded' (153.254.86.142:27020, UDP)
+[2017-07-15 20:27:59] [0,0] ConnectionDisconnected() not auto reconnecting due to eResultLogonSession specifies no reconnect
+[2017-07-15 20:27:59] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:27:59] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:27:59] [1,30] Connect() starting connection (eNetQOSLevelHigh, 203.80.149.67:27020, UDP)
+[2017-07-15 20:28:00] [1,30] ConnectionCompleted() (153.254.86.142:27020, UDP)
+[2017-07-15 20:28:00] [1,30] RecvMsgClientLogOnResponse() : [U:1:210726895] 'Rate Limit Exceeded'
+[2017-07-15 20:28:00] [1,30] AsyncDisconnect()
+[2017-07-15 20:28:00] [0,0] ConnectionDisconnected('Disconnected By Remote Host') : 'Rate Limit Exceeded' (153.254.86.142:27020, UDP)
+[2017-07-15 20:28:00] [0,0] ConnectionDisconnected() not auto reconnecting due to eResultLogonSession specifies no reconnect
+[2017-07-15 20:28:00] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:28:00] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:28:00] [1,34] Connect() starting connection (eNetQOSLevelHigh, 203.80.149.67:27020, UDP)
+[2017-07-15 20:28:01] [1,34] ConnectionCompleted() (203.80.149.68:27018, UDP)
+[2017-07-15 20:28:01] [1,34] RecvMsgClientLogOnResponse() : [U:1:210726895] 'Rate Limit Exceeded'
+[2017-07-15 20:28:01] [1,34] AsyncDisconnect()
+[2017-07-15 20:28:01] [0,0] ConnectionDisconnected('Disconnected By Remote Host') : 'Rate Limit Exceeded' (203.80.149.68:27018, UDP)
+[2017-07-15 20:28:01] [0,0] ConnectionDisconnected() not auto reconnecting due to eResultLogonSession specifies no reconnect
+[2017-07-15 20:28:01] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:28:01] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:28:01] [1,38] Connect() starting connection (eNetQOSLevelHigh, 203.80.149.67:27020, UDP)
+[2017-07-15 20:28:02] [1,38] ConnectionCompleted() (203.80.149.68:27020, UDP)
+[2017-07-15 20:28:02] [1,38] RecvMsgClientLogOnResponse() : [U:1:210726895] 'Rate Limit Exceeded'
+[2017-07-15 20:28:02] [0,0] ConnectionDisconnected('Disconnected By Remote Host') : 'Rate Limit Exceeded' (203.80.149.68:27020, UDP)
+[2017-07-15 20:28:02] [0,0] ConnectionDisconnected() not auto reconnecting due to eResultLogonSession specifies no reconnect
+[2017-07-15 20:28:02] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:28:02] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:28:02] [1,42] Connect() starting connection (eNetQOSLevelHigh, 203.80.149.67:27020, UDP)
+[2017-07-15 20:28:03] [1,42] ConnectionCompleted() (153.254.86.143:27020, UDP)
+[2017-07-15 20:28:03] [1,42] RecvMsgClientLogOnResponse() : [U:1:210726895] 'Rate Limit Exceeded'
+[2017-07-15 20:28:03] [1,42] AsyncDisconnect()
+[2017-07-15 20:28:03] [0,0] ConnectionDisconnected('Disconnected By Remote Host') : 'Rate Limit Exceeded' (153.254.86.143:27020, UDP)
+[2017-07-15 20:28:03] [0,0] ConnectionDisconnected() not auto reconnecting due to eResultLogonSession specifies no reconnect
+[2017-07-15 20:28:04] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:28:04] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:28:04] [1,46] Connect() starting connection (eNetQOSLevelHigh, 203.80.149.67:27020, UDP)
+[2017-07-15 20:28:04] [1,46] ConnectionCompleted() (153.254.86.143:27021, UDP)
+[2017-07-15 20:28:05] [1,46] RecvMsgClientLogOnResponse() : [U:1:210726895] 'Rate Limit Exceeded'
+[2017-07-15 20:28:05] [1,46] AsyncDisconnect()
+[2017-07-15 20:28:05] [0,0] ConnectionDisconnected('Disconnected By Remote Host') : 'Rate Limit Exceeded' (153.254.86.143:27021, UDP)
+[2017-07-15 20:28:05] [0,0] ConnectionDisconnected() not auto reconnecting due to eResultLogonSession specifies no reconnect
+[2017-07-15 20:28:05] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:28:05] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:28:05] [1,50] Connect() starting connection (eNetQOSLevelHigh, 203.80.149.67:27020, UDP)
+[2017-07-15 20:28:05] [1,50] ConnectionCompleted() (153.254.86.142:27020, UDP)
+[2017-07-15 20:28:06] [1,50] RecvMsgClientLogOnResponse() : [U:1:210726895] 'Rate Limit Exceeded'
+[2017-07-15 20:28:06] [1,50] AsyncDisconnect()
+[2017-07-15 20:28:06] [0,0] ConnectionDisconnected('Disconnected By Remote Host') : 'Rate Limit Exceeded' (153.254.86.142:27020, UDP)
+[2017-07-15 20:28:06] [0,0] ConnectionDisconnected() not auto reconnecting due to eResultLogonSession specifies no reconnect
+[2017-07-15 20:28:06] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:28:06] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 20:28:06] [1,54] Connect() starting connection (eNetQOSLevelHigh, 203.80.149.67:27020, UDP)
+[2017-07-15 20:28:06] [1,54] ConnectionCompleted() (153.254.86.143:27021, UDP)
