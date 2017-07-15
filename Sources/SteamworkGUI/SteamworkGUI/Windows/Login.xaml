@@ -8,7 +8,7 @@
                       NonActiveWindowTitleBrush="#FF2D2D30"
                       WindowStartupLocation="CenterScreen" Closing="MetroWindow_Closing" 
                       ResizeMode="NoResize"
-                       Style="{DynamicResource VSWindowStyleKey}"
+                       Style="{DynamicResource VSWindowStyleKey}" Topmost="True"
                       >
 
     <Window.Resources>
