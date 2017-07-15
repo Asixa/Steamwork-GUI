@@ -1,5 +1,7 @@
 ﻿using System;
 using System.IO;
+using System.Threading.Tasks;
+using System.Threading;
 
 namespace SteamworkGUI
 {
@@ -10,14 +12,21 @@ namespace SteamworkGUI
         static StreamWriter stream_writer;
         static StreamReader stream_reader;
 
+        public delegate void CopyComplete();
+        public static event CopyComplete CopyCompleteEvent;
+
         public static string Generate(int Appid, String game_path)
         {
             string path = Directory.GetCurrentDirectory();
             
             if (Directory.Exists(path + @"\Tools\steamcmd\content")) 
             Directory.Delete(path + @"\Tools\steamcmd\content");
-            CopyDir(game_path, path+ @"\Tools\steamcmd\content\" +Path.GetFileNameWithoutExtension(game_path));
 
+            Task.Run(() =>
+            {
+                CopyDir(game_path, path + @"\Tools\steamcmd\content\" + Path.GetFileNameWithoutExtension(game_path));
+                CopyCompleteEvent.Invoke();    //复制完后会触发调用这个事件
+            });
             
             string filePath = path + @"\Scripts\app_build_" + Appid + ".vpf";
             string app_build_script_path = filePath;
