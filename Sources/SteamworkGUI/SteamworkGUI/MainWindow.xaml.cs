@@ -124,6 +124,7 @@ namespace SteamworkGUI
                 case "Loading Steam API...OK.":
                     {
                         status = Status.ready;
+                        Login_Click(new object(), new RoutedEventArgs());
                         SetStatusBar("Not Ready - (Not Logged In)", 1);
                         break;
                     }
@@ -131,6 +132,7 @@ namespace SteamworkGUI
                     {
                         MessageBox.Show("Invalid Password,Please try again.", "Invalid Password");
                         LoginWindow.SetProgressing(false);
+                        
                         break;
                     }
                 case "Waiting for user info...OK":
@@ -140,6 +142,7 @@ namespace SteamworkGUI
                         LoginButton.Foreground = new SolidColorBrush(Colors.LightGreen);
                         Loggedin = true;
                         SetStatusBar("Ready - (Logged In)", 0);
+                        preparing.Visibility = Visibility.Hidden;
                         break;
                     }
                 case "Steam Guard code:Login Failure: Invalid Login Auth Code":
@@ -185,8 +188,14 @@ namespace SteamworkGUI
             cmd.cmd.StandardInput.WriteLine(s);
             Window_output(s, true);
         }
+
         #endregion
 
-  
+        private void MetroWindow_Closed(object sender, EventArgs e)
+        {
+            CMDinput("quit");
+            cmd.cmd.Kill();
+            Application.Current.Shutdown(-1);
+        }
     }
 }

@@ -3,6 +3,7 @@
                       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                       xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
                       Title="Choose" 
+                      NonActiveWindowTitleBrush="#FF2D2D30"
                       Height="341.375" 
                       Width="401.96" 
                        Style="{DynamicResource VSWindowStyleKey}"

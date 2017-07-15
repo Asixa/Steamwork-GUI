@@ -16,12 +16,15 @@ namespace SteamworkGUI
 
         private void Login_Click(object sender, RoutedEventArgs e)
         {
+            if (string.IsNullOrEmpty(account.Text) || string.IsNullOrEmpty(password.Password)) return;
             SetProgressing(true);
+           
             MainWindow._instance.CMDinput("Login "+account.Text+" "+password.Password);
         }
 
         private void Vcode_confirm_Click(object sender, RoutedEventArgs e)
         {
+            if (string.IsNullOrEmpty(vcode.Text)) return;
             SetProgressing(true);
             if (firstVcode)
             {
