@@ -151,3 +151,6 @@
 [2017-07-15 10:15:02] [3,10] SetSteamID( [U:1:210726895] )
 [2017-07-15 10:15:02] [3,10] SetSteamID( [U:1:210726895] )
 [2017-07-15 10:15:02] [3,10] LogOn() called, but user already logging on.
+[2017-07-15 10:29:27] Log session started
+[2017-07-15 10:29:27] [0,0] SetSteamID( [U:1:0] )
+[2017-07-15 10:29:27] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
