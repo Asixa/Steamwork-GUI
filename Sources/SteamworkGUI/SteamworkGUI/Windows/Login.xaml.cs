@@ -35,6 +35,7 @@ namespace SteamworkGUI
             else
             {
                 MainWindow._instance.CMDinput("set_steam_guard_code "+vcode.Text);
+                MainWindow._instance.CMDinput("Login " + account.Text + " " + password.Password);
             }
         }
 
@@ -79,7 +80,7 @@ namespace SteamworkGUI
             var mySettings = new MetroDialogSettings()
             {
                 AffirmativeButtonText = "OK",
-                ColorScheme = MetroDialogOptions.ColorScheme
+                ColorScheme = MetroDialogColorScheme.Inverted
             };
 
             MessageDialogResult result = this.ShowModalMessageExternal(title, content,

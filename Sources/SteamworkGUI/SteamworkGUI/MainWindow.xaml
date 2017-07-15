@@ -79,7 +79,7 @@
                 <avalonedit:TextEditor x:Name="Code" Margin="0,0,0.2,-0.2" Background="#FF1E1E1E" Foreground="White" ShowLineNumbers="True" LineNumbersForeground="#FF3399FF" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" FontSize="18"/>
             </Grid>
 
-            <Grid Name="preparing" Background="#FF2D2D30">
+            <Grid Name="preparing" Background="#FF2D2D30" Visibility="Hidden">
                 <Controls:ProgressRing Foreground="White"
                                         Width="100"
                                        Height="100"  />

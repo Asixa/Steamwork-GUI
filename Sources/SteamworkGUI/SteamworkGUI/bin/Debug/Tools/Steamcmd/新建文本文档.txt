@@ -18,3 +18,6 @@ Steam Guard code:Login Failure: Invalid Login Auth Code
 Steam Guard code:Login Failure: Rate Limit Exceeded
 
 FAILED with result code 84
+
+[15:00:11]<< Logging in user '213123' to Steam Public...Login Failure: Password is not set 
+[15:00:11]<< FAILED with result code 56
