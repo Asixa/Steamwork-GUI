@@ -161,3 +161,24 @@
 [2017-07-15 16:09:06] [0,0] StartAutoReconnect() will start in 0 seconds
 [2017-07-15 16:09:07] [1,54] ConnectionCompleted() (203.80.149.67:27018, UDP)
 03.80.149.68:27020, UDP)
+
+
+[2017-07-15 16:46:11] Log session started
+[2017-07-15 16:46:11] [0,0] SetSteamID( [U:1:0] )
+[2017-07-15 16:46:32] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 16:46:32] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 16:46:32] [1,2] Connect() starting connection (eNetQOSLevelHigh, 203.80.149.68:27019, UDP)
+[2017-07-15 16:46:34] [1,2] RecvMsgClientLogOnResponse() : [U:1:210726895] 'OK'
+
+
+[2017-07-15 16:52:53] Log session started
+[2017-07-15 16:52:53] [0,0] SetSteamID( [U:1:0] )
+[2017-07-15 16:52:53] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+[2017-07-15 16:53:02] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 16:53:02] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-15 16:53:02] [1,2] Connect() starting connection (eNetQOSLevelHigh, 180.101.192.199:27019, UDP)
+[2017-07-15 16:53:04] [1,2] ConnectionCompleted() (153.254.86.142:27017, UDP)
+[2017-07-15 16:53:05] [1,2] RecvMsgClientLogOnResponse() : [U:1:210726895] 'OK'
+[2017-07-15 16:58:26] [3,2] SetSteamID( [U:1:210726895] )
+[2017-07-15 16:58:26] [3,2] SetSteamID( [U:1:210726895] )
+[2017-07-15 16:58:26] [3,2] LogOn() called, but user already logging on.

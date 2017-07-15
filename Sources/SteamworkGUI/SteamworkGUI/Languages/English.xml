@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language>
+  <resources>
+    <resource name="Greeting">你好 WPF世界!</resource>
+  </resources>
+</language>

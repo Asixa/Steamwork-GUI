@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/folder1.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/folder2.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("languages/chinese.xml")]
 
 

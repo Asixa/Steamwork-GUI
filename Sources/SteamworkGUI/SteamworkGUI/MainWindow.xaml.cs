@@ -15,7 +15,14 @@ namespace SteamworkGUI
 
         public Login LoginWindow = new Login();
         public Output output_window = new Output();
-
+        /*
+         *  ResourceManager resourceManager = new ResourceManager(
+        "CAStudy.Resource1",
+        Assembly.GetExecutingAssembly());
+    Console.WriteLine("String1 ： " + resourceManager.GetString("String1"));
+    Console.WriteLine("String1 ： " + Resource1.String1);
+    Console.ReadLine();
+         * */
         public enum Status
         {
             preparing,
@@ -228,7 +235,7 @@ namespace SteamworkGUI
             var result = await this.ShowMessageAsync("Quit application?",
                 "Sure you want to quit application?",
                 MessageDialogStyle.AffirmativeAndNegative, mySettings);
-
+    
             _shutdown = result == MessageDialogResult.Affirmative;
 
             if (_shutdown)

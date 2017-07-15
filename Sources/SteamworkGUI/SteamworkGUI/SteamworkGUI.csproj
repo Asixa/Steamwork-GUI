@@ -163,6 +163,12 @@
     <Resource Include="Images\Folder1.png" />
     <Resource Include="Images\Folder2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\English.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\Chinese.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>
