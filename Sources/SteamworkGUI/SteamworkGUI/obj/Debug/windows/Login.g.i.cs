@@ -9,14 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using ICSharpCode.AvalonEdit;
-using ICSharpCode.AvalonEdit.Editing;
-using ICSharpCode.AvalonEdit.Highlighting;
-using ICSharpCode.AvalonEdit.Rendering;
-using ICSharpCode.AvalonEdit.Search;
 using MahApps.Metro.Controls;
-using MahApps.Metro.IconPacks;
-using SteamworkGUI;
 using System;
 using System.Diagnostics;
 using System.Windows;

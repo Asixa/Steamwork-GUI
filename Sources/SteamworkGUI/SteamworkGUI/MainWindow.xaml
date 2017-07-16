@@ -50,12 +50,7 @@
         <StatusBar Name="StatusBar"  Height="23" DockPanel.Dock="Bottom" Background="Red" >
             <StatusBarItem>
                 <StackPanel Orientation="Horizontal">
-<<<<<<< HEAD
                     <TextBlock Name="StatusBartext" Foreground="{StaticResource Foreground}" Width="245"></TextBlock>
-                  
-=======
-                    <TextBlock Name="StatusBartext" Foreground="{StaticResource Foreground}" Width="245">Preparing</TextBlock>
->>>>>>> bb2d66ebd767bb7f748e108a3dd1ca159fc5d1f6
                 </StackPanel>
             </StatusBarItem>
         </StatusBar>
