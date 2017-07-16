@@ -6,4 +6,10 @@
     <sys:String x:Key="UploadP">Upload Package</sys:String>
     <sys:String x:Key="UploadD">Upload DLC</sys:String>
     <sys:String x:Key="DropFolder">Drop the folder here</sys:String>
+    <sys:String x:Key="NotLoggedIn">Not Ready - (Not Logged In)</sys:String>
+    <sys:String x:Key="LoggedIn">Ready - (Logged In)</sys:String>
+    <sys:String x:Key="TryAgain">Please try again.</sys:String>
+    <sys:String x:Key="TryAgainLater">Please try again later.</sys:String>
+    <sys:String x:Key="InvalidPassword">Invalid Password</sys:String>
+    <sys:String x:Key="InvalidCode">Invalid Login Auth Code</sys:String>
 </ResourceDictionary>

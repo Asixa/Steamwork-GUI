@@ -100,12 +100,12 @@ namespace SteamworkGUI
                     {
                         status = Status.ready;
                         Login_Click(new object(), new RoutedEventArgs());
-                        SetStatusBar("Not Ready - (Not Logged In)", 1);
+                        SetStatusBar(TryFindResource("NotLoggedIn").ToString(), 1);
                         break;
                     }
                 case "FAILED with result code 5":
                     {
-                        LoginWindow.ShowMyDiolog("Please try again.", "Invalid Password");
+                        LoginWindow.ShowMyDiolog(TryFindResource("TryAgain").ToString(), TryFindResource("InvalidPassword").ToString());
                         LoginWindow.SetProgressing(false);
                         
                         break;
@@ -116,7 +116,7 @@ namespace SteamworkGUI
                         LoginButton.Content = user_name;
                         LoginButton.Foreground = new SolidColorBrush(Colors.LightGreen);
                         Loggedin = true;
-                        SetStatusBar("Ready - (Logged In)", 0);
+                        SetStatusBar(TryFindResource("LoggedIn").ToString(), 0);
                         preparing.Visibility = Visibility.Hidden;
                         break;
                     }
@@ -128,7 +128,7 @@ namespace SteamworkGUI
                     }*/
                 case "FAILED with result code 65":
                     {
-                        LoginWindow.ShowMyDiolog("Please try again.", "Invalid Login Auth Code");
+                        LoginWindow.ShowMyDiolog(TryFindResource("TryAgain").ToString(), TryFindResource("InvalidCode").ToString());
                         LoginWindow.SetProgressing(false);
                         break;
                     }
@@ -145,7 +145,7 @@ namespace SteamworkGUI
                             }
                             else if (s.Contains("Steam Guard code:Login Failure: Invalid Login Auth Code"))
                             {
-                                LoginWindow.ShowMyDiolog("Please try again.", "Invalid Login Auth Code");
+                                LoginWindow.ShowMyDiolog(TryFindResource("TryAgain").ToString(), TryFindResource("InvalidCode").ToString());
                                 LoginWindow.SetProgressing(false);
                                 LoginWindow.firstVcode = false;
                                 break;
@@ -154,7 +154,7 @@ namespace SteamworkGUI
                             else if(s.Contains("Rate Limit Exceeded"))
                             {
                                
-                                LoginWindow.ShowMyDiolog("Please try again later.", "Rate Limit Exceeded");
+                                LoginWindow.ShowMyDiolog(TryFindResource("TryAgainLater").ToString(), "Rate Limit Exceeded");
                                 LoginWindow.SetProgressing(false);
                                 break;
                             }
