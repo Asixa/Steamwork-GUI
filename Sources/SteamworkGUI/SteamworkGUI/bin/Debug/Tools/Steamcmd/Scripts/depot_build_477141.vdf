@@ -1,0 +1,12 @@
+"DepotBuildConfig"
+{
+	"DepotID" "477141"
+	"ContentRoot"	"C:\Users\lenovo\Desktop\UploadTest\"
+	"FileMapping"
+	{
+    "LocalPath" ".\C:\Users\lenovo\Desktop\UploadTest\Game\*"
+    "DepotPath" "."
+    "recursive" "1"
+	}
+ 	 "FileExclusion" "*.pdb"
+}

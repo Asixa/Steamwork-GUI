@@ -4,6 +4,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.IO;
 using MahApps.Metro.Controls.Dialogs;
+using System.Text.RegularExpressions;
+using System.Windows.Controls;
+using MahApps.Metro.Controls;
 
 namespace SteamworkGUI
 {
@@ -12,39 +15,27 @@ namespace SteamworkGUI
     {
         public static MainWindow _instance;
         public Core cmd;
-
         public Login LoginWindow = new Login();
         public Output output_window = new Output();
-        /*
-         *  ResourceManager resourceManager = new ResourceManager(
-        "CAStudy.Resource1",
-        Assembly.GetExecutingAssembly());
-    Console.WriteLine("String1 ： " + resourceManager.GetString("String1"));
-    Console.WriteLine("String1 ： " + Resource1.String1);
-    Console.ReadLine();
-         * */
         public enum Status
         {
             preparing,
             ready,
-            none,
             noneGame,
+            GameSetted,
             UploadPackage,
-            UploadDLC,
-            OpeningScript
         };
         public Status status;
-
         bool Loggedin;
         String UploadPath = "";
-        public int Appid = 480;
+        string UploadDescription="";
+        public int Appid = 0;
 
         public MainWindow()
         {
-            
             status = Status.preparing;
             InitializeComponent();
-          //  preparing.Visibility = Visibility.Visible;
+           // preparing.Visibility = Visibility.Visible;
             _instance = this;
             cmd = new Core();
             cmd.init();
@@ -62,39 +53,7 @@ namespace SteamworkGUI
             }
         }
         #endregion
-
-        #region Upload
-        private void UploadButton_Click(object sender, RoutedEventArgs e)
-        {
-            // Auto Generate vpf scripts
-
-            MessageBox.Show(ScriptGenerator.Generate(Appid, UploadPath));
-           // CMDinput("run_app_build ..\scripts\app_build_1000.vdf");
             
-        }
-        private void FilesDrop_Drop(object sender, DragEventArgs e)
-        {
-            string msg = "Drop";
-            if (e.Data.GetDataPresent(DataFormats.FileDrop))
-            {
-                msg = ((System.Array)e.Data.GetData(DataFormats.FileDrop)).GetValue(0).ToString();
-                if (!Directory.Exists(msg)) return;
-                filespath.Content = Path.GetFileNameWithoutExtension(msg);
-                Fullpath.Content = msg;
-                UploadPath = msg;
-
-                BitmapImage bi = new BitmapImage();
-                bi.BeginInit();
-                bi.UriSource = new Uri(@"Images/Folder1.png", UriKind.RelativeOrAbsolute);
-                bi.EndInit();
-                FilesIcon.Source = bi;
-                UploadButton.Background = new SolidColorBrush(Colors.Green);
-                UploadButton.IsEnabled = true;
-            }
-        }
-
-        #endregion
-
         #region Output_window
         void Window_output(string s,bool input=false)
         {   
@@ -112,7 +71,7 @@ namespace SteamworkGUI
         private void Option_Click(object sender, RoutedEventArgs e)
         {
             Option window = new Option();
-            window.ShowDialog();
+            window.Show();
         }
 
         private void Login_Click(object sender, RoutedEventArgs e)
@@ -122,11 +81,11 @@ namespace SteamworkGUI
             LoginWindow.Show();
         }
 
-        private void ChangeGames_Click(object sender, RoutedEventArgs e)
+        private void LaunchtoGitHub(object sender, RoutedEventArgs e)
         {
-            ChooseAppid window = new ChooseAppid();
-            window.ShowDialog();
+            System.Diagnostics.Process.Start("https://github.com/Asixa/Steamwork-GUI");
         }
+
         #endregion
 
         #region CMD
@@ -197,6 +156,37 @@ namespace SteamworkGUI
                                 LoginWindow.SetProgressing(false);
                                 break;
                             }
+                            else if (status == Status.UploadPackage)
+                            {
+                                if(s.Contains("Building depot"))
+                                {
+                                    Upload_dialog_controllor.SetMessage("正在构建depot...");
+                                }
+                                else if(s.Contains("Building file mapping"))
+                                {
+                                    Upload_dialog_controllor.SetMessage("正在构建文件映射...");
+                                }
+                                else if (s.Contains("Scanning content"))
+                                {
+                                    Upload_dialog_controllor.SetMessage("正在扫描内容...");
+                                }
+                                else if (s.Contains("Uploading content"))
+                                {
+                                    Upload_dialog_controllor.SetMessage("正在上传内容...");
+                                }
+                                else if (s.Contains("Successfully finished appID"))
+                                {
+                                    Upload_dialog_controllor.CloseAsync();
+                                    show_Dialog("完成", "您的游戏已经成功上传至Steam", true, false);
+                                    status = Status.GameSetted;
+                                }
+                                else if (s.Contains("Failure"))
+                                {
+                                    Upload_dialog_controllor.CloseAsync();
+                                    show_Dialog("失败", s, true, false);
+                                    status = Status.GameSetted;
+                                }
+                            }
                         }
                        
                         break;
@@ -211,13 +201,118 @@ namespace SteamworkGUI
         }
 
         #endregion
-
-        private void MetroWindow_Closed(object sender, EventArgs e)
+               
+        #region Upload
+        private void UploadButton_Click(object sender, RoutedEventArgs e)
         {
-          //  CMDinput("quit");
-          //  cmd.cmd.Kill();
-          //  Application.Current.Shutdown(-1);
+            UploadButtonDown();
         }
+
+        public async void UploadButtonDown()
+        {
+
+            if (Appid == 0)
+            {
+                show_Dialog("Appid错误", "请重新设置您的Appid", true, true); return;
+            }
+            var mySettings = new MetroDialogSettings()
+            {
+                AffirmativeButtonText = "Confirm",
+                NegativeButtonText = "Cancel",
+                ColorScheme = MetroDialogColorScheme.Inverted,
+                AnimateHide = false
+            };
+            MessageDialogResult result = await this.ShowMessageAsync("Are you sure to start uploading?", "Appid:"+ Appid+Environment.NewLine+"You cannot not cancel during the uploading",
+            MessageDialogStyle.AffirmativeAndNegative, mySettings);
+
+            if (result == MessageDialogResult.Affirmative)
+            {
+                var mySettings2 = new MetroDialogSettings()
+                {
+                    AffirmativeButtonText = "Confirm",
+                    NegativeButtonText = "Cancel",
+                    ColorScheme = MetroDialogColorScheme.Inverted,
+                    AnimateHide = true,
+                    AnimateShow = false
+                };
+
+                var Des_result = await this.ShowInputAsync("描述", "对此次构建的注释", mySettings2);
+
+                if (Des_result == null) return;
+
+                UploadDescription = Des_result;
+                status = Status.UploadPackage;
+                ShowProgressDialog();
+            }
+            else
+            {
+                return;
+            }
+        }
+
+        private void FilesDrop_Drop(object sender, DragEventArgs e)
+        {
+            string msg = "Drop";
+            if (e.Data.GetDataPresent(DataFormats.FileDrop))
+            {
+                msg = ((System.Array)e.Data.GetData(DataFormats.FileDrop)).GetValue(0).ToString();
+                if (!Directory.Exists(msg)) return;
+                filespath.Content = Path.GetFileNameWithoutExtension(msg);
+                Fullpath.Content = msg;
+                UploadPath = msg;
+
+                BitmapImage bi = new BitmapImage();
+                bi.BeginInit();
+                bi.UriSource = new Uri(@"Images/Folder1.png", UriKind.RelativeOrAbsolute);
+                bi.EndInit();
+                FilesIcon.Source = bi;
+                UploadButton.Background = new SolidColorBrush(Colors.Green);
+                UploadButton.IsEnabled = true;
+            }
+        }
+
+        public ProgressDialogController Upload_dialog_controllor;
+        private async void ShowProgressDialog()
+        {
+            var mySettings = new MetroDialogSettings()
+            {
+                NegativeButtonText = "Close now",
+                AnimateShow = false,
+                AnimateHide = false,
+                ColorScheme = MetroDialogColorScheme.Inverted
+
+            };
+
+            Upload_dialog_controllor = await this.ShowProgressAsync(
+               "请稍候...",
+               "正在拷贝文件...",
+               settings: mySettings);
+
+            Upload_dialog_controllor.SetIndeterminate();
+            Upload_dialog_controllor.SetCancelable(false);
+
+            ScriptGenerator _generator = new ScriptGenerator();
+            _generator.Generate(Appid, UploadPath, UploadDescription);
+        }
+        #endregion
+
+        #region Dialog
+        public async void show_Dialog(string title, string message, bool _AnimateHide, bool _AnimateShow)
+        {
+            var mySettings = new MetroDialogSettings()
+            {
+                AffirmativeButtonText = "Confirm",
+                NegativeButtonText = "Cancel",
+                ColorScheme = MetroDialogColorScheme.Inverted,
+                AnimateHide = _AnimateHide,
+                AnimateShow = _AnimateShow
+            };
+
+            MessageDialogResult result = await this.ShowMessageAsync(title, message,
+            MessageDialogStyle.Affirmative, mySettings);
+
+        }
+
         private bool _shutdown;
         private async void MetroWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
@@ -232,13 +327,13 @@ namespace SteamworkGUI
                 AnimateShow = true,
                 AnimateHide = false,
                 ColorScheme = MetroDialogColorScheme.Inverted
-                
+
             };
 
             var result = await this.ShowMessageAsync("Quit application?",
                 "Sure you want to quit application?",
                 MessageDialogStyle.AffirmativeAndNegative, mySettings);
-    
+
             _shutdown = result == MessageDialogResult.Affirmative;
 
             if (_shutdown)
@@ -249,6 +344,16 @@ namespace SteamworkGUI
             }
         }
 
+        #endregion
 
+
+        private void AppidInput_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double?> e)
+        {
+            if (((NumericUpDown)sender).Value != null)
+            {
+                Appid = (int)((NumericUpDown)sender).Value;
+            }
+
+        }
     }
 }

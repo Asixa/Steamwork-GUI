@@ -1,0 +1,76 @@
+﻿<UserControl x:Class="SteamworkGUI.Windows.OptionDetail"
+            
+           
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+             xmlns:local="clr-namespace:SteamworkGUI.Windows"
+             xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             mc:Ignorable="d" Height="391.2" Width="567.6">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/FlatButton.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid Margin="0,0,0,0.2" Width="200" Background="#FF333337" HorizontalAlignment="Left"/>
+        <Controls:MetroAnimatedTabControl
+            Controls:TabControlHelper.Underlined="TabPanel"
+            TabStripPlacement="Left" Margin="0,0,0,-0.4" Background="{x:Null}">
+
+            <Controls:MetroTabItem Header="Language" Controls:ControlsHelper.HeaderFontSize="20" Width="200" >
+                <ListBox Background="{x:Null}">
+                    <Button Content="English" Background="#FF007ACC" Foreground="White" Margin="0,1" />
+                    <Button Content="中文" Background="#FF007ACC" Foreground="White" Margin="0,1" />
+                </ListBox>
+            </Controls:MetroTabItem>
+
+            <Controls:MetroTabItem Header="About" Controls:ControlsHelper.HeaderFontSize="20" Width="200" >
+                <Grid>
+                    <Grid Background="#FF3E3E42" Height="107" VerticalAlignment="Top" >
+
+                        <iconPacks:PackIconModern Width="90" Height="Auto" Kind="SocialGithubOctocat" Margin="10,7,0,10" Foreground="White" VerticalAlignment="Stretch" BorderBrush="Black" />
+                        <Label Content="v1.0" Margin="105,50,0,0" Foreground="White" FontSize="20" Height="43" VerticalAlignment="Top" />
+                        <Button Content="Asixa/Steamwork-GUI" Margin="105,10,0,0" Foreground="White" FontSize="20" Height="35" VerticalAlignment="Top" Cursor="Hand" Background="{x:Null}" BorderBrush="{x:Null}" HorizontalContentAlignment="Left" />
+                    </Grid>
+                    <Grid Margin="0,107,0,0" Height="32" VerticalAlignment="Top" Background="#FF007ACC">
+                        <Label Content="Developers" Foreground="White" FontSize="18"/>
+                    </Grid>
+                    <ListBox Background="{x:Null}" Margin="0,139,0,0.2" >
+                        <Grid Background="#FF1E1E1E" Height="73" VerticalAlignment="Top" Margin="0,0,0.2,0" >
+                            <Button Width="48" Height="48" Margin="17,15,0,10" Padding="1" Background="#FF007ACC" HorizontalAlignment="Left">
+                                <Image Source="/SteamworkGUI;component/Images/Developers/Asixa.jpg" />
+                            </Button>
+                            <Button Content="Asixa" Margin="95,19,10,0" Foreground="White" FontSize="20" Height="33" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" HorizontalContentAlignment="Left" />
+                            <Rectangle Fill="#FF007ACC" Height="3" Stroke="Black" VerticalAlignment="Top"/>
+                        </Grid>
+
+                        <Grid Background="#FF1E1E1E" Height="73" VerticalAlignment="Top" Margin="0,0,0.2,0" >
+                            <Button Width="48" Height="48" Margin="17,15,0,10" Padding="1" Background="#FF007ACC" HorizontalAlignment="Left">
+                                <Image Source="/SteamworkGUI;component/Images/Developers/Asixa.jpg" />
+                            </Button>
+                            <Button Content="Fangxm" Margin="95,15,10,0" Foreground="White" FontSize="20" Height="44" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" HorizontalContentAlignment="Left" />
+                            <Rectangle Fill="#FF007ACC" Height="3" Stroke="Black" VerticalAlignment="Top"/>
+                        </Grid>
+
+
+                    </ListBox>
+                </Grid>
+            </Controls:MetroTabItem>
+
+
+
+        </Controls:MetroAnimatedTabControl>
+    </Grid>
+</UserControl>

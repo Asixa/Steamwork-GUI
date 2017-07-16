@@ -1,7 +1,7 @@
 "appbuild"
 {
-	"appid"	"480"
-	"desc" "Your build description here" 
+	"appid"	"[Appid]"
+	"desc" "[Description]" 
 	"buildoutput" "..\output\" 
 	"contentroot" "..\content\" 
 	"setlive"	"" 
@@ -10,7 +10,6 @@
 	
 	"depots"
 	{
-		"481" "depot_build_481.vdf"
+		"[Appid1]" "depot_build_[Appid1].vdf"
 	}
 }
-

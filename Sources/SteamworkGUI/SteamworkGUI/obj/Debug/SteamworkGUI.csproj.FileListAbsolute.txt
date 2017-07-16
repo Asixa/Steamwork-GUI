@@ -34,7 +34,6 @@ E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\S
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\MahApps.Metro.dll
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\System.Windows.Interactivity.dll
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\ICSharpCode.AvalonEdit.xml
-E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI.csprojResolveAssemblyReference.cache
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\App.baml
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\MainWindow.g.cs
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\App.g.cs
@@ -89,3 +88,7 @@ G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI.Pr
 G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI.csproj.GenerateResource.Cache
 G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI.exe
 G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI.pdb
+E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Windows\OptionDetail.g.cs
+E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Windows\OptionDetail.baml
+E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\MahApps.Metro.IconPacks.dll

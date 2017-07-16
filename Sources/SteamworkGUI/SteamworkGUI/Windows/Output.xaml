@@ -21,6 +21,8 @@
         <DropShadowEffect BlurRadius="15" Direction="-90" RenderingBias="Quality" ShadowDepth="2"/>
     </Window.Effect>
     <Grid>
-        <TextBox Name="output" IsReadOnly="True" VerticalScrollBarVisibility="Auto"/>
+       
+        <TextBox Name="output" IsReadOnly="True" VerticalScrollBarVisibility="Auto" />
+
     </Grid>
 </Controls:MetroWindow>

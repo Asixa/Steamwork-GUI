@@ -47,6 +47,9 @@
     <Reference Include="MahApps.Metro, Version=1.5.0.23, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f, processorArchitecture=MSIL">
       <HintPath>..\packages\MahApps.Metro.1.5.0\lib\net45\MahApps.Metro.dll</HintPath>
     </Reference>
+    <Reference Include="MahApps.Metro.IconPacks">
+      <HintPath>..\..\..\..\..\..\WPF模板\MahApps.Metro-1.5.0\MahApps.Metro.IconPacks.dll</HintPath>
+    </Reference>
     <Reference Include="Selen.Wpf.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dc472ed4b6daaa58, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\WPF模板\VS\Dll\Selen.Wpf.Core.dll</HintPath>
@@ -119,6 +122,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Windows\OptionDetail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Windows\Output.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -130,6 +137,9 @@
     </Compile>
     <Compile Include="Windows\Option.xaml.cs">
       <DependentUpon>Option.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\OptionDetail.xaml.cs">
+      <DependentUpon>OptionDetail.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\Output.xaml.cs">
       <DependentUpon>Output.xaml</DependentUpon>
@@ -168,6 +178,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Languages\Chinese.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Developers\Asixa.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

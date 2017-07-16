@@ -1,29 +1,44 @@
-﻿<Controls:MetroWindow x:Class="SteamworkGUI.Option"
+﻿<Controls:MetroWindow
                       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                       xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                      
+                      
+                      xmlns:Windows="clr-namespace:SteamworkGUI.Windows" x:Class="SteamworkGUI.Option"
+                      
+                      
                       Title="Option" 
-                      Height="411.2" 
-                      Width="305.6" 
+                      Height="400" 
+                      Width="600" 
+                      MinHeight="400" 
+                      MinWidth="600"
                       NonActiveWindowTitleBrush="#FF2D2D30"
                        Style="{DynamicResource VSWindowStyleKey}"
                       WindowStartupLocation="CenterScreen">
-    <Window.Resources>
+    <Controls:MetroWindow.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/VS/Colors.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/VS/Styles.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
-    </Window.Resources>
+    </Controls:MetroWindow.Resources>
 
-    <Window.Effect>
+    <Controls:MetroWindow.Effect>
         <DropShadowEffect BlurRadius="15" Direction="-90" RenderingBias="Quality" ShadowDepth="2"/>
-    </Window.Effect>
+    </Controls:MetroWindow.Effect>
 
     <Grid>
+        <StackPanel Margin="10,10,0,10.4" HorizontalAlignment="Left" Width="274" Visibility="Hidden">
+            <StackPanel.Resources>
+                <ResourceDictionary>
+                    <ResourceDictionary.MergedDictionaries>
+                        <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/VS/Colors.xaml" />
+                        <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/VS/Styles.xaml" />
+                    </ResourceDictionary.MergedDictionaries>
+                </ResourceDictionary>
+            </StackPanel.Resources>
 
-        <StackPanel Margin="10,10,0,10.4" HorizontalAlignment="Left" Width="274">
             <TextBlock Margin="0,10,0,10" FontSize="18" Foreground="{StaticResource Foreground}" Text="Language"/>
             <Separator Background="#11FFFFFF"/>
             <Button FontSize="14" Margin="0,10,0,3" Content="English" Style="{StaticResource LinkButton}"/>
@@ -31,9 +46,19 @@
             <Separator Background="#11FFFFFF"/>
             <TextBlock Margin="0,10,0,10" FontSize="18" Foreground="{StaticResource Foreground}" Text="About"/>
             <Separator Background="#11FFFFFF"/>
-            <Button Name="Dev" FontSize="14" Margin="0,10,0,3" Content="Develop By Asixa" Style="{StaticResource LinkButton}" Click="Dev_Click" />
-            <Button Name="Source" FontSize="14" Margin="0,3,0,3" Content="Sources" Style="{StaticResource LinkButton}" Click="Source_Click"/>
+            <Button x:Name="Dev" FontSize="14" Margin="0,10,0,3" Content="Develop By Asixa" Style="{StaticResource LinkButton}" Click="Dev_Click" />
+            <Button x:Name="Source" FontSize="14" Margin="0,3,0,3" Content="Sources" Style="{StaticResource LinkButton}" Click="Source_Click"/>
         </StackPanel>
+
+
+
+
+
+        <Windows:OptionDetail Height="Auto" Width="Auto" Margin="0,0,0,0"/>
+
+
+
+
 
     </Grid>
 </Controls:MetroWindow>
