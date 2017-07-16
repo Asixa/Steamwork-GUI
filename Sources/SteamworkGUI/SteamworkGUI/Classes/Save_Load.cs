@@ -24,7 +24,7 @@ namespace SteamworkGUI
             System.Data.DataRow row = table.NewRow();
             row[0] = MainWindow._instance.user_name;
             row[1] = MainWindow._instance.Appid;
-            row[2] = "English";
+            row[2] = MainWindow._instance.LanguagePack;
 
             ds.Tables["Data"].Rows.Add(row);
             string path = Environment.CurrentDirectory+"/data.xml";
@@ -42,10 +42,12 @@ namespace SteamworkGUI
                 XmlNode root = xmlDoc.SelectSingleNode("//Data");       
                 if (root != null)
                 {
+                    MainWindow._instance.LanguagePack = root.SelectSingleNode("language").InnerText;
+                    MessageBox.Show(root.SelectSingleNode("language").InnerText);
                     MainWindow._instance.user_name=MainWindow._instance.LoginWindow.account.Text= (root.SelectSingleNode("account")).InnerText;
                     MainWindow._instance.Appid =int.Parse((root.SelectSingleNode("appid")).InnerText);
                     MainWindow._instance.AppidInput.Value = MainWindow._instance.Appid;
-                    string languagel = root.SelectSingleNode("language").InnerText;
+                   
                 }
                 else
                 {

@@ -36,5 +36,21 @@ namespace SteamworkGUI.Windows
             }
             System.Diagnostics.Process.Start(url);
         }
+
+
+        private void English_Click(object sender, RoutedEventArgs e)//eng
+        {
+            string lang = "en-US";
+            MainWindow._instance.LanguagePack = lang;
+            LanguageManager._instance.LoadLanguage(MainWindow._instance.LanguagePack);
+        }
+
+        private void Chinese_Click(object sender, RoutedEventArgs e)//chs
+        {
+
+            string lang = "zh-CN";
+            MainWindow._instance.LanguagePack = lang;
+            LanguageManager._instance.LoadLanguage(MainWindow._instance.LanguagePack);
+        }
     }
 }

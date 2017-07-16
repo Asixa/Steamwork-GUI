@@ -335,3 +335,55 @@
 [2017-07-16 18:43:57] 正在验证安装...
 [2017-07-16 18:43:57] Performing checksum verification of executable files
 [2017-07-16 18:43:57] Verification complete
+
+
+[2017-07-16 22:55:12] Startup - updater built May 30 2017 09:31:34
+[2017-07-16 22:55:12] Checking for update on startup
+[2017-07-16 22:55:12] 正在检查可用更新...
+[2017-07-16 22:55:14] Download skipped: /client/steam_cmd_win32 version 1496167025, installed version 1496167025
+[2017-07-16 22:55:14] Nothing to do
+[2017-07-16 22:55:14] 正在验证安装...
+[2017-07-16 22:55:14] Performing checksum verification of executable files
+[2017-07-16 22:55:14] Verification complete
+
+
+[2017-07-16 23:00:22] Startup - updater built May 30 2017 09:31:34
+[2017-07-16 23:00:22] Checking for update on startup
+[2017-07-16 23:00:22] 正在检查可用更新...
+[2017-07-16 23:00:23] Download skipped: /client/steam_cmd_win32 version 1496167025, installed version 1496167025
+[2017-07-16 23:00:23] Nothing to do
+[2017-07-16 23:00:23] 正在验证安装...
+[2017-07-16 23:00:23] Performing checksum verification of executable files
+[2017-07-16 23:00:23] Verification complete
+
+
+[2017-07-17 00:15:48] Startup - updater built May 30 2017 09:31:34
+[2017-07-17 00:15:49] Checking for update on startup
+[2017-07-17 00:15:49] 正在检查可用更新...
+[2017-07-17 00:15:51] Download skipped: /client/steam_cmd_win32 version 1496167025, installed version 1496167025
+[2017-07-17 00:15:51] Nothing to do
+[2017-07-17 00:15:51] 正在验证安装...
+[2017-07-17 00:15:51] Performing checksum verification of executable files
+[2017-07-17 00:15:51] Verification complete
+
+
+[2017-07-17 00:29:07] Startup - updater built May 30 2017 09:31:34
+[2017-07-17 00:29:08] Checking for update on startup
+[2017-07-17 00:29:08] 正在检查可用更新...
+[2017-07-17 00:29:10] Download failed: http error 0 (client-download.steampowered.com/client/steam_cmd_win32)
+[2017-07-17 00:29:13] Download skipped: /client/steam_cmd_win32 version 1496167025, installed version 1496167025
+[2017-07-17 00:29:13] Nothing to do
+[2017-07-17 00:29:13] 正在验证安装...
+[2017-07-17 00:29:13] Performing checksum verification of executable files
+[2017-07-17 00:29:13] Verification complete
+
+
+[2017-07-17 00:30:49] Startup - updater built May 30 2017 09:31:34
+[2017-07-17 00:30:49] Checking for update on startup
+[2017-07-17 00:30:50] 正在检查可用更新...
+[2017-07-17 00:30:50] Download failed: http error 0 (client-download.steampowered.com/client/steam_cmd_win32)
+[2017-07-17 00:30:52] Download skipped: /client/steam_cmd_win32 version 1496167025, installed version 1496167025
+[2017-07-17 00:30:52] Nothing to do
+[2017-07-17 00:30:52] 正在验证安装...
+[2017-07-17 00:30:52] Performing checksum verification of executable files
+[2017-07-17 00:30:52] Verification complete

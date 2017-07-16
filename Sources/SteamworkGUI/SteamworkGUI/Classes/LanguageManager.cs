@@ -1,33 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 
-namespace SteamworkGUI.Classes
+namespace SteamworkGUI
 {
-    class LanguageManager :Application
+    class LanguageManager 
     {
-        protected override void OnStartup(StartupEventArgs e)
-        {
-            base.OnStartup(e);
-            LoadLanguage();
-        }
+        public static LanguageManager _instance;
 
-        private void LoadLanguage()
+        public LanguageManager() {
+            _instance = this;
+        }
+        public void LoadLanguage(string pack)
         {
-            CultureInfo currentCultureInfo = CultureInfo.CurrentCulture;
+           // CultureInfo currentCultureInfo = CultureInfo.CurrentCulture;
 
             ResourceDictionary langRd = null;
-
             try
             {
-                langRd =
-                    LoadComponent(
-                             new Uri(@"Languages\" + currentCultureInfo.Name + ".xaml", UriKind.Relative))
-                    as ResourceDictionary;
+                langRd =Application.LoadComponent(new Uri(@"Languages\" + pack + ".xaml", UriKind.Relative)) as ResourceDictionary;
             }
             catch
             {
@@ -35,11 +25,42 @@ namespace SteamworkGUI.Classes
 
             if (langRd != null)
             {
-                if (this.Resources.MergedDictionaries.Count > 0)
+                if (MainWindow._instance.Resources.MergedDictionaries.Count > 0)
                 {
-                    this.Resources.MergedDictionaries.Clear();
+                    MainWindow._instance.Resources.MergedDictionaries.Clear();
                 }
-                this.Resources.MergedDictionaries.Add(langRd);
+                MainWindow._instance.Resources.MergedDictionaries.Add(langRd);
+
+                if (MainWindow._instance.LoginWindow.Resources.MergedDictionaries.Count > 0)
+                {
+                    MainWindow._instance.LoginWindow.Resources.MergedDictionaries.Clear();
+                }
+                MainWindow._instance.LoginWindow.Resources.MergedDictionaries.Add(langRd);
+
+                if (MainWindow._instance.LoginWindow.Resources.MergedDictionaries.Count > 0)
+                {
+                    MainWindow._instance.LoginWindow.Resources.MergedDictionaries.Clear();
+                }
+                MainWindow._instance.LoginWindow.Resources.MergedDictionaries.Add(langRd);
+
+                if (MainWindow._instance.output_window.Resources.MergedDictionaries.Count > 0)
+                {
+                    MainWindow._instance.output_window.Resources.MergedDictionaries.Clear();
+                }
+                MainWindow._instance.output_window.Resources.MergedDictionaries.Add(langRd);
+
+                if (MainWindow._instance.option_window.Resources.MergedDictionaries.Count > 0)
+                {
+                    MainWindow._instance.option_window.Resources.MergedDictionaries.Clear();
+                }
+                MainWindow._instance.option_window.Resources.MergedDictionaries.Add(langRd);
+
+                if (MainWindow._instance.option_window.detail.Resources.MergedDictionaries.Count > 0)
+                {
+                    MainWindow._instance.option_window.detail.Resources.MergedDictionaries.Clear();
+                }
+                MainWindow._instance.option_window.detail.Resources.MergedDictionaries.Add(langRd);
+
             }
         }
     }

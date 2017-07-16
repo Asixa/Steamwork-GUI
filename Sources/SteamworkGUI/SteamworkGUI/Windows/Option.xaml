@@ -7,14 +7,14 @@
                       xmlns:Windows="clr-namespace:SteamworkGUI.Windows" x:Class="SteamworkGUI.Option"
                       
                       
-                      Title="Option" 
+                      Title="{DynamicResource Option}" 
                       Height="400" 
                       Width="600" 
                       MinHeight="400" 
                       MinWidth="600"
                       NonActiveWindowTitleBrush="#FF2D2D30"
                        Style="{DynamicResource VSWindowStyleKey}"
-                      WindowStartupLocation="CenterScreen">
+                      WindowStartupLocation="CenterScreen" Closing="MetroWindow_Closing">
     <Controls:MetroWindow.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -29,32 +29,8 @@
     </Controls:MetroWindow.Effect>
 
     <Grid>
-        <StackPanel Margin="10,10,0,10.4" HorizontalAlignment="Left" Width="274" Visibility="Hidden">
-            <StackPanel.Resources>
-                <ResourceDictionary>
-                    <ResourceDictionary.MergedDictionaries>
-                        <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/VS/Colors.xaml" />
-                        <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/VS/Styles.xaml" />
-                    </ResourceDictionary.MergedDictionaries>
-                </ResourceDictionary>
-            </StackPanel.Resources>
-
-            <TextBlock Margin="0,10,0,10" FontSize="18" Foreground="{StaticResource Foreground}" Text="Language"/>
-            <Separator Background="#11FFFFFF"/>
-            <Button FontSize="14" Margin="0,10,0,3" Content="English" Style="{StaticResource LinkButton}" Click="Button_Click"/>
-            <Button FontSize="14" Margin="0,3,0,10" Content="中文" Style="{StaticResource LinkButton}" Click="Button_Click_1"/>
-            <Separator Background="#11FFFFFF"/>
-            <TextBlock Margin="0,10,0,10" FontSize="18" Foreground="{StaticResource Foreground}" Text="About"/>
-            <Separator Background="#11FFFFFF"/>
-            <Button x:Name="Dev" FontSize="14" Margin="0,10,0,3" Content="Develop By Asixa" Style="{StaticResource LinkButton}" Click="Dev_Click" />
-            <Button x:Name="Source" FontSize="14" Margin="0,3,0,3" Content="Sources" Style="{StaticResource LinkButton}" Click="Source_Click"/>
-        </StackPanel>
-
-
-
-
-
-        <Windows:OptionDetail Height="Auto" Width="Auto" Margin="0,0,0,0"/>
+  
+        <Windows:OptionDetail x:Name="detail" Height="Auto" Width="Auto" Margin="0,0,0,0"/>
 
 
 

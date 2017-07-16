@@ -90,10 +90,6 @@
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Page Include="Windows\ChooseAppid.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -105,9 +101,6 @@
     <Compile Include="Classes\Save_Load.cs" />
     <Compile Include="Classes\LanguageManager.cs" />
     <Compile Include="Classes\ScriptGenerator.cs" />
-    <Compile Include="Windows\ChooseAppid.xaml.cs">
-      <DependentUpon>ChooseAppid.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Classes\Core.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -171,12 +164,6 @@
   <ItemGroup>
     <Resource Include="Images\Folder1.png" />
     <Resource Include="Images\Folder2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Windows\English.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Languages\Chinese.xml" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Developers\Asixa.jpg" />

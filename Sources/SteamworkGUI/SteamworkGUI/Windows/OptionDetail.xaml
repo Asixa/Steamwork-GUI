@@ -29,14 +29,14 @@
             Controls:TabControlHelper.Underlined="TabPanel"
             TabStripPlacement="Left" Margin="0,0,0,-0.4" Background="{x:Null}">
 
-            <Controls:MetroTabItem Header="Language" Controls:ControlsHelper.HeaderFontSize="20" Width="200" >
+            <Controls:MetroTabItem Header="{DynamicResource Language}" Controls:ControlsHelper.HeaderFontSize="20" Width="200" >
                 <ListBox Background="{x:Null}">
-                    <Button Content="English" Background="#FF252526" Foreground="White" Margin="0,1" />
-                    <Button Content="中文" Background="#FF252526" Foreground="White" Margin="0,1" />
+                    <Button Content="English" Background="#FF252526" Foreground="White" Margin="0,1" Click="English_Click" />
+                    <Button Content="中文" Background="#FF252526" Foreground="White" Margin="0,1" Click="Chinese_Click"/>
                 </ListBox>
             </Controls:MetroTabItem>
 
-            <Controls:MetroTabItem Header="About" Controls:ControlsHelper.HeaderFontSize="20" Width="200" >
+            <Controls:MetroTabItem Header="{DynamicResource About}" Controls:ControlsHelper.HeaderFontSize="20" Width="200" >
                 <Grid>
                     <Grid Background="#FF3E3E42" Height="107" VerticalAlignment="Top" >
 
@@ -45,7 +45,7 @@
                         <Button Name="Github" Content="Asixa/Steamwork-GUI" Margin="105,10,0,0" Foreground="White" FontSize="20" Height="35" VerticalAlignment="Top" Cursor="Hand" Background="{x:Null}" BorderBrush="{x:Null}" HorizontalContentAlignment="Left"  Click="Link_Click" ToolTip="Github" />
                     </Grid>
                     <Grid Margin="0,107,0,0" Height="32" VerticalAlignment="Top" Background="#FF007ACC">
-                        <Label Content="Developers" Foreground="White" FontSize="18"/>
+                        <Label Content="{DynamicResource Developers}" Foreground="White" FontSize="18"/>
                     </Grid>
                     <ListBox Background="{x:Null}" Margin="0,139,0,0.2" >
                         <Grid Background="#FF1E1E1E" Height="73" VerticalAlignment="Top" Margin="0,0,0.2,0" >

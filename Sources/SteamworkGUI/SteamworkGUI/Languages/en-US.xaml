@@ -2,14 +2,68 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:local="clr-namespace:SteamworkGUI.Languages"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+        <ResourceDictionary.MergedDictionaries>
+            <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+            <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+            <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
+            <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
+            <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
+            <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/VS/Colors.xaml" />
+            <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/VS/Styles.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+
     <sys:String x:Key="Upload">Upload</sys:String>
-    <sys:String x:Key="UploadP">Upload Package</sys:String>
-    <sys:String x:Key="UploadD">Upload DLC</sys:String>
-    <sys:String x:Key="DropFolder">Drop the folder here</sys:String>
-    <sys:String x:Key="NotLoggedIn">Not Ready - (Not Logged In)</sys:String>
-    <sys:String x:Key="LoggedIn">Ready - (Logged In)</sys:String>
-    <sys:String x:Key="TryAgain">Please try again.</sys:String>
-    <sys:String x:Key="TryAgainLater">Please try again later.</sys:String>
-    <sys:String x:Key="InvalidPassword">Invalid Password</sys:String>
-    <sys:String x:Key="InvalidCode">Invalid Login Auth Code</sys:String>
+    <sys:String x:Key="Upload_Package">Upload Package</sys:String>
+    <sys:String x:Key="Upload_DLC">Upload DLC</sys:String>
+    <sys:String x:Key="Drop_the_folder_here">Drop the folder here</sys:String>
+    <sys:String x:Key="Not_Ready_Not_LoggedIn">Not Ready - (Not Logged In)</sys:String>
+    <sys:String x:Key="Ready_LoggedIn">Ready - (Logged In)</sys:String>
+    <sys:String x:Key="Please_try_again">Please try again.</sys:String>
+    <sys:String x:Key="Please_try_again_later">Please try again later.</sys:String>
+    <sys:String x:Key="Invalid_Password">Invalid Password</sys:String>
+    <sys:String x:Key="Invalid_Code">Invalid Login Auth Code</sys:String>
+
+    <sys:String x:Key="Login">Login</sys:String>
+    <sys:String x:Key="Account">Account</sys:String>
+    <sys:String x:Key="Password">Password</sys:String>
+    <sys:String x:Key="Console">Console</sys:String>
+    <sys:String x:Key="Option">Option</sys:String>
+    <sys:String x:Key="Language">Language</sys:String>
+    <sys:String x:Key="About">About</sys:String>
+    <sys:String x:Key="Developers">Developers</sys:String>
+    <sys:String x:Key="Actions">Actions</sys:String>
+    <sys:String x:Key="Preparing">Preparing</sys:String>
+    <sys:String x:Key="Quit_application?">Quit application?</sys:String>
+    <sys:String x:Key="Sure_you_want_to_quit_application">Sure you want to quit application</sys:String>
+    <sys:String x:Key="Quit">Quit</sys:String>
+    <sys:String x:Key="Cancel">Cancel</sys:String>
+    <sys:String x:Key="Confirm">Confirm</sys:String>
+    <sys:String x:Key="SteamworkGUI_on_Github">SteamworkGUI on Github</sys:String>
+    <sys:String x:Key="Are you sure to start uploading?">Are you sure to start uploading?</sys:String>
+    <sys:String x:Key="You cannot not cancel during the uploading">You cannot not cancel during the uploading</sys:String>
+
+    <sys:String x:Key="preparing">Preparing</sys:String>
+    <sys:String x:Key="Rate Limit Exceeded">Rate Limit Exceeded</sys:String>
+    <sys:String x:Key="Building depot">Building depot</sys:String>
+    <sys:String x:Key="Building file mapping">Building file mapping</sys:String>
+    <sys:String x:Key="Scanning content">Scanning content</sys:String>
+    <sys:String x:Key="Uploading content">Uploading content</sys:String>
+    <sys:String x:Key="Finished">Finished</sys:String>
+    <sys:String x:Key="Your game has been successfully uploaded to Steam">Your game has been successfully uploaded to Steam</sys:String>
+    <sys:String x:Key="Failure">Failure</sys:String>
+    <sys:String x:Key="Invalid Appid">Invalid Appid</sys:String>
+    <sys:String x:Key="Please reset your Appid">Please reset your Appid</sys:String>
+    <sys:String x:Key="Desciption">Desciption</sys:String>
+    <sys:String x:Key="About this build">About this build</sys:String>
+    <sys:String x:Key="Please wait">Please wait</sys:String>
+    <sys:String x:Key="copying files">copying files</sys:String>
+    <sys:String x:Key="Ok">OK</sys:String>
+    <sys:String x:Key="Verify Code">Verify Code</sys:String>
+    <sys:String x:Key="SteamworkGUI">SteamworkGUI</sys:String>
+
+
+
+
 </ResourceDictionary>

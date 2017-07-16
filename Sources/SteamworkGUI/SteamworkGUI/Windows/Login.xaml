@@ -2,7 +2,7 @@
                       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                       xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
-                      Title="Login" 
+                      Title="{DynamicResource Login}" 
                       Height="341.375" 
                       Width="401.96" 
                       NonActiveWindowTitleBrush="#FF2D2D30"
@@ -27,20 +27,20 @@
     <Grid>
         <Grid Name="Password" Visibility="Visible">
         <TextBox Name="account" HorizontalAlignment="Left" Height="49" Margin="43,50,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="309" VerticalContentAlignment="Center" FontSize="20"/>
-        
-        <Button Content="Login" HorizontalAlignment="Left" Height="52" Margin="43,210,0,0" VerticalAlignment="Top" Width="309" Click="Login_Click"/>
+
+            <Button Content="{DynamicResource Login}" HorizontalAlignment="Left" Height="52" Margin="43,210,0,0" VerticalAlignment="Top" Width="309" Click="Login_Click"/>
         <PasswordBox Name="password" HorizontalAlignment="Left" Height="49" Margin="43,137,0,0" VerticalAlignment="Top" Width="309" Background="#FF3F3F46" FontSize="20" VerticalContentAlignment="Center" Foreground="White" SelectionBrush="{x:Null}" BorderBrush="{x:Null}" KeyDown="password_KeyDown"/>
-      
-            
-        <Label Content="Accout" HorizontalAlignment="Left" Height="25" Margin="43,25,0,0" VerticalAlignment="Top" Width="80" Foreground="White"/>
-        <Label Content="Password" HorizontalAlignment="Left" Height="25" Margin="43,112,0,0" VerticalAlignment="Top" Width="80" Foreground="White"/>
+
+
+            <Label Content="{DynamicResource Account}" HorizontalAlignment="Left" Height="25" Margin="43,25,0,0" VerticalAlignment="Top" Width="80" Foreground="White"/>
+            <Label Content="{DynamicResource Password}" HorizontalAlignment="Left" Height="25" Margin="43,112,0,0" VerticalAlignment="Top" Width="80" Foreground="White"/>
            
         </Grid>
 
         <Grid Name="VerifyCode" Visibility="Hidden">
             <TextBox Name="vcode" HorizontalAlignment="Left" Height="84" Margin="43,50,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="309" VerticalContentAlignment="Center" FontSize="30" HorizontalContentAlignment="Center" KeyDown="vcode_KeyDown"/>
-            <Button Content="Confirm" HorizontalAlignment="Left" Height="52" Margin="43,210,0,0" VerticalAlignment="Top" Width="309" Click="Vcode_confirm_Click"/>
-            <Label Content="Verify Code" HorizontalAlignment="Left" Height="25" Margin="43,25,0,0" VerticalAlignment="Top" Width="134" Foreground="White"/>
+            <Button Content="{DynamicResource Confirm}" HorizontalAlignment="Left" Height="52" Margin="43,210,0,0" VerticalAlignment="Top" Width="309" Click="Vcode_confirm_Click"/>
+            <Label Content="{DynamicResource Verify Code}" HorizontalAlignment="Left" Height="25" Margin="43,25,0,0" VerticalAlignment="Top" Width="134" Foreground="White"/>
         </Grid>
         <Grid Name="progressing" Background="#FF2D2D30" Visibility="Hidden">
             <Controls:ProgressRing Grid.Column="1"

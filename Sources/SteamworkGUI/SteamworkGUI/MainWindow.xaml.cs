@@ -15,8 +15,13 @@ namespace SteamworkGUI
     {
         public static MainWindow _instance;
         public Core cmd;
+
+
         public Login LoginWindow = new Login();
+        LanguageManager language_manager = new LanguageManager();
         public Output output_window = new Output();
+        public Option option_window = new Option();
+
         public string user_name;
         public enum Status
         {
@@ -28,6 +33,7 @@ namespace SteamworkGUI
         };
         public Status status;
         bool Loggedin;
+        public string LanguagePack="";
         String UploadPath = "";
         string UploadDescription="";
         public int Appid = 0;
@@ -35,16 +41,18 @@ namespace SteamworkGUI
         public MainWindow()
         {
             status = Status.preparing;
+            _instance = this;// 1
+            Save_Load.LoadData();//2 
+            
             InitializeComponent();
-            SetStatusBar("preparing", 1);
+            language_manager.LoadLanguage(LanguagePack);
             preparing.Visibility = Visibility.Visible;
-            _instance = this;
-            Save_Load.LoadData();
+           
+            SetStatusBar(Get_language_text("preparing"), 1);
             cmd = new Core();
             cmd.init();
 
         }
-
         #region StatusBar
         public void SetStatusBar(string s, int color)
         {
@@ -74,8 +82,7 @@ namespace SteamworkGUI
         #region UI_Events
         private void Option_Click(object sender, RoutedEventArgs e)
         {
-            Option window = new Option();
-            window.Show();
+            option_window.Show();
         }
 
         private void Login_Click(object sender, RoutedEventArgs e)
@@ -102,12 +109,12 @@ namespace SteamworkGUI
                     {
                         status = Status.ready;
                         Login_Click(new object(), new RoutedEventArgs());
-                        SetStatusBar(TryFindResource("NotLoggedIn").ToString(), 1);
+                        SetStatusBar(TryFindResource("Not_Ready_Not_LoggedIn").ToString(), 1);
                         break;
                     }
                 case "FAILED with result code 5":
                     {
-                        LoginWindow.ShowMyDiolog(TryFindResource("TryAgain").ToString(), TryFindResource("InvalidPassword").ToString());
+                        LoginWindow.ShowMyDiolog(TryFindResource("Please_try_again").ToString(), TryFindResource("Invalid_Password").ToString());
                         LoginWindow.SetProgressing(false);
                         
                         break;
@@ -118,7 +125,7 @@ namespace SteamworkGUI
                         LoginButton.Content = user_name;
                         LoginButton.Foreground = new SolidColorBrush(Colors.LightGreen);
                         Loggedin = true;
-                        SetStatusBar(TryFindResource("LoggedIn").ToString(), 0);
+                        SetStatusBar(TryFindResource("Ready_LoggedIn").ToString(), 0);
                         preparing.Visibility = Visibility.Hidden;
                         break;
                     }
@@ -130,7 +137,7 @@ namespace SteamworkGUI
                     }*/
                 case "FAILED with result code 65":
                     {
-                        LoginWindow.ShowMyDiolog(TryFindResource("TryAgain").ToString(), TryFindResource("InvalidCode").ToString());
+                        LoginWindow.ShowMyDiolog(TryFindResource("Please_try_again").ToString(), TryFindResource("Invalid_Code").ToString());
                         LoginWindow.SetProgressing(false);
                         break;
                     }
@@ -147,7 +154,7 @@ namespace SteamworkGUI
                             }
                             else if (s.Contains("Steam Guard code:Login Failure: Invalid Login Auth Code"))
                             {
-                                LoginWindow.ShowMyDiolog(TryFindResource("TryAgain").ToString(), TryFindResource("InvalidCode").ToString());
+                                LoginWindow.ShowMyDiolog(TryFindResource("Please_try_again").ToString(), TryFindResource("Invalid_Code").ToString());
                                 LoginWindow.SetProgressing(false);
                                 LoginWindow.firstVcode = false;
                                 break;
@@ -156,7 +163,7 @@ namespace SteamworkGUI
                             else if(s.Contains("Rate Limit Exceeded"))
                             {
                                
-                                LoginWindow.ShowMyDiolog(TryFindResource("TryAgainLater").ToString(), "Rate Limit Exceeded");
+                                LoginWindow.ShowMyDiolog(TryFindResource("Please_try_again_later").ToString(), Get_language_text("Rate Limit Exceeded"));
                                 LoginWindow.SetProgressing(false);
                                 break;
                             }
@@ -164,30 +171,30 @@ namespace SteamworkGUI
                             {
                                 if(s.Contains("Building depot"))
                                 {
-                                    Upload_dialog_controllor.SetMessage("Building depot...");
+                                    Upload_dialog_controllor.SetMessage(Get_language_text("Building depot")+"...");
                                 }
                                 else if(s.Contains("Building file mapping"))
                                 {
-                                    Upload_dialog_controllor.SetMessage("Building file mapping...");
+                                    Upload_dialog_controllor.SetMessage(Get_language_text("Building file mapping") + "...");
                                 }
                                 else if (s.Contains("Scanning content"))
                                 {
-                                    Upload_dialog_controllor.SetMessage("Scanning content...");
+                                    Upload_dialog_controllor.SetMessage(Get_language_text("Scanning content") + "...");
                                 }
                                 else if (s.Contains("Uploading content"))
                                 {
-                                    Upload_dialog_controllor.SetMessage("Uploading content...");
+                                    Upload_dialog_controllor.SetMessage(Get_language_text("Uploading content") + "...");
                                 }
                                 else if (s.Contains("Successfully finished appID"))
                                 {
                                     Upload_dialog_controllor.CloseAsync();
-                                    show_Dialog("Finished", "Your game has been successfully uploaded to Steam", true, false);
+                                    show_Dialog(Get_language_text("Finished"), Get_language_text("Your game has been successfully uploaded to Steam"), true, false);
                                     status = Status.GameSetted;
                                 }
                                 else if (s.Contains("Failure"))
                                 {
                                     Upload_dialog_controllor.CloseAsync();
-                                    show_Dialog("Failure", s, true, false);
+                                    show_Dialog(Get_language_text("Failure"), s, true, false);
                                     status = Status.GameSetted;
                                 }
                             }
@@ -221,30 +228,30 @@ namespace SteamworkGUI
 
             if (Appid == 0)
             {
-                show_Dialog("Appid错误", "请重新设置您的Appid", true, true); return;
+                show_Dialog(Get_language_text("Invalid Appid"), Get_language_text("Please reset your Appid"), true, true); return;
             }
             var mySettings = new MetroDialogSettings()
             {
-                AffirmativeButtonText = "Confirm",
-                NegativeButtonText = "Cancel",
+                AffirmativeButtonText = Get_language_text("Confirm"),
+                NegativeButtonText = Get_language_text("Cancel"),
                 ColorScheme = MetroDialogColorScheme.Inverted,
                 AnimateHide = false
             };
-            MessageDialogResult result = await this.ShowMessageAsync("Are you sure to start uploading?", "Appid:"+ Appid+Environment.NewLine+"You cannot not cancel during the uploading",
+            MessageDialogResult result = await this.ShowMessageAsync(Get_language_text("Are you sure to start uploading?"), "Appid:"+ Appid+Environment.NewLine+ Get_language_text("You cannot not cancel during the uploading"),
             MessageDialogStyle.AffirmativeAndNegative, mySettings);
 
             if (result == MessageDialogResult.Affirmative)
             {
                 var mySettings2 = new MetroDialogSettings()
                 {
-                    AffirmativeButtonText = "Confirm",
-                    NegativeButtonText = "Cancel",
+                    AffirmativeButtonText = Get_language_text("Confirm"),
+                    NegativeButtonText = Get_language_text("Cancel"),
                     ColorScheme = MetroDialogColorScheme.Inverted,
                     AnimateHide = true,
                     AnimateShow = false
                 };
 
-                var Des_result = await this.ShowInputAsync("Desciption", "About this build", mySettings2);
+                var Des_result = await this.ShowInputAsync(Get_language_text("Desciption"), Get_language_text("About this build"), mySettings2);
 
                 if (Des_result == null) return;
 
@@ -284,7 +291,6 @@ namespace SteamworkGUI
         {
             var mySettings = new MetroDialogSettings()
             {
-                NegativeButtonText = "Close now",
                 AnimateShow = false,
                 AnimateHide = false,
                 ColorScheme = MetroDialogColorScheme.Inverted
@@ -292,8 +298,8 @@ namespace SteamworkGUI
             };
 
             Upload_dialog_controllor = await this.ShowProgressAsync(
-               "Please wait...",
-               "copying files...",
+               Get_language_text("Please wait") + "...",
+               Get_language_text("copying files") + "...",
                settings: mySettings);
 
             Upload_dialog_controllor.SetIndeterminate();
@@ -309,8 +315,8 @@ namespace SteamworkGUI
         {
             var mySettings = new MetroDialogSettings()
             {
-                AffirmativeButtonText = "Confirm",
-                NegativeButtonText = "Cancel",
+                AffirmativeButtonText = Get_language_text("Confirm"),
+                NegativeButtonText = Get_language_text("Cancel"),
                 ColorScheme = MetroDialogColorScheme.Inverted,
                 AnimateHide = _AnimateHide,
                 AnimateShow = _AnimateShow
@@ -330,16 +336,16 @@ namespace SteamworkGUI
 
             var mySettings = new MetroDialogSettings()
             {
-                AffirmativeButtonText = "Quit",
-                NegativeButtonText = "Cancel",
+                AffirmativeButtonText = Get_language_text("Quit"),
+                NegativeButtonText = Get_language_text("Cancel"),
                 AnimateShow = true,
                 AnimateHide = false,
                 ColorScheme = MetroDialogColorScheme.Inverted
 
             };
 
-            var result = await this.ShowMessageAsync("Quit application?",
-                "Sure you want to quit application?",
+            var result = await this.ShowMessageAsync(Get_language_text("Quit_application?"),
+                Get_language_text("Sure_you_want_to_quit_application"),
                 MessageDialogStyle.AffirmativeAndNegative, mySettings);
 
             _shutdown = result == MessageDialogResult.Affirmative;
@@ -364,5 +370,11 @@ namespace SteamworkGUI
             }
 
         }
+
+        public string Get_language_text(string tag)
+        {
+            return TryFindResource(tag).ToString();
+        }
+
     }
 }

@@ -8,7 +8,7 @@
         xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks" x:Class="SteamworkGUI.MainWindow" 
         WindowStartupLocation="CenterScreen"
         WindowStyle="None" 
-        Title="Steamwork GUI" 
+        Title="{DynamicResource SteamworkGUI}" 
         TitleForeground="#999988"
         Height="600"
         Width="800"
@@ -27,7 +27,7 @@
 
     <Controls:MetroWindow.LeftWindowCommands>
         <Controls:WindowCommands>
-            <Button Click="LaunchtoGitHub"  ToolTip="SteamworkGUI on GitHub">
+            <Button Click="LaunchtoGitHub"  ToolTip="{DynamicResource SteamworkGUI_on_Github}">
                 <iconPacks:PackIconModern Width="22"
                                           Height="22"
                                           Kind="SocialGithubOctocat" />
@@ -37,10 +37,10 @@
 
     <Controls:MetroWindow.RightWindowCommands>
         <Controls:WindowCommands>
-            <Button Name="LoginButton" Content="Login" Foreground="Red" Click="Login_Click" />
-            <Button Content="Console"  Click="Output_Click" />
+            <Button Name="LoginButton" Content="{DynamicResource Login}" Foreground="Red" Click="Login_Click" />
+            <Button Content="{DynamicResource Console}"  Click="Output_Click" />
 
-            <Button Content="Option" Click="Option_Click" />
+            <Button Content="{DynamicResource Option}" Click="Option_Click" />
         </Controls:WindowCommands>
     </Controls:MetroWindow.RightWindowCommands>
 
@@ -64,10 +64,10 @@
                 <Controls:NumericUpDown Name="AppidInput"  Margin="98,20,0,20" InputMethod.IsInputMethodEnabled="False" Delay="1000" Speedup="true" HideUpDownButtons="True" UpDownButtonsWidth="0" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalContentAlignment="Left" FontSize="20" ValueChanged="AppidInput_ValueChanged" HorizontalAlignment="Left" Width="155" />
             </Grid>
             <StackPanel Margin="10,76,0,-51.2" HorizontalAlignment="Left" Width="178">
-                <TextBlock Margin="0,10,0,10" FontSize="18" Foreground="{StaticResource Foreground}" Text="Actions"/>
+                <TextBlock Margin="0,10,0,10" FontSize="18" Foreground="{StaticResource Foreground}" Text="{DynamicResource Actions}"/>
                 <Separator Background="#11FFFFFF"/>
-                <Button FontSize="14" Margin="0,10,0,3" Content="{DynamicResource UploadP}" Style="{StaticResource LinkButton}"/>
-                <Button FontSize="14" Margin="0,3,0,10" Content="{DynamicResource UploadD}" Style="{StaticResource LinkButton}" IsEnabled="False" Foreground="#FFA6A6A6"/>
+                <Button FontSize="14" Margin="0,10,0,3" Content="{DynamicResource Upload_Package}" Style="{StaticResource LinkButton}"/>
+                <Button FontSize="14" Margin="0,3,0,10" Content="{DynamicResource Upload_DLC}" Style="{StaticResource LinkButton}" IsEnabled="False" Foreground="#FFA6A6A6"/>
                 <Separator Background="#11FFFFFF"/>
 
             </StackPanel>
@@ -75,7 +75,7 @@
             <Grid x:Name="UploadPanel"  Margin="188,71,0.4,-0.2" Background="#FF3F3F46">
                 <Grid x:Name="FilesDrop"  Margin="10,67,10,30" Background="#FF2D2D30" AllowDrop="True" Drop="FilesDrop_Drop">
 
-                    <Label x:Name="filespath" Content="{DynamicResource DropFolder}" Canvas.Top="10" FontSize="40" Foreground="#FF989898" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,242,-0.2,52.2" />
+                    <Label x:Name="filespath" Content="{DynamicResource Drop_the_folder_here}" Canvas.Top="10" FontSize="40" Foreground="#FF989898" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,242,-0.2,52.2" />
 
                     <Image Name="FilesIcon" Height="118"  Source="Images/Folder2.png"  Width="150"/>
 

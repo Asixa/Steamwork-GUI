@@ -1,10 +1,10 @@
 "DepotBuildConfig"
 {
 	"DepotID" "477141"
-	"ContentRoot"	"D:\\"
+	"ContentRoot"	"F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\"
 	"FileMapping"
 	{
-    "LocalPath" ".\D:\Game\*"
+    "LocalPath" ".\F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Languages\*"
     "DepotPath" "."
     "recursive" "1"
 	}

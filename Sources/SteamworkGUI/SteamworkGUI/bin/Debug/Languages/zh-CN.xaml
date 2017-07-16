@@ -2,9 +2,63 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:local="clr-namespace:SteamworkGUI.Languages"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
-    <sys:String x:Key="Id">账号</sys:String>
-    <sys:String x:Key="Pwd">密码</sys:String>
-    <sys:String x:Key="OK">确定</sys:String>
-    <sys:String x:Key="Cancel">取消</sys:String>
 
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/VS/Colors.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/VS/Styles.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <sys:String x:Key="Upload">上传</sys:String>
+    <sys:String x:Key="Upload_Package">上传构建包</sys:String>
+    <sys:String x:Key="Upload_DLC">上传DLC</sys:String>
+    <sys:String x:Key="Drop_the_folder_here">将文件夹拖到这里</sys:String>
+    <sys:String x:Key="Not_Ready_Not_LoggedIn">未就绪(尚未登陆)</sys:String>
+    <sys:String x:Key="Ready_LoggedIn">就绪(已登陆)</sys:String>
+    <sys:String x:Key="Please_try_again">请重试.</sys:String>
+    <sys:String x:Key="Please_try_again_later">请稍后重试.</sys:String>
+    <sys:String x:Key="Invalid_Password">密码错误</sys:String>
+    <sys:String x:Key="Invalid_Code">验证码错误</sys:String>
+
+    <sys:String x:Key="Login">登陆</sys:String>
+    <sys:String x:Key="Account">账户</sys:String>
+    <sys:String x:Key="Password">密码</sys:String>
+    <sys:String x:Key="Console">控制台</sys:String>
+    <sys:String x:Key="Option">设置</sys:String>
+    <sys:String x:Key="Language">语言</sys:String>
+    <sys:String x:Key="About">关于</sys:String>
+    <sys:String x:Key="Developers">开发者</sys:String>
+    <sys:String x:Key="Actions">操作</sys:String>
+    <sys:String x:Key="Preparing">准备中...</sys:String>
+    <sys:String x:Key="Quit_application?">关闭程序?</sys:String>
+    <sys:String x:Key="Sure_you_want_to_quit_application">你确定要关闭程序吗</sys:String>
+    <sys:String x:Key="Quit">关闭</sys:String>
+    <sys:String x:Key="Cancel">取消</sys:String>
+    <sys:String x:Key="Confirm">确认</sys:String>
+    <sys:String x:Key="SteamworkGUI_on_Github">Github上的SteamworkGUI</sys:String>
+    <sys:String x:Key="Are you sure to start uploading?">确定要开始上传吗?</sys:String>
+    <sys:String x:Key="You cannot not cancel during the uploading">您无法在上次开始后终止上传</sys:String>
+
+    <sys:String x:Key="preparing">准备中..</sys:String>
+    <sys:String x:Key="Rate Limit Exceeded">登陆频率异常</sys:String>
+    <sys:String x:Key="Building depot">正在创建Depot</sys:String>
+    <sys:String x:Key="Building file mapping">正在构建文件映射</sys:String>
+    <sys:String x:Key="Scanning content">正在扫描内容</sys:String>
+    <sys:String x:Key="Uploading content">正在上传内容</sys:String>
+    <sys:String x:Key="Finished">完成</sys:String>
+    <sys:String x:Key="Your game has been successfully uploaded to Steam">您的游戏已经成功上传到了Steam</sys:String>
+    <sys:String x:Key="Failure">失败</sys:String>
+    <sys:String x:Key="Invalid Appid">Appid错误</sys:String>
+    <sys:String x:Key="Please reset your Appid">请重新设置您的Appid</sys:String>
+    <sys:String x:Key="Desciption">描述</sys:String>
+    <sys:String x:Key="About this build">关于本次构建</sys:String>
+    <sys:String x:Key="Please wait">请稍候</sys:String>
+    <sys:String x:Key="copying files">正在复制文件</sys:String>
+    <sys:String x:Key="Ok">好的</sys:String>
+    <sys:String x:Key="Verify Code">验证码</sys:String>
+    <sys:String x:Key="SteamworkGUI">Steamwork图形化上传工具</sys:String>
 </ResourceDictionary>
