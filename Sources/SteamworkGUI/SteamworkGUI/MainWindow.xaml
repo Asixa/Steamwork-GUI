@@ -38,7 +38,7 @@
     <Controls:MetroWindow.RightWindowCommands>
         <Controls:WindowCommands>
             <Button Name="LoginButton" Content="Login" Foreground="Red" Click="Login_Click" />
-            <Button Content="Output"  Click="Output_Click" />
+            <Button Content="Console"  Click="Output_Click" />
 
             <Button Content="Option" Click="Option_Click" />
         </Controls:WindowCommands>
@@ -50,7 +50,7 @@
         <StatusBar Name="StatusBar"  Height="23" DockPanel.Dock="Bottom" Background="Red" >
             <StatusBarItem>
                 <StackPanel Orientation="Horizontal">
-                    <TextBlock Name="StatusBartext" Foreground="{StaticResource Foreground}" Width="245">Preparing</TextBlock>
+                    <TextBlock Name="StatusBartext" Foreground="{StaticResource Foreground}" Width="245"></TextBlock>
                 </StackPanel>
             </StatusBarItem>
         </StatusBar>
