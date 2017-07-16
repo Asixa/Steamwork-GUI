@@ -33,5 +33,57 @@ namespace SteamworkGUI
         {
             try { System.Diagnostics.Process.Start("https://github.com/Asixa/Steamwork-GUI/"); } catch { }
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)//eng
+        {
+            ResourceDictionary langRd = null;
+            string lang = "en-US";
+
+            try
+            {
+                langRd =
+                    Application.LoadComponent(
+                             new Uri(@"Languages\" + lang + ".xaml", UriKind.Relative))
+                    as ResourceDictionary;
+            }
+            catch
+            {
+            }
+
+            if (langRd != null)
+            {
+                if (this.Resources.MergedDictionaries.Count > 0)
+                {
+                    this.Resources.MergedDictionaries.Clear();
+                }
+                this.Resources.MergedDictionaries.Add(langRd);
+            }
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)//chs
+        {
+            ResourceDictionary langRd = null;
+            string lang = "zh-CN";
+
+            try
+            {
+                langRd =
+                    Application.LoadComponent(
+                             new Uri(@"Languages\" + lang + ".xaml", UriKind.Relative))
+                    as ResourceDictionary;
+            }
+            catch
+            {
+            }
+
+            if (langRd != null)
+            {
+                if (this.Resources.MergedDictionaries.Count > 0)
+                {
+                    this.Resources.MergedDictionaries.Clear();
+                }
+                this.Resources.MergedDictionaries.Add(langRd);
+            }
+        }
     }
 }
