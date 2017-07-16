@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/developers/asixa.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("steamicon.ico")]
 
 

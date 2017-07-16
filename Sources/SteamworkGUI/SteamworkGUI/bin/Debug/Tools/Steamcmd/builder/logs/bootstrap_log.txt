@@ -225,3 +225,113 @@
 [2017-07-16 14:18:17] 正在验证安装...
 [2017-07-16 14:18:17] Performing checksum verification of executable files
 [2017-07-16 14:18:17] Verification complete
+
+
+[2017-07-16 18:10:29] Startup - updater built May 30 2017 09:31:34
+[2017-07-16 18:10:31] Checking for update on startup
+[2017-07-16 18:10:31] 正在检查可用更新...
+[2017-07-16 18:10:32] Download skipped: /client/steam_cmd_win32 version 1496167025, installed version 1496167025
+[2017-07-16 18:10:32] Nothing to do
+[2017-07-16 18:10:32] 正在验证安装...
+[2017-07-16 18:10:32] Performing checksum verification of executable files
+[2017-07-16 18:10:36] Verification complete
+
+
+[2017-07-16 18:12:45] Startup - updater built May 30 2017 09:31:34
+[2017-07-16 18:12:45] Checking for update on startup
+[2017-07-16 18:12:45] 正在检查可用更新...
+[2017-07-16 18:12:46] Download skipped: /client/steam_cmd_win32 version 1496167025, installed version 1496167025
+[2017-07-16 18:12:46] Nothing to do
+[2017-07-16 18:12:46] 正在验证安装...
+[2017-07-16 18:12:46] Performing checksum verification of executable files
+[2017-07-16 18:12:46] Verification complete
+
+
+[2017-07-16 18:20:39] Startup - updater built May 30 2017 09:31:34
+[2017-07-16 18:20:39] Checking for update on startup
+[2017-07-16 18:20:39] 正在检查可用更新...
+[2017-07-16 18:20:41] Download skipped: /client/steam_cmd_win32 version 1496167025, installed version 1496167025
+[2017-07-16 18:20:41] Nothing to do
+[2017-07-16 18:20:41] 正在验证安装...
+[2017-07-16 18:20:41] Performing checksum verification of executable files
+[2017-07-16 18:20:41] Verification complete
+
+
+[2017-07-16 18:24:42] Startup - updater built May 30 2017 09:31:34
+[2017-07-16 18:24:42] Checking for update on startup
+[2017-07-16 18:24:42] 正在检查可用更新...
+[2017-07-16 18:24:43] Download skipped: /client/steam_cmd_win32 version 1496167025, installed version 1496167025
+[2017-07-16 18:24:43] Nothing to do
+[2017-07-16 18:24:43] 正在验证安装...
+[2017-07-16 18:24:43] Performing checksum verification of executable files
+[2017-07-16 18:24:43] Verification complete
+
+
+[2017-07-16 18:25:41] Startup - updater built May 30 2017 09:31:34
+[2017-07-16 18:25:41] Checking for update on startup
+[2017-07-16 18:25:41] 正在检查可用更新...
+[2017-07-16 18:25:42] Download skipped: /client/steam_cmd_win32 version 1496167025, installed version 1496167025
+[2017-07-16 18:25:42] Nothing to do
+[2017-07-16 18:25:42] 正在验证安装...
+[2017-07-16 18:25:42] Performing checksum verification of executable files
+[2017-07-16 18:25:42] Verification complete
+
+
+[2017-07-16 18:28:06] Startup - updater built May 30 2017 09:31:34
+[2017-07-16 18:28:06] Checking for update on startup
+[2017-07-16 18:28:06] 正在检查可用更新...
+[2017-07-16 18:28:08] Download skipped: /client/steam_cmd_win32 version 1496167025, installed version 1496167025
+[2017-07-16 18:28:08] Nothing to do
+[2017-07-16 18:28:08] 正在验证安装...
+[2017-07-16 18:28:08] Performing checksum verification of executable files
+[2017-07-16 18:28:08] Verification complete
+
+
+[2017-07-16 18:31:44] Startup - updater built May 30 2017 09:31:34
+[2017-07-16 18:31:44] Checking for update on startup
+[2017-07-16 18:31:44] 正在检查可用更新...
+[2017-07-16 18:31:46] Download skipped: /client/steam_cmd_win32 version 1496167025, installed version 1496167025
+[2017-07-16 18:31:46] Nothing to do
+[2017-07-16 18:31:46] 正在验证安装...
+[2017-07-16 18:31:46] Performing checksum verification of executable files
+[2017-07-16 18:31:46] Verification complete
+
+
+[2017-07-16 18:32:35] Startup - updater built May 30 2017 09:31:34
+[2017-07-16 18:32:36] Checking for update on startup
+[2017-07-16 18:32:36] 正在检查可用更新...
+[2017-07-16 18:32:36] Download skipped: /client/steam_cmd_win32 version 1496167025, installed version 1496167025
+[2017-07-16 18:32:36] Nothing to do
+[2017-07-16 18:32:36] 正在验证安装...
+[2017-07-16 18:32:36] Performing checksum verification of executable files
+[2017-07-16 18:32:36] Verification complete
+
+
+[2017-07-16 18:34:52] Startup - updater built May 30 2017 09:31:34
+[2017-07-16 18:34:52] Checking for update on startup
+[2017-07-16 18:34:52] 正在检查可用更新...
+[2017-07-16 18:34:53] Download skipped: /client/steam_cmd_win32 version 1496167025, installed version 1496167025
+[2017-07-16 18:34:53] Nothing to do
+[2017-07-16 18:34:53] 正在验证安装...
+[2017-07-16 18:34:53] Performing checksum verification of executable files
+[2017-07-16 18:34:53] Verification complete
+
+
+[2017-07-16 18:39:12] Startup - updater built May 30 2017 09:31:34
+[2017-07-16 18:39:12] Checking for update on startup
+[2017-07-16 18:39:12] 正在检查可用更新...
+[2017-07-16 18:39:15] Download skipped: /client/steam_cmd_win32 version 1496167025, installed version 1496167025
+[2017-07-16 18:39:15] Nothing to do
+[2017-07-16 18:39:15] 正在验证安装...
+[2017-07-16 18:39:15] Performing checksum verification of executable files
+[2017-07-16 18:39:15] Verification complete
+
+
+[2017-07-16 18:43:56] Startup - updater built May 30 2017 09:31:34
+[2017-07-16 18:43:56] Checking for update on startup
+[2017-07-16 18:43:56] 正在检查可用更新...
+[2017-07-16 18:43:57] Download skipped: /client/steam_cmd_win32 version 1496167025, installed version 1496167025
+[2017-07-16 18:43:57] Nothing to do
+[2017-07-16 18:43:57] 正在验证安装...
+[2017-07-16 18:43:57] Performing checksum verification of executable files
+[2017-07-16 18:43:57] Verification complete

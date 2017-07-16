@@ -17,6 +17,7 @@ namespace SteamworkGUI
         public Core cmd;
         public Login LoginWindow = new Login();
         public Output output_window = new Output();
+        public string user_name;
         public enum Status
         {
             preparing,
@@ -35,7 +36,7 @@ namespace SteamworkGUI
         {
             status = Status.preparing;
             InitializeComponent();
-           // preparing.Visibility = Visibility.Visible;
+            preparing.Visibility = Visibility.Visible;
             _instance = this;
             cmd = new Core();
             cmd.init();
@@ -111,7 +112,7 @@ namespace SteamworkGUI
                 case "Waiting for user info...OK":
                     {
                         LoginWindow.Hide();
-                        LoginButton.Content = "logged in";
+                        LoginButton.Content = user_name;
                         LoginButton.Foreground = new SolidColorBrush(Colors.LightGreen);
                         Loggedin = true;
                         SetStatusBar("Ready - (Logged In)", 0);
@@ -160,30 +161,30 @@ namespace SteamworkGUI
                             {
                                 if(s.Contains("Building depot"))
                                 {
-                                    Upload_dialog_controllor.SetMessage("正在构建depot...");
+                                    Upload_dialog_controllor.SetMessage("Building depot...");
                                 }
                                 else if(s.Contains("Building file mapping"))
                                 {
-                                    Upload_dialog_controllor.SetMessage("正在构建文件映射...");
+                                    Upload_dialog_controllor.SetMessage("Building file mapping...");
                                 }
                                 else if (s.Contains("Scanning content"))
                                 {
-                                    Upload_dialog_controllor.SetMessage("正在扫描内容...");
+                                    Upload_dialog_controllor.SetMessage("Scanning content...");
                                 }
                                 else if (s.Contains("Uploading content"))
                                 {
-                                    Upload_dialog_controllor.SetMessage("正在上传内容...");
+                                    Upload_dialog_controllor.SetMessage("Uploading content...");
                                 }
                                 else if (s.Contains("Successfully finished appID"))
                                 {
                                     Upload_dialog_controllor.CloseAsync();
-                                    show_Dialog("完成", "您的游戏已经成功上传至Steam", true, false);
+                                    show_Dialog("Finished", "Your game has been successfully uploaded to Steam", true, false);
                                     status = Status.GameSetted;
                                 }
                                 else if (s.Contains("Failure"))
                                 {
                                     Upload_dialog_controllor.CloseAsync();
-                                    show_Dialog("失败", s, true, false);
+                                    show_Dialog("Failure", s, true, false);
                                     status = Status.GameSetted;
                                 }
                             }
@@ -197,6 +198,10 @@ namespace SteamworkGUI
         public void CMDinput(string s)
         {
             cmd.cmd.StandardInput.WriteLine(s);
+            if (!String.IsNullOrEmpty(LoginWindow.password.Password)&& s.Contains(LoginWindow.password.Password))
+            {
+               s= s.Replace(LoginWindow.password.Password, "*************");
+            }
             Window_output(s, true);
         }
 
@@ -236,7 +241,7 @@ namespace SteamworkGUI
                     AnimateShow = false
                 };
 
-                var Des_result = await this.ShowInputAsync("描述", "对此次构建的注释", mySettings2);
+                var Des_result = await this.ShowInputAsync("Desciption", "About this build", mySettings2);
 
                 if (Des_result == null) return;
 
@@ -284,8 +289,8 @@ namespace SteamworkGUI
             };
 
             Upload_dialog_controllor = await this.ShowProgressAsync(
-               "请稍候...",
-               "正在拷贝文件...",
+               "Please wait...",
+               "copying files...",
                settings: mySettings);
 
             Upload_dialog_controllor.SetIndeterminate();

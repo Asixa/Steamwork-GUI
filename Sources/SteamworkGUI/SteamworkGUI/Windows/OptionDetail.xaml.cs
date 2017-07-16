@@ -24,5 +24,17 @@ namespace SteamworkGUI.Windows
         {
             InitializeComponent();
         }
+
+        private void Link_Click(object sender, RoutedEventArgs e)
+        {
+            string url = "";
+            switch(((Button)sender).ToolTip.ToString())
+            {
+                case "Github": { url = "https://github.com/Asixa/Steamwork-GUI";break; }
+                case "Asixa": { url = "https://github.com/Asixa"; break; }
+                case "Fangxm": { url = "https://github.com/Fangxm233"; break; }
+            }
+            System.Diagnostics.Process.Start(url);
+        }
     }
 }

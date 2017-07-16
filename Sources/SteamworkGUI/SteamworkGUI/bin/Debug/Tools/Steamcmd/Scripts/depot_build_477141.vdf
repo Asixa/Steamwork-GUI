@@ -1,10 +1,10 @@
 "DepotBuildConfig"
 {
 	"DepotID" "477141"
-	"ContentRoot"	"C:\Users\lenovo\Desktop\UploadTest\"
+	"ContentRoot"	"D:\\"
 	"FileMapping"
 	{
-    "LocalPath" ".\C:\Users\lenovo\Desktop\UploadTest\Game\*"
+    "LocalPath" ".\D:\Game\*"
     "DepotPath" "."
     "recursive" "1"
 	}

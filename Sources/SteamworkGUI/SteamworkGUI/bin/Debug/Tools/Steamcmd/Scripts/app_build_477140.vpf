@@ -1,7 +1,7 @@
 "appbuild"
 {
 	"appid"	"477140"
-	"desc" "测试" 
+	"desc" "SteamworkGUI build test" 
 	"buildoutput" "..\output\" 
 	"contentroot" "..\content\" 
 	"setlive"	"" 

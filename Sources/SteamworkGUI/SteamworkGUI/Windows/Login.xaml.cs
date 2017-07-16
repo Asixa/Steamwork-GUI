@@ -19,8 +19,9 @@ namespace SteamworkGUI
         {
             if (string.IsNullOrEmpty(account.Text) || string.IsNullOrEmpty(password.Password)) return;
             SetProgressing(true);
-           
-            MainWindow._instance.CMDinput("Login "+account.Text+" "+password.Password);
+
+            MainWindow._instance.CMDinput("Login " + account.Text + " " + password.Password);
+            MainWindow._instance.user_name = account.Text;
         }
 
         private void Vcode_confirm_Click(object sender, RoutedEventArgs e)

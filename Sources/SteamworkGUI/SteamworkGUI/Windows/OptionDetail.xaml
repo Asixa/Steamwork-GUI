@@ -31,8 +31,8 @@
 
             <Controls:MetroTabItem Header="Language" Controls:ControlsHelper.HeaderFontSize="20" Width="200" >
                 <ListBox Background="{x:Null}">
-                    <Button Content="English" Background="#FF007ACC" Foreground="White" Margin="0,1" />
-                    <Button Content="中文" Background="#FF007ACC" Foreground="White" Margin="0,1" />
+                    <Button Content="English" Background="#FF252526" Foreground="White" Margin="0,1" />
+                    <Button Content="中文" Background="#FF252526" Foreground="White" Margin="0,1" />
                 </ListBox>
             </Controls:MetroTabItem>
 
@@ -40,27 +40,27 @@
                 <Grid>
                     <Grid Background="#FF3E3E42" Height="107" VerticalAlignment="Top" >
 
-                        <iconPacks:PackIconModern Width="90" Height="Auto" Kind="SocialGithubOctocat" Margin="10,7,0,10" Foreground="White" VerticalAlignment="Stretch" BorderBrush="Black" />
+                        <iconPacks:PackIconModern Width="90" Height="Auto" Kind="SocialGithubOctocat" Margin="10,7,0,10" Foreground="White" VerticalAlignment="Stretch" BorderBrush="Black"  />
                         <Label Content="v1.0" Margin="105,50,0,0" Foreground="White" FontSize="20" Height="43" VerticalAlignment="Top" />
-                        <Button Content="Asixa/Steamwork-GUI" Margin="105,10,0,0" Foreground="White" FontSize="20" Height="35" VerticalAlignment="Top" Cursor="Hand" Background="{x:Null}" BorderBrush="{x:Null}" HorizontalContentAlignment="Left" />
+                        <Button Name="Github" Content="Asixa/Steamwork-GUI" Margin="105,10,0,0" Foreground="White" FontSize="20" Height="35" VerticalAlignment="Top" Cursor="Hand" Background="{x:Null}" BorderBrush="{x:Null}" HorizontalContentAlignment="Left"  Click="Link_Click" ToolTip="Github" />
                     </Grid>
                     <Grid Margin="0,107,0,0" Height="32" VerticalAlignment="Top" Background="#FF007ACC">
                         <Label Content="Developers" Foreground="White" FontSize="18"/>
                     </Grid>
                     <ListBox Background="{x:Null}" Margin="0,139,0,0.2" >
                         <Grid Background="#FF1E1E1E" Height="73" VerticalAlignment="Top" Margin="0,0,0.2,0" >
-                            <Button Width="48" Height="48" Margin="17,15,0,10" Padding="1" Background="#FF007ACC" HorizontalAlignment="Left">
+                            <Button Cursor="Hand" Width="48" Height="48" Margin="17,15,0,10" Padding="1" Background="#FF007ACC" HorizontalAlignment="Left"  Click="Link_Click" ToolTip="Asixa">
                                 <Image Source="/SteamworkGUI;component/Images/Developers/Asixa.jpg" />
                             </Button>
-                            <Button Content="Asixa" Margin="95,19,10,0" Foreground="White" FontSize="20" Height="33" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" HorizontalContentAlignment="Left" />
+                            <Button Cursor="Hand"  Content="Asixa" Margin="95,19,10,0" Foreground="White" FontSize="20" Height="33" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" HorizontalContentAlignment="Left" Click="Link_Click" ToolTip="Asixa" />
                             <Rectangle Fill="#FF007ACC" Height="3" Stroke="Black" VerticalAlignment="Top"/>
                         </Grid>
 
                         <Grid Background="#FF1E1E1E" Height="73" VerticalAlignment="Top" Margin="0,0,0.2,0" >
-                            <Button Width="48" Height="48" Margin="17,15,0,10" Padding="1" Background="#FF007ACC" HorizontalAlignment="Left">
-                                <Image Source="/SteamworkGUI;component/Images/Developers/Asixa.jpg" />
+                            <Button Cursor="Hand" Width="48" Height="48" Margin="17,15,0,10" Padding="1" Background="#FF007ACC" HorizontalAlignment="Left"  Click="Link_Click" ToolTip="Fangxm">
+                                <Image Source="/SteamworkGUI;component/Images/Developers/Asixa.jpg"  />
                             </Button>
-                            <Button Content="Fangxm" Margin="95,15,10,0" Foreground="White" FontSize="20" Height="44" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" HorizontalContentAlignment="Left" />
+                            <Button Cursor="Hand" Content="Fangxm" Margin="95,15,10,0" Foreground="White" FontSize="20" Height="44" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" HorizontalContentAlignment="Left"  Click="Link_Click" ToolTip="Fangxm"/>
                             <Rectangle Fill="#FF007ACC" Height="3" Stroke="Black" VerticalAlignment="Top"/>
                         </Grid>
 

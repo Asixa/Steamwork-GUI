@@ -78,3 +78,48 @@
 [2017-07-16 14:18:28] UpdatesJob: requesting 4 apps, 0 packages (meta data, 1024 prev attempts)
 [2017-07-16 14:18:29] UpdatesJob: requested 3 access tokens, 0 received, 3 denied
 [2017-07-16 14:18:29] UpdatesJob: finished OK, nAppsUpdated 0 (0 KB), nPackagesUpdated 0 (0 KB)
+
+
+[2017-07-16 18:13:03] RequestAppInfoUpdate: nNumAppIDs 1
+[2017-07-16 18:13:04] ProductInfoChanges: change number 3193212->3193465, apps: 1/116, packages: 0/27
+[2017-07-16 18:13:04] UpdatesJob: requesting 5 apps, 0 packages (meta data, 1024 prev attempts)
+[2017-07-16 18:13:04] UpdatesJob: requesting 1 apps, 0 packages (full data, 1024 prev attempts)
+[2017-07-16 18:13:05] UpdatesJob: finished OK, nAppsUpdated 1 (2 KB), nPackagesUpdated 0 (0 KB)
+[2017-07-16 18:13:20] Starting async write F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\builder/appcache/appinfo.vdf (595422 bytes)
+
+
+[2017-07-16 18:24:53] RequestAppInfoUpdate: nNumAppIDs 1
+[2017-07-16 18:24:53] ProductInfoChanges: change number 3193465->3193478, apps: 2/11, packages: 0/1
+[2017-07-16 18:24:53] UpdatesJob: requesting 6 apps, 0 packages (meta data, 1024 prev attempts)
+[2017-07-16 18:24:54] UpdatesJob: requested 3 access tokens, 0 received, 3 denied
+[2017-07-16 18:24:54] UpdatesJob: requesting 2 apps, 0 packages (full data, 1024 prev attempts)
+[2017-07-16 18:24:54] UpdatesJob: finished OK, nAppsUpdated 2 (9 KB), nPackagesUpdated 0 (0 KB)
+[2017-07-16 18:25:09] Starting async write F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\builder/appcache/appinfo.vdf (595422 bytes)
+
+
+[2017-07-16 18:25:50] RequestAppInfoUpdate: nNumAppIDs 1
+[2017-07-16 18:25:51] ProductInfoChanges: change number 3193478->3193478, apps: 0/0, packages: 0/0
+[2017-07-16 18:25:51] UpdatesJob: requesting 4 apps, 0 packages (meta data, 1024 prev attempts)
+[2017-07-16 18:25:51] UpdatesJob: requested 3 access tokens, 0 received, 3 denied
+[2017-07-16 18:25:51] UpdatesJob: finished OK, nAppsUpdated 0 (0 KB), nPackagesUpdated 0 (0 KB)
+
+
+[2017-07-16 18:28:17] RequestAppInfoUpdate: nNumAppIDs 1
+[2017-07-16 18:28:18] ProductInfoChanges: change number 3193478->3193482, apps: 0/2, packages: 0/0
+[2017-07-16 18:28:18] UpdatesJob: requesting 4 apps, 0 packages (meta data, 1024 prev attempts)
+[2017-07-16 18:28:18] UpdatesJob: requested 3 access tokens, 0 received, 3 denied
+[2017-07-16 18:28:18] UpdatesJob: finished OK, nAppsUpdated 0 (0 KB), nPackagesUpdated 0 (0 KB)
+
+
+[2017-07-16 18:33:21] RequestAppInfoUpdate: nNumAppIDs 1
+[2017-07-16 18:33:22] ProductInfoChanges: change number 3193482->3193487, apps: 0/4, packages: 0/0
+[2017-07-16 18:33:22] UpdatesJob: requesting 4 apps, 0 packages (meta data, 1024 prev attempts)
+[2017-07-16 18:33:23] UpdatesJob: requested 3 access tokens, 0 received, 3 denied
+[2017-07-16 18:33:23] UpdatesJob: finished OK, nAppsUpdated 0 (0 KB), nPackagesUpdated 0 (0 KB)
+
+
+[2017-07-16 18:45:10] RequestAppInfoUpdate: nNumAppIDs 1
+[2017-07-16 18:45:10] ProductInfoChanges: change number 3193487->3193507, apps: 0/11, packages: 0/1
+[2017-07-16 18:45:10] UpdatesJob: requesting 4 apps, 0 packages (meta data, 1024 prev attempts)
+[2017-07-16 18:45:11] UpdatesJob: requested 3 access tokens, 0 received, 3 denied
+[2017-07-16 18:45:11] UpdatesJob: finished OK, nAppsUpdated 0 (0 KB), nPackagesUpdated 0 (0 KB)

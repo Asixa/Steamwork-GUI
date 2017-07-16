@@ -1,0 +1,12 @@
+"DepotBuildConfig"
+{
+	"DepotID" "47711"
+	"ContentRoot"	"F:\\"
+	"FileMapping"
+	{
+    "LocalPath" ".\F:\dll\*"
+    "DepotPath" "."
+    "recursive" "1"
+	}
+ 	 "FileExclusion" "*.pdb"
+}

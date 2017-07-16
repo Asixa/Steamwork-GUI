@@ -1,0 +1,6 @@
+[2017-07-16 18:14:49]: Starting build for depot 47711, content path is "F:\\"
+[2017-07-16 18:14:49]: Building file listing for depot 47711 ...
+[2017-07-16 18:14:49]: Found 22 files for mapping: F:\dll * -> .
+[2017-07-16 18:14:49]: Found 22 files (18 MB) for depot 47711
+[2017-07-16 18:14:49]: ERROR! Failed to initialize depotID 47711 build : Access Denied
+[2017-07-16 18:14:49]: ERROR! Failed building depots chunks build group.

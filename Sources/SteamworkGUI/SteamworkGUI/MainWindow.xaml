@@ -5,7 +5,7 @@
         xmlns:System="clr-namespace:System;assembly=mscorlib"
         Style="{DynamicResource VSWindowStyleKey}"
         xmlns:avalonedit="http://icsharpcode.net/sharpdevelop/avalonedit" xmlns:local="clr-namespace:SteamworkGUI"
-    xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks" x:Class="SteamworkGUI.MainWindow" 
+        xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks" x:Class="SteamworkGUI.MainWindow" 
         WindowStartupLocation="CenterScreen"
         WindowStyle="None" 
         Title="Steamwork GUI" 
@@ -13,7 +13,8 @@
         Height="600"
         Width="800"
         MinHeight="600"
-        MinWidth="525" NonActiveWindowTitleBrush="#FF2D2D30" Closing="MetroWindow_Closing"
+        MinWidth="525" NonActiveWindowTitleBrush="#FF2D2D30" Closing="MetroWindow_Closing" Icon="Images/Steam.png"
+    
     >
     <Window.Resources>
         <ResourceDictionary>
@@ -59,9 +60,9 @@
 
             <Grid Height="71" Margin="0,0,0.4,0" VerticalAlignment="Top" Background="#FF1E1E1E">
                 <TextBlock Canvas.Left="10" TextWrapping="Wrap" Text="Appid:" Canvas.Top="20" Width="83" FontSize="25" Foreground="White" Margin="10,20,0,20" HorizontalAlignment="Left"/>
-            
 
-                <Controls:NumericUpDown Name="AppidInput"  Margin="98,20,539.2,20" InputMethod.IsInputMethodEnabled="False" Delay="1000" Speedup="true" HideUpDownButtons="True" UpDownButtonsWidth="0" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalContentAlignment="Left" FontSize="20" ValueChanged="AppidInput_ValueChanged" />
+
+                <Controls:NumericUpDown Name="AppidInput"  Margin="98,20,0,20" InputMethod.IsInputMethodEnabled="False" Delay="1000" Speedup="true" HideUpDownButtons="True" UpDownButtonsWidth="0" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalContentAlignment="Left" FontSize="20" ValueChanged="AppidInput_ValueChanged" HorizontalAlignment="Left" Width="155" />
             </Grid>
             <StackPanel Margin="10,76,0,-51.2" HorizontalAlignment="Left" Width="178">
                 <TextBlock Margin="0,10,0,10" FontSize="18" Foreground="{StaticResource Foreground}" Text="Actions"/>
