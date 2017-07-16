@@ -2,11 +2,15 @@
 
 ## Still in development, not completed yet
 
-[![Issues](https://img.shields.io/github/issues/Asixa/Steamwork-GUI.svg?style=flat-square)](https://github.com/Asixa/Steamwork-GUI/issues)
+[![Issues](https://img.shields.io/github/issues/Asixa/Steamwork-GUI.svg?style=flat-square)](https://github.com/Asixa/Steamwork-GUI/issues)  
 
 [![Release](https://img.shields.io/github/release/Asixa/Steamwork-GUI.svg?style=flat-square)](https://github.com/MahApps/MahApps.Metro/releases/latest)
 
-## if it is useful for you, please leave a  :star:
+## About
+  SteamworkGUI is a free software that can help Game Developers, artists to upload their works to steam more easily
+  
+
+## If it is useful for you, please leave a  :star:
 
 ## Release Notes
 
