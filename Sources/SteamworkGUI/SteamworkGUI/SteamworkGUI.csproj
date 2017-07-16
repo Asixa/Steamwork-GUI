@@ -93,6 +93,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Classes\Save_Load.cs" />
     <Compile Include="Classes\ScriptGenerator.cs" />
     <Compile Include="Windows\ChooseAppid.xaml.cs">
       <DependentUpon>ChooseAppid.xaml</DependentUpon>
@@ -178,6 +179,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="SteamIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Developers\Fangxm.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

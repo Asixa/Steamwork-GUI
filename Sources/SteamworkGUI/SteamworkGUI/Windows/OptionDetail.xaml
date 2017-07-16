@@ -58,7 +58,7 @@
 
                         <Grid Background="#FF1E1E1E" Height="73" VerticalAlignment="Top" Margin="0,0,0.2,0" >
                             <Button Cursor="Hand" Width="48" Height="48" Margin="17,15,0,10" Padding="1" Background="#FF007ACC" HorizontalAlignment="Left"  Click="Link_Click" ToolTip="Fangxm">
-                                <Image Source="/SteamworkGUI;component/Images/Developers/Asixa.jpg"  />
+                                <Image Source="/SteamworkGUI;component/Images/Developers/Fangxm.png"  />
                             </Button>
                             <Button Cursor="Hand" Content="Fangxm" Margin="95,15,10,0" Foreground="White" FontSize="20" Height="44" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" HorizontalContentAlignment="Left"  Click="Link_Click" ToolTip="Fangxm"/>
                             <Rectangle Fill="#FF007ACC" Height="3" Stroke="Black" VerticalAlignment="Top"/>

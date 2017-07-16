@@ -36,10 +36,13 @@ namespace SteamworkGUI
         {
             status = Status.preparing;
             InitializeComponent();
+            
             preparing.Visibility = Visibility.Visible;
             _instance = this;
+            Save_Load.LoadData();
             cmd = new Core();
             cmd.init();
+
         }
 
         #region StatusBar
@@ -343,6 +346,7 @@ namespace SteamworkGUI
 
             if (_shutdown)
             {
+                Save_Load.SaveData();
                 CMDinput("quit");
                 cmd.cmd.Kill();
                 Application.Current.Shutdown();

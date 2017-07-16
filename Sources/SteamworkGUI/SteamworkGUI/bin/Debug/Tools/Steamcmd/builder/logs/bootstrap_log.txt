@@ -335,3 +335,129 @@
 [2017-07-16 18:43:57] 正在验证安装...
 [2017-07-16 18:43:57] Performing checksum verification of executable files
 [2017-07-16 18:43:57] Verification complete
+
+
+[2017-07-16 19:18:12] Startup - updater built May 30 2017 09:31:34
+[2017-07-16 19:18:12] Checking for update on startup
+[2017-07-16 19:18:12] 正在检查可用更新...
+[2017-07-16 19:18:13] Download failed: http error 0 (client-download.steampowered.com/client/steam_cmd_win32)
+[2017-07-16 19:18:14] Download skipped: /client/steam_cmd_win32 version 1496167025, installed version 1496167025
+[2017-07-16 19:18:14] Nothing to do
+[2017-07-16 19:18:14] 正在验证安装...
+[2017-07-16 19:18:14] Performing checksum verification of executable files
+[2017-07-16 19:18:14] Verification complete
+
+
+[2017-07-16 19:39:45] Startup - updater built May 30 2017 09:31:34
+[2017-07-16 19:39:45] Checking for update on startup
+[2017-07-16 19:39:45] 正在检查可用更新...
+[2017-07-16 19:39:45] Download failed: http error 0 (client-download.steampowered.com/client/steam_cmd_win32)
+[2017-07-16 19:39:46] Download failed: http error 0 (media.steampowered.com/client/steam_cmd_win32)
+[2017-07-16 19:39:46] failed to load manifest from buffer.
+[2017-07-16 19:39:46] Failed to load manifest
+[2017-07-16 19:39:46] Error: Download failed: http error 0
+[2017-07-16 19:39:46] 正在验证安装...
+[2017-07-16 19:39:46] Performing checksum verification of executable files
+[2017-07-16 19:39:46] Verification complete
+
+
+[2017-07-16 19:47:46] Startup - updater built May 30 2017 09:31:34
+[2017-07-16 19:47:47] Checking for update on startup
+[2017-07-16 19:47:47] 正在检查可用更新...
+[2017-07-16 19:47:47] Download failed: http error 0 (client-download.steampowered.com/client/steam_cmd_win32)
+[2017-07-16 19:47:48] Download failed: http error 0 (media.steampowered.com/client/steam_cmd_win32)
+[2017-07-16 19:47:48] failed to load manifest from buffer.
+[2017-07-16 19:47:48] Failed to load manifest
+[2017-07-16 19:47:48] Error: Download failed: http error 0
+[2017-07-16 19:47:48] 正在验证安装...
+[2017-07-16 19:47:48] Performing checksum verification of executable files
+[2017-07-16 19:47:48] Verification complete
+
+
+[2017-07-16 19:50:15] Startup - updater built May 30 2017 09:31:34
+[2017-07-16 19:50:15] Checking for update on startup
+[2017-07-16 19:50:15] 正在检查可用更新...
+[2017-07-16 19:50:16] Download failed: http error 0 (client-download.steampowered.com/client/steam_cmd_win32)
+[2017-07-16 19:50:17] Download skipped: /client/steam_cmd_win32 version 1496167025, installed version 1496167025
+[2017-07-16 19:50:17] Nothing to do
+[2017-07-16 19:50:17] 正在验证安装...
+[2017-07-16 19:50:17] Performing checksum verification of executable files
+[2017-07-16 19:50:17] Verification complete
+
+
+[2017-07-16 20:48:33] Startup - updater built May 30 2017 09:31:34
+[2017-07-16 20:48:33] Checking for update on startup
+[2017-07-16 20:48:33] 正在检查可用更新...
+[2017-07-16 20:48:34] Download failed: http error 0 (client-download.steampowered.com/client/steam_cmd_win32)
+[2017-07-16 20:48:35] Download failed: http error 0 (media.steampowered.com/client/steam_cmd_win32)
+[2017-07-16 20:48:35] failed to load manifest from buffer.
+[2017-07-16 20:48:35] Failed to load manifest
+[2017-07-16 20:48:35] Error: Download failed: http error 0
+[2017-07-16 20:48:35] 正在验证安装...
+[2017-07-16 20:48:35] Performing checksum verification of executable files
+[2017-07-16 20:48:35] Verification complete
+
+
+[2017-07-16 21:18:55] Startup - updater built May 30 2017 09:31:34
+[2017-07-16 21:18:55] Checking for update on startup
+[2017-07-16 21:18:55] 正在检查可用更新...
+[2017-07-16 21:18:56] Download failed: http error 0 (client-download.steampowered.com/client/steam_cmd_win32)
+[2017-07-16 21:18:58] Download failed: http error 0 (media.steampowered.com/client/steam_cmd_win32)
+[2017-07-16 21:18:58] failed to load manifest from buffer.
+[2017-07-16 21:18:58] Failed to load manifest
+[2017-07-16 21:18:58] Error: Download failed: http error 0
+[2017-07-16 21:18:58] 正在验证安装...
+[2017-07-16 21:18:58] Performing checksum verification of executable files
+[2017-07-16 21:18:58] Verification complete
+
+
+[2017-07-16 21:27:37] Startup - updater built May 30 2017 09:31:34
+[2017-07-16 21:27:37] Checking for update on startup
+[2017-07-16 21:27:37] 正在检查可用更新...
+[2017-07-16 21:27:38] Download failed: http error 0 (client-download.steampowered.com/client/steam_cmd_win32)
+[2017-07-16 21:27:39] Download failed: http error 0 (media.steampowered.com/client/steam_cmd_win32)
+[2017-07-16 21:27:39] failed to load manifest from buffer.
+[2017-07-16 21:27:39] Failed to load manifest
+[2017-07-16 21:27:39] Error: Download failed: http error 0
+[2017-07-16 21:27:39] 正在验证安装...
+[2017-07-16 21:27:39] Performing checksum verification of executable files
+[2017-07-16 21:27:39] Verification complete
+
+
+[2017-07-16 21:31:38] Startup - updater built May 30 2017 09:31:34
+[2017-07-16 21:31:38] Checking for update on startup
+[2017-07-16 21:31:38] 正在检查可用更新...
+[2017-07-16 21:31:38] Download failed: http error 0 (client-download.steampowered.com/client/steam_cmd_win32)
+[2017-07-16 21:31:39] Download failed: http error 0 (media.steampowered.com/client/steam_cmd_win32)
+[2017-07-16 21:31:39] failed to load manifest from buffer.
+[2017-07-16 21:31:39] Failed to load manifest
+[2017-07-16 21:31:39] Error: Download failed: http error 0
+[2017-07-16 21:31:39] 正在验证安装...
+[2017-07-16 21:31:39] Performing checksum verification of executable files
+[2017-07-16 21:31:39] Verification complete
+
+
+[2017-07-16 21:37:22] Startup - updater built May 30 2017 09:31:34
+[2017-07-16 21:37:22] Checking for update on startup
+[2017-07-16 21:37:22] 正在检查可用更新...
+[2017-07-16 21:37:23] Download failed: http error 0 (client-download.steampowered.com/client/steam_cmd_win32)
+[2017-07-16 21:37:23] Download failed: http error 0 (media.steampowered.com/client/steam_cmd_win32)
+[2017-07-16 21:37:23] failed to load manifest from buffer.
+[2017-07-16 21:37:23] Failed to load manifest
+[2017-07-16 21:37:23] Error: Download failed: http error 0
+[2017-07-16 21:37:23] 正在验证安装...
+[2017-07-16 21:37:23] Performing checksum verification of executable files
+[2017-07-16 21:37:23] Verification complete
+
+
+[2017-07-16 21:38:02] Startup - updater built May 30 2017 09:31:34
+[2017-07-16 21:38:03] Checking for update on startup
+[2017-07-16 21:38:03] 正在检查可用更新...
+[2017-07-16 21:38:03] Download failed: http error 0 (client-download.steampowered.com/client/steam_cmd_win32)
+[2017-07-16 21:38:03] Download failed: http error 0 (media.steampowered.com/client/steam_cmd_win32)
+[2017-07-16 21:38:03] failed to load manifest from buffer.
+[2017-07-16 21:38:03] Failed to load manifest
+[2017-07-16 21:38:03] Error: Download failed: http error 0
+[2017-07-16 21:38:03] 正在验证安装...
+[2017-07-16 21:38:03] Performing checksum verification of executable files
+[2017-07-16 21:38:03] Verification complete

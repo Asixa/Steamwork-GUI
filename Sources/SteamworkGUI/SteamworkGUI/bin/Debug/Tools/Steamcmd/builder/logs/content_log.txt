@@ -97,3 +97,33 @@
 
 
 [2017-07-16 18:43:57] Loaded 0 apps from install folder "F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\builder\steamapps\appmanifest_*.acf".
+
+
+[2017-07-16 19:18:14] Loaded 0 apps from install folder "F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\builder\steamapps\appmanifest_*.acf".
+
+
+[2017-07-16 19:39:46] Loaded 0 apps from install folder "F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\builder\steamapps\appmanifest_*.acf".
+
+
+[2017-07-16 19:47:48] Loaded 0 apps from install folder "F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\builder\steamapps\appmanifest_*.acf".
+
+
+[2017-07-16 19:50:17] Loaded 0 apps from install folder "F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\builder\steamapps\appmanifest_*.acf".
+
+
+[2017-07-16 20:48:35] Loaded 0 apps from install folder "F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\builder\steamapps\appmanifest_*.acf".
+
+
+[2017-07-16 21:18:58] Loaded 0 apps from install folder "F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\builder\steamapps\appmanifest_*.acf".
+
+
+[2017-07-16 21:27:39] Loaded 0 apps from install folder "F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\builder\steamapps\appmanifest_*.acf".
+
+
+[2017-07-16 21:31:39] Loaded 0 apps from install folder "F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\builder\steamapps\appmanifest_*.acf".
+
+
+[2017-07-16 21:37:23] Loaded 0 apps from install folder "F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\builder\steamapps\appmanifest_*.acf".
+
+
+[2017-07-16 21:38:03] Loaded 0 apps from install folder "F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\builder\steamapps\appmanifest_*.acf".
