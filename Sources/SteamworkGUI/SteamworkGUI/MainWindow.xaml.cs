@@ -37,6 +37,7 @@ namespace SteamworkGUI
             status = Status.preparing;
             InitializeComponent();
             
+            SetStatusBar("preparing", 1);
             preparing.Visibility = Visibility.Visible;
             _instance = this;
             Save_Load.LoadData();

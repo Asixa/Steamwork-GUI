@@ -81,6 +81,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Languages\en-US.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Content Include="Languages\zh-CN.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Page Include="Windows\ChooseAppid.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -93,7 +102,11 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Classes\Save_Load.cs" />
+=======
+    <Compile Include="Classes\LanguageManager.cs" />
+>>>>>>> bb2d66ebd767bb7f748e108a3dd1ca159fc5d1f6
     <Compile Include="Classes\ScriptGenerator.cs" />
     <Compile Include="Windows\ChooseAppid.xaml.cs">
       <DependentUpon>ChooseAppid.xaml</DependentUpon>

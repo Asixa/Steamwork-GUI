@@ -4,17 +4,26 @@
 winexe
 C#
 .cs
-F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\
+G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\
 SteamworkGUI
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\App.xaml
 6-233638192
 
 131727356606
 201133974828
 Windows\ChooseAppid.xaml;MainWindow.xaml;Windows\Login.xaml;Windows\Option.xaml;Windows\OptionDetail.xaml;Windows\Output.xaml;
+=======
+G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\App.xaml
+71957968083
+1-1242535479
+131321689693
+20-1574255099
+Languages\en-US.xaml;Windows\ChooseAppid.xaml;MainWindow.xaml;Windows\Login.xaml;Windows\Option.xaml;Windows\OptionDetail.xaml;Windows\Output.xaml;
+>>>>>>> bb2d66ebd767bb7f748e108a3dd1ca159fc5d1f6
 
 False
 

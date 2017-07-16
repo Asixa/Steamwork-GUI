@@ -123,3 +123,9 @@ F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Windows\Opti
 F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI.g.resources
 F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI.Properties.Resources.resources
 F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI.csproj.GenerateResource.Cache
+G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Windows\OptionDetail.g.cs
+G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Languages\en-US.baml
+G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Windows\OptionDetail.baml
+G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Languages\zh-CN.xaml
+G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI_Content.g.cs

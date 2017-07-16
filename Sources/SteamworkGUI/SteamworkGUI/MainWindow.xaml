@@ -50,8 +50,12 @@
         <StatusBar Name="StatusBar"  Height="23" DockPanel.Dock="Bottom" Background="Red" >
             <StatusBarItem>
                 <StackPanel Orientation="Horizontal">
+<<<<<<< HEAD
                     <TextBlock Name="StatusBartext" Foreground="{StaticResource Foreground}" Width="245"></TextBlock>
                   
+=======
+                    <TextBlock Name="StatusBartext" Foreground="{StaticResource Foreground}" Width="245">Preparing</TextBlock>
+>>>>>>> bb2d66ebd767bb7f748e108a3dd1ca159fc5d1f6
                 </StackPanel>
             </StatusBarItem>
         </StatusBar>
@@ -69,6 +73,8 @@
                 <Separator Background="#11FFFFFF"/>
                 <Button FontSize="14" Margin="0,10,0,3" Content="Upload Package" Style="{StaticResource LinkButton}"/>
                 <Button FontSize="14" Margin="0,3,0,10" Content="Upload DLC" Style="{StaticResource LinkButton}" IsEnabled="False" Foreground="#FFA6A6A6"/>
+                <Button FontSize="14" Margin="0,10,0,3" Content="{DynamicResource UploadP}" Style="{StaticResource LinkButton}"/>
+                <Button FontSize="14" Margin="0,3,0,10" Content="{DynamicResource UploadD}" Style="{StaticResource LinkButton}" IsEnabled="False" Foreground="#FFA6A6A6"/>
                 <Separator Background="#11FFFFFF"/>
 
             </StackPanel>
@@ -77,12 +83,15 @@
                 <Grid x:Name="FilesDrop"  Margin="10,67,10,30" Background="#FF2D2D30" AllowDrop="True" Drop="FilesDrop_Drop">
 
                     <Label x:Name="filespath" Content="Drop the folder here" Canvas.Top="10" FontSize="40" Foreground="#FF989898" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,242,-0.2,52.2" />
+                    <Label x:Name="filespath" Content="{DynamicResource DropFolder}" Canvas.Top="10" FontSize="40" Foreground="#FF989898" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,242,-0.2,52.2" />
 
                     <Image Name="FilesIcon" Height="118"  Source="Images/Folder2.png"  Width="150"/>
 
                 </Grid>
                 <Label Name="Uploadshow" Content="Upload" HorizontalAlignment="Left" Height="52" Margin="10,10,0,0" VerticalAlignment="Top" Width="203" FontSize="30" Foreground="White"/>
                 <Button Name="UploadButton" Content="Upload" Height="44" Margin="0,10,10.2,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="94" FontSize="20" Background="Red" Click="UploadButton_Click" IsEnabled="False"/>
+                <Label Name="Uploadshow" Content="{DynamicResource Upload}" HorizontalAlignment="Left" Height="52" Margin="10,10,0,0" VerticalAlignment="Top" Width="203" FontSize="30" Foreground="White"/>
+                <Button Name="UploadButton" Content="{DynamicResource Upload}" Height="44" Margin="0,10,10.2,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="94" FontSize="20" Background="Red" Click="UploadButton_Click" IsEnabled="False"/>
                 <Label Name="Fullpath"  Height="35" Margin="130,19,109.2,0" VerticalAlignment="Top" FontSize="20" Foreground="White"/>
             </Grid>
 
