@@ -435,3 +435,49 @@
 [2017-07-17 09:31:28] [AppID 7] HTTP upload for file 'serverbrowser_hist.vdf' (offset=0, length=3349) to host 'steamcloudsg.blob.core.windows.net', path /cloud/EF/6F/8F/0C/7/018_8_13EE8456_C76F0_483.dat - timed out.
 [2017-07-17 09:31:28] [AppID 7] Upload Failure for file serverbrowser_hist.vdf
 [2017-07-17 09:31:28] [AppID 7] Upload complete, result Failure
+
+
+[2017-07-17 10:22:57] [U:1:306794314] [AppID 7] Init cache request complete
+[2017-07-17 10:22:57] Starting sync job
+[2017-07-17 10:22:57] [AppID 7] Starting sync (init)
+[2017-07-17 10:22:57] Starting sync job
+[2017-07-17 10:22:57] [AppID 7] Starting sync (eval)
+[2017-07-17 10:22:57] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2017-07-17 10:22:57] [AppID 7] Need to download file sharedconfig.vdf
+[2017-07-17 10:22:57] [AppID 7] Eval complete
+[2017-07-17 10:22:58] Starting sync job
+[2017-07-17 10:22:58] [AppID 7] Starting sync (download)
+[2017-07-17 10:22:58] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2017-07-17 10:22:58] [AppID 7] Need to download file sharedconfig.vdf
+[2017-07-17 10:22:58] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloudhk.blob.core.windows.net' beginning. . .
+[2017-07-17 10:22:59] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloudhk.blob.core.windows.net' - Success.
+[2017-07-17 10:22:59] [AppID 7] Download OK for file serverbrowser_hist.vdf
+[2017-07-17 10:22:59] [AppID 7] HTTP download for file 'sharedconfig.vdf' from host 'steamcloudhk.blob.core.windows.net' beginning. . .
+[2017-07-17 10:23:00] [AppID 7] HTTP download for file 'sharedconfig.vdf' from host 'steamcloudhk.blob.core.windows.net' - Success.
+[2017-07-17 10:23:00] [AppID 7] Download OK for file sharedconfig.vdf
+[2017-07-17 10:23:00] [AppID 7] Download complete, result OK
+[2017-07-17 10:23:00] Starting sync job
+[2017-07-17 10:23:00] [AppID 7] Starting sync (download)
+[2017-07-17 10:23:00] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2017-07-17 10:23:00] [AppID 7] File is in sync sharedconfig.vdf
+[2017-07-17 10:23:00] [AppID 7] Download complete in build list
+
+
+[2017-07-17 10:24:16] [U:1:306794314] [AppID 7] Init cache request complete
+[2017-07-17 10:24:16] Starting sync job
+[2017-07-17 10:24:16] [AppID 7] Starting sync (init)
+[2017-07-17 10:28:24] [U:1:306794314] [AppID 7] Init cache request complete
+[2017-07-17 10:28:24] Starting sync job
+[2017-07-17 10:28:24] [AppID 7] Starting sync (init)
+[2017-07-17 10:28:25] [U:1:306794314] [AppID 7] Init cache request complete
+[2017-07-17 10:28:25] Starting sync job
+[2017-07-17 10:28:25] [AppID 7] Starting sync (init)
+[2017-07-17 10:28:26] [U:1:306794314] [AppID 7] Init cache request complete
+[2017-07-17 10:28:26] Starting sync job
+[2017-07-17 10:28:26] [AppID 7] Starting sync (init)
+[2017-07-17 10:28:27] [U:1:306794314] [AppID 7] Init cache request complete
+[2017-07-17 10:28:27] Starting sync job
+[2017-07-17 10:28:27] [AppID 7] Starting sync (init)
+[2017-07-17 10:28:28] [U:1:306794314] [AppID 7] Init cache request complete
+[2017-07-17 10:28:28] Starting sync job
+[2017-07-17 10:28:28] [AppID 7] Starting sync (init)

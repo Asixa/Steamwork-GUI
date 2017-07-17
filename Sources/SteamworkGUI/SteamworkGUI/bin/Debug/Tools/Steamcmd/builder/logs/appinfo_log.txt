@@ -200,3 +200,14 @@
 [2017-07-17 09:31:26] UpdatesJob: requested 3 access tokens, 0 received, 3 denied
 [2017-07-17 09:31:26] UpdatesJob: requesting 2 apps, 0 packages (full data, 1024 prev attempts)
 [2017-07-17 09:31:27] UpdatesJob: finished OK, nAppsUpdated 2 (9 KB), nPackagesUpdated 0 (0 KB)
+
+
+[2017-07-17 10:22:57] RequestAppInfoUpdate: nNumAppIDs 1
+[2017-07-17 10:22:58] UpdatesJob: requested 3 access tokens, 0 received, 3 denied
+[2017-07-17 10:22:58] UpdatesJob: requesting 2 apps, 14 packages (full data, 1024 prev attempts)
+[2017-07-17 10:22:58] UpdatesJob: requesting 22 apps, 0 packages (meta data, 1024 prev attempts)
+[2017-07-17 10:22:59] UpdatesJob: requested 8 access tokens, 5 received, 3 denied
+[2017-07-17 10:22:59] UpdatesJob: updated SHAs with 5 new access tokens
+[2017-07-17 10:23:00] UpdatesJob: requesting 20 apps, 0 packages (full data, 1024 prev attempts)
+[2017-07-17 10:23:00] UpdatesJob: finished OK, nAppsUpdated 22 (61 KB), nPackagesUpdated 0 (0 KB)
+[2017-07-17 10:23:15] Starting async write G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\builder/appcache/appinfo.vdf (641056 bytes)

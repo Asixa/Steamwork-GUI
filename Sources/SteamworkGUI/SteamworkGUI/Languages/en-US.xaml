@@ -58,7 +58,7 @@
     <sys:String x:Key="About this build">About this build</sys:String>
     <sys:String x:Key="Please wait">Please wait</sys:String>
     <sys:String x:Key="copying files">copying files</sys:String>
-    <sys:String x:Key="Ok">OK</sys:String>
+    <sys:String x:Key="OK">OK</sys:String>
     <sys:String x:Key="Verify Code">Verify Code</sys:String>
     <sys:String x:Key="SteamworkGUI">SteamworkGUI</sys:String>
 

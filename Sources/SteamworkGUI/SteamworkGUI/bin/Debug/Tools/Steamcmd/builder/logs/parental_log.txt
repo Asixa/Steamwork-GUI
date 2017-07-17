@@ -232,3 +232,7 @@
 [2017-07-17 09:31:25] 	Base list: 0 ()
 [2017-07-17 09:31:25] 	No custom list
 [2017-07-17 09:31:25] 	No enabled features
+
+
+[2017-07-17 10:22:57] Failed to get ParentalSettings\Settings from config file for account ID 306794314
+[2017-07-17 10:22:57] Got parental settings for account ID 306794314
