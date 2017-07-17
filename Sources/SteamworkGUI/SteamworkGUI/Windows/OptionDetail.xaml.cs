@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +24,22 @@ namespace SteamworkGUI.Windows
         public OptionDetail()
         {
             InitializeComponent();
+            DirectoryInfo TheFolder = new DirectoryInfo(Environment.CurrentDirectory+"/Languages");
+            //遍历文件夹
+
+            //遍历文件
+            foreach (FileInfo NextFile in TheFolder.GetFiles())
+            {
+                Button button = new Button();
+                button.Content = System.IO.Path.GetFileNameWithoutExtension(NextFile.Name);
+                button.Click += Language_pack_Click;
+                button.Background = Engish.Background;
+                button.Foreground = Engish.Foreground;
+                button.Height = 30;
+
+                LanguagePackList.Children.Add(button);
+            }
+      
         }
 
         private void Link_Click(object sender, RoutedEventArgs e)
@@ -36,21 +53,12 @@ namespace SteamworkGUI.Windows
             }
             System.Diagnostics.Process.Start(url);
         }
-
-
-        private void English_Click(object sender, RoutedEventArgs e)//eng
+        private void Language_pack_Click(object sender, RoutedEventArgs e)//eng
         {
-            string lang = "en-US";
-            MainWindow._instance.LanguagePack = lang;
+            MainWindow._instance.LanguagePack = System.IO.Path.GetFileNameWithoutExtension(((Button)sender).Content.ToString());
             LanguageManager._instance.LoadLanguage(MainWindow._instance.LanguagePack);
         }
 
-        private void Chinese_Click(object sender, RoutedEventArgs e)//chs
-        {
 
-            string lang = "zh-CN";
-            MainWindow._instance.LanguagePack = lang;
-            LanguageManager._instance.LoadLanguage(MainWindow._instance.LanguagePack);
-        }
     }
 }

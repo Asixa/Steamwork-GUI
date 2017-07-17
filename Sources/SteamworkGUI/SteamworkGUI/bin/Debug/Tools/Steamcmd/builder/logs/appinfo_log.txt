@@ -176,3 +176,27 @@
 [2017-07-17 00:33:17] UpdatesJob: requesting 1 apps, 0 packages (full data, 1024 prev attempts)
 [2017-07-17 00:33:17] UpdatesJob: finished OK, nAppsUpdated 1 (2 KB), nPackagesUpdated 0 (0 KB)
 [2017-07-17 00:33:32] Starting async write F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\builder/appcache/appinfo.vdf (595550 bytes)
+
+
+[2017-07-17 08:05:07] RequestAppInfoUpdate: nNumAppIDs 1
+[2017-07-17 08:05:08] UpdatesJob: requesting 12 apps, 0 packages (meta data, 1024 prev attempts)
+[2017-07-17 08:05:08] UpdatesJob: requested 3 access tokens, 0 received, 3 denied
+[2017-07-17 08:05:10] UpdatesJob: failed request /appinfo/570/sha/820a85cfc7e8b633e8ace1eac0a789b3f9842116.txt.gz
+[2017-07-17 08:05:10] UpdatesJob: downloaded 0 apps via HTTP, 0 KB (0 KB compressed)
+[2017-07-17 08:05:10] UpdatesJob: requesting 7 apps, 0 packages (full data, 1024 prev attempts)
+[2017-07-17 08:05:10] UpdatesJob: finished OK, nAppsUpdated 7 (27 KB), nPackagesUpdated 0 (0 KB)
+[2017-07-17 08:05:25] Starting async write E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\builder/appcache/appinfo.vdf (595343 bytes)
+
+
+[2017-07-17 08:06:42] RequestAppInfoUpdate: nNumAppIDs 1
+[2017-07-17 08:06:42] ProductInfoChanges: change number 3194492->3194492, apps: 0/0, packages: 0/0
+[2017-07-17 08:06:42] UpdatesJob: requesting 4 apps, 0 packages (meta data, 1024 prev attempts)
+[2017-07-17 08:06:43] UpdatesJob: requested 3 access tokens, 0 received, 3 denied
+[2017-07-17 08:06:43] UpdatesJob: finished OK, nAppsUpdated 0 (0 KB), nPackagesUpdated 0 (0 KB)
+
+
+[2017-07-17 09:31:25] RequestAppInfoUpdate: nNumAppIDs 1
+[2017-07-17 09:31:26] ProductInfoChanges: change number 3194492->3194595, apps: 2/304, packages: 0/8
+[2017-07-17 09:31:26] UpdatesJob: requested 3 access tokens, 0 received, 3 denied
+[2017-07-17 09:31:26] UpdatesJob: requesting 2 apps, 0 packages (full data, 1024 prev attempts)
+[2017-07-17 09:31:27] UpdatesJob: finished OK, nAppsUpdated 2 (9 KB), nPackagesUpdated 0 (0 KB)

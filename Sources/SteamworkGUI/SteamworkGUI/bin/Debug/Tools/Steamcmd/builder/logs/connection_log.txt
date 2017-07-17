@@ -481,3 +481,125 @@
 [2017-07-17 00:30:52] [0,0] SetSteamID( [U:1:0] )
 [2017-07-17 00:30:52] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
 [2017-07-17 00:30:52] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-17 07:37:08] Log session started
+[2017-07-17 07:37:08] [0,0] SetSteamID( [U:1:0] )
+[2017-07-17 07:37:08] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-17 07:41:18] Log session started
+[2017-07-17 07:41:18] [0,0] SetSteamID( [U:1:0] )
+[2017-07-17 07:41:18] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-17 07:42:10] Log session started
+[2017-07-17 07:42:10] [0,0] SetSteamID( [U:1:0] )
+[2017-07-17 07:42:10] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-17 07:43:33] Log session started
+[2017-07-17 07:43:33] [0,0] SetSteamID( [U:1:0] )
+[2017-07-17 07:43:33] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-17 07:44:15] Log session started
+[2017-07-17 07:44:15] [0,0] SetSteamID( [U:1:0] )
+[2017-07-17 07:44:15] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-17 07:45:40] Log session started
+[2017-07-17 07:45:40] [0,0] SetSteamID( [U:1:0] )
+[2017-07-17 07:45:40] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-17 08:04:55] Log session started
+[2017-07-17 08:04:55] [0,0] SetSteamID( [U:1:0] )
+[2017-07-17 08:04:55] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+[2017-07-17 08:05:02] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-17 08:05:02] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-17 08:05:02] [1,2] Connect() starting connection (eNetQOSLevelHigh, 180.101.192.200:27020, UDP)
+[2017-07-17 08:05:07] [1,2] ConnectionCompleted() (72.165.61.174:27018, UDP)
+[2017-07-17 08:05:07] [1,2] RecvMsgClientLogOnResponse() : [U:1:210726895] 'OK'
+
+
+[2017-07-17 08:06:30] Log session started
+[2017-07-17 08:06:30] [0,0] SetSteamID( [U:1:0] )
+[2017-07-17 08:06:30] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+[2017-07-17 08:06:40] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-17 08:06:40] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-17 08:06:40] [1,2] Connect() starting connection (eNetQOSLevelHigh, 180.101.192.200:27017, UDP)
+[2017-07-17 08:06:42] [1,2] ConnectionCompleted() (153.254.86.143:27018, UDP)
+[2017-07-17 08:06:42] [1,2] RecvMsgClientLogOnResponse() : [U:1:210726895] 'OK'
+
+
+[2017-07-17 08:21:21] Log session started
+[2017-07-17 08:21:21] [0,0] SetSteamID( [U:1:0] )
+[2017-07-17 08:21:21] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-17 08:23:04] Log session started
+[2017-07-17 08:23:04] [0,0] SetSteamID( [U:1:0] )
+[2017-07-17 08:23:04] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-17 08:35:55] Log session started
+[2017-07-17 08:35:55] [0,0] SetSteamID( [U:1:0] )
+[2017-07-17 08:35:55] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-17 08:37:28] Log session started
+[2017-07-17 08:37:28] [0,0] SetSteamID( [U:1:0] )
+[2017-07-17 08:37:28] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-17 08:40:49] Log session started
+[2017-07-17 08:40:49] [0,0] SetSteamID( [U:1:0] )
+[2017-07-17 08:40:49] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-17 08:50:03] Log session started
+[2017-07-17 08:50:03] [0,0] SetSteamID( [U:1:0] )
+[2017-07-17 08:50:03] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-17 08:53:04] Log session started
+[2017-07-17 08:53:04] [0,0] SetSteamID( [U:1:0] )
+[2017-07-17 08:53:04] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-17 09:18:27] Log session started
+[2017-07-17 09:18:27] [0,0] SetSteamID( [U:1:0] )
+[2017-07-17 09:18:27] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-17 09:21:59] Log session started
+[2017-07-17 09:21:59] [0,0] SetSteamID( [U:1:0] )
+[2017-07-17 09:21:59] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-17 09:22:27] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-17 09:31:15] Log session started
+[2017-07-17 09:31:15] [0,0] SetSteamID( [U:1:0] )
+[2017-07-17 09:31:15] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+[2017-07-17 09:31:19] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-17 09:31:19] [0,0] SetSteamID( [U:1:210726895] )
+[2017-07-17 09:31:19] [1,2] Connect() starting connection (eNetQOSLevelHigh, 203.80.149.67:27018, UDP)
+[2017-07-17 09:31:24] [1,0] ConnectFailed('Connection Failed':0) (0.0.0.0:0, UDP)
+[2017-07-17 09:31:24] [0,0] StartAutoReconnect() will start in 0 seconds
+[2017-07-17 09:31:25] [1,5] ConnectionCompleted() (203.80.149.67:27018, TCP)
+[2017-07-17 09:31:25] [1,5] RecvMsgClientLogOnResponse() : [U:1:210726895] 'OK'
+
+
+[2017-07-17 09:34:25] Log session started
+[2017-07-17 09:34:25] [0,0] SetSteamID( [U:1:0] )
+[2017-07-17 09:34:25] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+
+
+[2017-07-17 09:35:48] Log session started
+[2017-07-17 09:35:48] [0,0] SetSteamID( [U:1:0] )
+[2017-07-17 09:35:48] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+[2017-07-17 09:36:20] [0,0] SetSteamID( [U:1:0] )
+[2017-07-17 09:36:20] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam

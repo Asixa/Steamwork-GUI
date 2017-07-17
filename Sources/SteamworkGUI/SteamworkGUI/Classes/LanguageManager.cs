@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Windows;
 
 namespace SteamworkGUI
@@ -15,12 +16,20 @@ namespace SteamworkGUI
            // CultureInfo currentCultureInfo = CultureInfo.CurrentCulture;
 
             ResourceDictionary langRd = null;
-            try
-            {
-                langRd =Application.LoadComponent(new Uri(@"Languages\" + pack + ".xaml", UriKind.Relative)) as ResourceDictionary;
+              try
+             {
+            string path = "/Languages/" + pack + ".xaml";
+            langRd =Application.LoadComponent(new Uri(@path,UriKind.Relative)) as ResourceDictionary;
             }
-            catch
-            {
+            catch{
+                char[] InvaildChar = Path.GetInvalidFileNameChars();
+                if (InvaildChar.Length>0)
+                 {
+                 //含有非法字符 \ / : * ? " < > | 等
+                MessageBox. Show(@"Language pack cannot be loaded "+Environment.NewLine+ @" becasue he path contains illegal character" + Environment.NewLine + @"(\ / : * ? ！@ # ￥ %……&*（）)..."
+                    + "\n" + new Uri(Environment.CurrentDirectory + "/Languages/" + pack + ".xaml", UriKind.Absolute).ToString()
+                , "Error" , MessageBoxButton.OK, MessageBoxImage.Error);
+      }
             }
 
             if (langRd != null)

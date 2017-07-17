@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\
+E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\
 SteamworkGUI
 none
 false
 DEBUG;TRACE
-F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\App.xaml
+E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\App.xaml
 61402849196
 1-1242535479
 131115776550
-201133974828
+20911151281
 Languages\en-US.xaml;MainWindow.xaml;Windows\Login.xaml;Windows\Option.xaml;Windows\OptionDetail.xaml;Windows\Output.xaml;
 
 False

@@ -43,7 +43,6 @@ namespace SteamworkGUI
                 if (root != null)
                 {
                     MainWindow._instance.LanguagePack = root.SelectSingleNode("language").InnerText;
-                    MessageBox.Show(root.SelectSingleNode("language").InnerText);
                     MainWindow._instance.user_name=MainWindow._instance.LoginWindow.account.Text= (root.SelectSingleNode("account")).InnerText;
                     MainWindow._instance.Appid =int.Parse((root.SelectSingleNode("appid")).InnerText);
                     MainWindow._instance.AppidInput.Value = MainWindow._instance.Appid;

@@ -33,7 +33,6 @@ E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\S
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\SteamworkGUI.pdb
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\MahApps.Metro.dll
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\System.Windows.Interactivity.dll
-E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\ICSharpCode.AvalonEdit.xml
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\App.baml
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\MainWindow.g.cs
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\App.g.cs
@@ -45,18 +44,11 @@ E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\S
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI.csproj.GenerateResource.Cache
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI.exe
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI.pdb
-E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\ICSharpCode.AvalonEdit.dll
-E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Selen.Wpf.Core.dll
-E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Selen.Wpf.GenericAppTree.Contracts.dll
-E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Selen.Wpf.GenericAppTree.dll
-E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Selen.Wpf.SystemStyles.dll
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\MahApps.Metro.pdb
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\MahApps.Metro.xml
-E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Windows\ChooseAppid.baml
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Windows\Login.baml
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Windows\Option.baml
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Windows\Output.baml
-E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Windows\ChooseAppid.g.cs
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Windows\Login.g.cs
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Windows\Option.g.cs
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Windows\Output.g.cs
@@ -128,3 +120,7 @@ G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI_Co
 F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI_Content.g.cs
 F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Languages\zh-CN.xaml
 F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Languages\en-US.baml
+E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Languages\zh-CN.xaml
+E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI.csprojResolveAssemblyReference.cache
+E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI_Content.g.cs
+E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Languages\en-US.baml

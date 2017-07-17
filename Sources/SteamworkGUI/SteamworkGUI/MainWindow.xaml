@@ -74,7 +74,7 @@
 
             <Grid x:Name="UploadPanel"  Margin="188,71,0.4,-0.2" Background="#FF3F3F46">
                 <Grid x:Name="FilesDrop"  Margin="10,67,10,30" Background="#FF2D2D30" AllowDrop="True" Drop="FilesDrop_Drop">
-
+           
                     <Label x:Name="filespath" Content="{DynamicResource Drop_the_folder_here}" Canvas.Top="10" FontSize="40" Foreground="#FF989898" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,242,-0.2,52.2" />
 
                     <Image Name="FilesIcon" Height="118"  Source="Images/Folder2.png"  Width="150"/>

@@ -207,3 +207,28 @@
 [2017-07-17 00:33:13] 	Base list: 0 ()
 [2017-07-17 00:33:13] 	No custom list
 [2017-07-17 00:33:13] 	No enabled features
+
+
+[2017-07-17 08:05:07] Validating parental settings
+[2017-07-17 08:05:07] Settings dump:
+[2017-07-17 08:05:07] 	Account ID: 210726895
+[2017-07-17 08:05:07] 	Enabled: false
+[2017-07-17 08:05:07] 	Base list: 0 ()
+[2017-07-17 08:05:07] 	No custom list
+[2017-07-17 08:05:07] 	No enabled features
+
+
+[2017-07-17 08:06:42] 	Account ID: 210726895
+[2017-07-17 08:06:42] 	Enabled: false
+[2017-07-17 08:06:42] 	Base list: 0 ()
+[2017-07-17 08:06:42] 	No custom list
+[2017-07-17 08:06:42] 	No enabled features
+
+
+[2017-07-17 09:31:25] Validating parental settings
+[2017-07-17 09:31:25] Settings dump:
+[2017-07-17 09:31:25] 	Account ID: 210726895
+[2017-07-17 09:31:25] 	Enabled: false
+[2017-07-17 09:31:25] 	Base list: 0 ()
+[2017-07-17 09:31:25] 	No custom list
+[2017-07-17 09:31:25] 	No enabled features

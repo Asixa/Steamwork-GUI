@@ -28,12 +28,12 @@
         <Controls:MetroAnimatedTabControl
             Controls:TabControlHelper.Underlined="TabPanel"
             TabStripPlacement="Left" Margin="0,0,0,-0.4" Background="{x:Null}">
-
+            <Button Name="Engish" Content="English" Background="#FF252526" Foreground="White"  Visibility="Hidden"/>
             <Controls:MetroTabItem Header="{DynamicResource Language}" Controls:ControlsHelper.HeaderFontSize="20" Width="200" >
-                <ListBox Background="{x:Null}">
-                    <Button Content="English" Background="#FF252526" Foreground="White" Margin="0,1" Click="English_Click" />
-                    <Button Content="中文" Background="#FF252526" Foreground="White" Margin="0,1" Click="Chinese_Click"/>
-                </ListBox>
+                
+                <StackPanel Name="LanguagePackList" Background="{x:Null}">
+         
+                </StackPanel>
             </Controls:MetroTabItem>
 
             <Controls:MetroTabItem Header="{DynamicResource About}" Controls:ControlsHelper.HeaderFontSize="20" Width="200" >
