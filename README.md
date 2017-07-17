@@ -1,6 +1,6 @@
 # Steamwork-GUI
 
-## Still in development, not completed yet
+## Lasted version v1.0
 
 [![Issues](https://img.shields.io/github/issues/Asixa/Steamwork-GUI.svg?style=flat-square)](https://github.com/Asixa/Steamwork-GUI/issues)  
 
