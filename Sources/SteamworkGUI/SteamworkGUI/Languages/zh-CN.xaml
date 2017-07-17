@@ -63,4 +63,5 @@
 
     <sys:String x:Key="error">错误</sys:String>
     <sys:String x:Key="can_not_update">无法进行更新因为所在路径包含非英文字符</sys:String>
+    <sys:String x:Key="no_network">Steam 需要联网进行更新，请检查您的网络设置</sys:String>
 </ResourceDictionary>

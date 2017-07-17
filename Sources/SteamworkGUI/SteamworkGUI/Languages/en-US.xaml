@@ -64,7 +64,7 @@
 
     <sys:String x:Key="error">Error</sys:String>
     <sys:String x:Key="can_not_update">Unable to access Steam files due to incompatible path</sys:String>
-    
+    <sys:String x:Key="no_network">Steamcmd needs to be online to update.Please confirm your network connection and try again</sys:String>
 
 
 

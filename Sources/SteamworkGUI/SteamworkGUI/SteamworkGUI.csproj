@@ -41,7 +41,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>SteamIcon.ico</ApplicationIcon>
+    <ApplicationIcon>Images\SteamIcon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ICSharpCode.AvalonEdit, Version=5.0.3.0, Culture=neutral, PublicKeyToken=9cc39be672370310, processorArchitecture=MSIL">
@@ -173,9 +173,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\SteamIcon.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="SteamIcon.ico" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Developers\Fangxm.png" />
