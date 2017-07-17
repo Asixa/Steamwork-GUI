@@ -44,3 +44,26 @@
 [2017-07-17 11:03:10] Error: Download failed: http error 0
 [2017-07-17 11:03:10] Error: Steamcmd needs to be online to update.	 Please confirm your network connection and try again.
 [2017-07-17 11:03:10] Shutdown
+
+
+[2017-07-17 11:20:52] Startup - updater built May 30 2017 09:31:34
+[2017-07-17 11:20:52] Checking for update on startup
+[2017-07-17 11:20:52] Checking for available update...
+[2017-07-17 11:20:54] Download failed: http error 0 (client-download.steampowered.com/client/steam_cmd_win32)
+[2017-07-17 11:20:55] Download failed: http error 0 (media.steampowered.com/client/steam_cmd_win32)
+[2017-07-17 11:20:55] failed to load manifest from buffer.
+[2017-07-17 11:20:55] Failed to load manifest
+[2017-07-17 11:20:55] Error: Download failed: http error 0
+[2017-07-17 11:20:55] Verifying installation...
+[2017-07-17 11:20:55] Performing checksum verification of executable files
+[2017-07-17 11:20:55] Unable to read and verify install manifest E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Tools\Steamcmd\builder\package\steam_cmd_win32.installed
+[2017-07-17 11:20:55] Verification complete
+[2017-07-17 11:20:55] Downloading Update...
+[2017-07-17 11:20:55] Checking for available update...
+[2017-07-17 11:20:56] Download failed: http error 0 (client-download.steampowered.com/client/steam_cmd_win32)
+[2017-07-17 11:20:57] Download failed: http error 0 (media.steampowered.com/client/steam_cmd_win32)
+[2017-07-17 11:20:57] failed to load manifest from buffer.
+[2017-07-17 11:20:57] Failed to load manifest
+[2017-07-17 11:20:57] Error: Download failed: http error 0
+[2017-07-17 11:20:57] Error: Steamcmd needs to be online to update.	 Please confirm your network connection and try again.
+[2017-07-17 11:20:57] Shutdown

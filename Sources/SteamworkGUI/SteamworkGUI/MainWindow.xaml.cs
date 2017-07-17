@@ -334,7 +334,7 @@ namespace SteamworkGUI
             if (special==1)
             {
                 CMDinput("quit");
-                cmd.cmd.Kill();
+                try { cmd.cmd.Kill(); } catch { }
                 Application.Current.Shutdown();
             }
         }
@@ -366,7 +366,7 @@ namespace SteamworkGUI
             {
                 Save_Load.SaveData();
                 CMDinput("quit");
-                cmd.cmd.Kill();
+                try { cmd.cmd.Kill(); } catch { }
                 Application.Current.Shutdown();
             }
         }
