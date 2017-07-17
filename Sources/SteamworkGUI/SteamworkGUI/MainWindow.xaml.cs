@@ -151,6 +151,11 @@ namespace SteamworkGUI
                                
 
                             }
+                            else if(s.Contains("Steamcmd needs to be online to update.	 Please confirm your network connection and try again."))
+                            {
+                                show_Dialog(Get_language_text("error"), Get_language_text("no_network"), true, true, 1);
+                            }
+
                             else if (s.Contains("You can also enter this code at any time using 'set_steam_guard_code'"))
                             {
                                 LoginWindow.VerifyCode.Visibility = Visibility.Visible;
@@ -165,6 +170,10 @@ namespace SteamworkGUI
                                 LoginWindow.firstVcode = false;
                                 break;
                                 
+                            }
+                            else if (s.Contains("error"))
+                                {
+                                show_Dialog(Get_language_text("error"), s, true, true, 1);
                             }
                             else if(s.Contains("Rate Limit Exceeded"))
                             {
