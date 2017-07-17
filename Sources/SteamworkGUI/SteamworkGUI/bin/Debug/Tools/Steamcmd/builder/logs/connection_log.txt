@@ -33,3 +33,8 @@
 [2017-07-17 12:10:29] [1,2] Connect() starting connection (eNetQOSLevelHigh, 180.101.192.200:27020, UDP)
 [2017-07-17 12:10:30] [1,2] ConnectionCompleted() (153.254.86.143:27020, UDP)
 [2017-07-17 12:10:30] [1,2] RecvMsgClientLogOnResponse() : [U:1:306794314] 'OK'
+
+
+[2017-07-17 12:26:42] Log session started
+[2017-07-17 12:26:42] [0,0] SetSteamID( [U:1:0] )
+[2017-07-17 12:26:42] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
