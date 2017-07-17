@@ -145,7 +145,13 @@ namespace SteamworkGUI
                     {
                         if (!String.IsNullOrEmpty(s))
                         {
-                            if (s.Contains("You can also enter this code at any time using 'set_steam_guard_code'"))
+                            if(s.Contains("Assertion Failed: Unable to access Steam files due to incompatible path"))
+                            {
+                                show_Dialog(Get_language_text("error"), Get_language_text("can_not_update"), true, true, 1);
+                               
+
+                            }
+                            else if (s.Contains("You can also enter this code at any time using 'set_steam_guard_code'"))
                             {
                                 LoginWindow.VerifyCode.Visibility = Visibility.Visible;
                                 LoginWindow.Password.Visibility = Visibility.Hidden;
@@ -311,7 +317,7 @@ namespace SteamworkGUI
         #endregion
 
         #region Dialog
-        public async void show_Dialog(string title, string message, bool _AnimateHide, bool _AnimateShow)
+        public async void show_Dialog(string title, string message, bool _AnimateHide, bool _AnimateShow,int special=0)
         {
             var mySettings = new MetroDialogSettings()
             {
@@ -325,6 +331,12 @@ namespace SteamworkGUI
             MessageDialogResult result = await this.ShowMessageAsync(title, message,
             MessageDialogStyle.Affirmative, mySettings);
 
+            if (special==1)
+            {
+                CMDinput("quit");
+                try { cmd.cmd.Kill(); } catch { }
+                Application.Current.Shutdown();
+            }
         }
 
         private bool _shutdown;
@@ -354,7 +366,7 @@ namespace SteamworkGUI
             {
                 Save_Load.SaveData();
                 CMDinput("quit");
-                cmd.cmd.Kill();
+                try { cmd.cmd.Kill(); } catch { }
                 Application.Current.Shutdown();
             }
         }

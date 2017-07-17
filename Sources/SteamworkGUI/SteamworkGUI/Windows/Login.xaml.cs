@@ -80,7 +80,7 @@ namespace SteamworkGUI
         {
             var mySettings = new MetroDialogSettings()
             {
-                AffirmativeButtonText =MainWindow._instance.Get_language_text("OK"),
+                AffirmativeButtonText =MainWindow._instance.Get_language_text("Ok"),
                 ColorScheme = MetroDialogColorScheme.Inverted
             };
 

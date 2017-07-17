@@ -60,4 +60,7 @@
     <sys:String x:Key="OK">好的</sys:String>
     <sys:String x:Key="Verify Code">验证码</sys:String>
     <sys:String x:Key="SteamworkGUI">Steamwork图形化上传工具</sys:String>
+
+    <sys:String x:Key="error">错误</sys:String>
+    <sys:String x:Key="can_not_update">无法进行更新因为所在路径包含非英文字符</sys:String>
 </ResourceDictionary>
