@@ -57,7 +57,7 @@
     <sys:String x:Key="About this build">关于本次构建</sys:String>
     <sys:String x:Key="Please wait">请稍候</sys:String>
     <sys:String x:Key="copying files">正在复制文件</sys:String>
-    <sys:String x:Key="Ok">好的</sys:String>
+    <sys:String x:Key="OK">好的</sys:String>
     <sys:String x:Key="Verify Code">验证码</sys:String>
     <sys:String x:Key="SteamworkGUI">Steamwork图形化上传工具</sys:String>
 

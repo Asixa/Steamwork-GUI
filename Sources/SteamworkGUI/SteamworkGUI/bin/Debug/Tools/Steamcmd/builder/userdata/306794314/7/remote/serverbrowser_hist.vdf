@@ -1,0 +1,74 @@
+"Filters"
+{
+	"favorites"
+	{
+		"1"
+		{
+			"name"		"111.68.19.161:25685"
+			"address"		"111.68.19.161:25685"
+			"LastPlayed"		"1484980044"
+			"appid"		"0"
+			"accountid"		"0"
+		}
+		"2"
+		{
+			"name"		"198.206.13.217:27016"
+			"address"		"198.206.13.217:27016"
+			"LastPlayed"		"1484979718"
+			"appid"		"0"
+			"accountid"		"0"
+		}
+		"3"
+		{
+			"name"		"162.248.94.2:27016"
+			"address"		"162.248.94.2:27016"
+			"LastPlayed"		"1484980658"
+			"appid"		"0"
+			"accountid"		"0"
+		}
+	}
+	"history"
+	{
+		"1"
+		{
+			"name"		"111.68.19.161:25685"
+			"address"		"111.68.19.161:25685"
+			"LastPlayed"		"1484980044"
+			"appid"		"0"
+			"accountid"		"0"
+		}
+		"2"
+		{
+			"name"		"198.206.13.217:27016"
+			"address"		"198.206.13.217:27016"
+			"LastPlayed"		"1484979718"
+			"appid"		"0"
+			"accountid"		"0"
+		}
+		"3"
+		{
+			"name"		"162.248.94.2:27016"
+			"address"		"162.248.94.2:27016"
+			"LastPlayed"		"1484980658"
+			"appid"		"0"
+			"accountid"		"0"
+		}
+		"4"
+		{
+			"name"		"61.147.98.138:26901"
+			"address"		"61.147.98.138:26901"
+			"LastPlayed"		"1455534076"
+			"appid"		"0"
+			"accountid"		"0"
+		}
+		"5"
+		{
+			"name"		"58.60.160.229:27016"
+			"address"		"58.60.160.229:27016"
+			"LastPlayed"		"1475476096"
+			"appid"		"0"
+			"accountid"		"0"
+		}
+	}
+	"lastupdate"		"1500179877"
+}

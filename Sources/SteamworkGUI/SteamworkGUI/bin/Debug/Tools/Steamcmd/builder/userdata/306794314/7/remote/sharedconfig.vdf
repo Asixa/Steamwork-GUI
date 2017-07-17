@@ -1,0 +1,29 @@
+"UserRoamingConfigStore"
+{
+	"Web"
+	{
+		"WebFav0_URL"		"https://www.google.com/"
+		"WebFav0_Name"		"Google"
+		"WebFav1_URL"		"http://www.youtube.com/"
+		"WebFav1_Name"		"YouTube"
+		"WebFav2_URL"		"http://www.twitter.com/"
+		"WebFav2_Name"		"Twitter"
+		"WebFav3_URL"		"http://www.facebook.com/"
+		"WebFav3_Name"		"Facebook"
+		"WebFav4_URL"		"http://www.reddit.com/"
+		"WebFav4_Name"		"Reddit"
+	}
+	"Software"
+	{
+		"Valve"
+		{
+			"Steam"
+			{
+				"DesktopShortcutCheck"		"1"
+				"StartMenuShortcutCheck"		"0"
+				"SteamDefaultDialog"		"#app_store"
+				"SSAVersion"		"3"
+			}
+		}
+	}
+}

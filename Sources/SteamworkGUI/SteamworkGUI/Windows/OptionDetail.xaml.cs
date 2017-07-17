@@ -24,7 +24,7 @@ namespace SteamworkGUI.Windows
         public OptionDetail()
         {
             InitializeComponent();
-            DirectoryInfo TheFolder = new DirectoryInfo(Environment.CurrentDirectory+"/Languages");
+            DirectoryInfo TheFolder = new DirectoryInfo(Directory.GetCurrentDirectory()+"/Languages");
             //遍历文件夹
 
             //遍历文件

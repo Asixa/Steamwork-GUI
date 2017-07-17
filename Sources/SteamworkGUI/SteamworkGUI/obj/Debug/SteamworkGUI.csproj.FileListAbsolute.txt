@@ -57,16 +57,13 @@ G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\SteamworkGUI.ex
 G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\SteamworkGUI.pdb
 G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\MahApps.Metro.dll
 G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\System.Windows.Interactivity.dll
-G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\ICSharpCode.AvalonEdit.xml
 G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\MahApps.Metro.pdb
 G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\MahApps.Metro.xml
 G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI.csprojResolveAssemblyReference.cache
-G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Windows\ChooseAppid.baml
 G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Windows\Login.baml
 G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Windows\Option.baml
 G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Windows\Output.baml
 G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\App.baml
-G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Windows\ChooseAppid.g.cs
 G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\MainWindow.g.cs
 G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Windows\Login.g.cs
 G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Windows\Option.g.cs
@@ -115,8 +112,6 @@ G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Windows\OptionD
 G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
 G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Languages\en-US.baml
 G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Windows\OptionDetail.baml
-G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Languages\zh-CN.xaml
-G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI_Content.g.cs
 F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI_Content.g.cs
 F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Languages\zh-CN.xaml
 F:\Github\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Languages\en-US.baml
@@ -124,3 +119,5 @@ E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\S
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI.csprojResolveAssemblyReference.cache
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI_Content.g.cs
 E:\Programing\C#\GitHubProject\SteamworkGUI\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\Languages\en-US.baml
+G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\bin\Debug\Languages\zh-CN.xaml
+G:\GIT\Steamwork-GUI\Sources\SteamworkGUI\SteamworkGUI\obj\Debug\SteamworkGUI_Content.g.cs
