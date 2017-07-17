@@ -1,8 +1,7 @@
 <?xml version="1.0" standalone="yes"?>
 <SteamworkGUI>
   <Data>
-    <account>AsixaChen</account>
-    <appid>4774213</appid>
-    <language>zh-CN</language>
+    <appid>0</appid>
+    <language />
   </Data>
 </SteamworkGUI>

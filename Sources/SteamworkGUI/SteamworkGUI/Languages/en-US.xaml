@@ -62,6 +62,9 @@
     <sys:String x:Key="Verify Code">Verify Code</sys:String>
     <sys:String x:Key="SteamworkGUI">SteamworkGUI</sys:String>
 
+    <sys:String x:Key="error">Error</sys:String>
+    <sys:String x:Key="can_not_update">Unable to access Steam files due to incompatible path</sys:String>
+    
 
 
 

@@ -28,7 +28,14 @@ namespace SteamworkGUI
 
             ds.Tables["Data"].Rows.Add(row);
             string path = Environment.CurrentDirectory+"/data.xml";
-            ds.WriteXml(path);
+            try
+            {
+                ds.WriteXml(path);
+            }
+            catch
+            {
+
+            }
         }
 
         public static void LoadData()
