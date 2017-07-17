@@ -1,0 +1,247 @@
+
+
+[2017-07-15 21:44:31] Validating parental settings
+[2017-07-15 21:44:31] Settings dump:
+[2017-07-15 21:44:31] 	Account ID: 210726895
+[2017-07-15 21:44:31] 	Enabled: false
+[2017-07-15 21:44:31] 	Base list: 0 ()
+[2017-07-15 21:44:31] 	No custom list
+[2017-07-15 21:44:31] 	No enabled features
+
+
+[2017-07-16 09:25:40] Validating parental settings
+[2017-07-16 09:25:40] Settings dump:
+[2017-07-16 09:25:40] 	Account ID: 210726895
+[2017-07-16 09:25:40] 	Enabled: false
+[2017-07-16 09:25:40] 	Base list: 0 ()
+[2017-07-16 09:25:40] 	No custom list
+[2017-07-16 09:25:40] 	No enabled features
+
+
+[2017-07-16 09:57:49] Validating parental settings
+[2017-07-16 09:57:49] Settings dump:
+[2017-07-16 09:57:49] 	Account ID: 210726895
+[2017-07-16 09:57:49] 	Enabled: false
+[2017-07-16 09:57:49] 	Base list: 0 ()
+[2017-07-16 09:57:49] 	No custom list
+[2017-07-16 09:57:49] 	No enabled features
+
+
+[2017-07-16 13:49:38] Validating parental settings
+[2017-07-16 13:49:38] Settings dump:
+[2017-07-16 13:49:38] 	Account ID: 210726895
+[2017-07-16 13:49:38] 	Enabled: false
+[2017-07-16 13:49:38] 	Base list: 0 ()
+[2017-07-16 13:49:38] 	No custom list
+[2017-07-16 13:49:38] 	No enabled features
+
+
+[2017-07-16 14:00:26] Validating parental settings
+[2017-07-16 14:00:26] Settings dump:
+[2017-07-16 14:00:26] 	Account ID: 210726895
+[2017-07-16 14:00:26] 	Enabled: false
+[2017-07-16 14:00:26] 	Base list: 0 ()
+[2017-07-16 14:00:26] 	No custom list
+[2017-07-16 14:00:26] 	No enabled features
+
+
+[2017-07-16 14:04:00] 	Account ID: 210726895
+[2017-07-16 14:04:00] 	Enabled: false
+[2017-07-16 14:04:00] 	Base list: 0 ()
+[2017-07-16 14:04:00] 	No custom list
+[2017-07-16 14:04:00] 	No enabled features
+
+
+[2017-07-16 14:05:16] Validating parental settings
+[2017-07-16 14:05:16] Settings dump:
+[2017-07-16 14:05:16] 	Account ID: 210726895
+[2017-07-16 14:05:16] 	Enabled: false
+[2017-07-16 14:05:16] 	Base list: 0 ()
+[2017-07-16 14:05:16] 	No custom list
+[2017-07-16 14:05:16] 	No enabled features
+
+
+[2017-07-16 14:07:13] Validating parental settings
+[2017-07-16 14:07:13] Settings dump:
+[2017-07-16 14:07:13] 	Account ID: 210726895
+[2017-07-16 14:07:13] 	Enabled: false
+[2017-07-16 14:07:13] 	Base list: 0 ()
+[2017-07-16 14:07:13] 	No custom list
+[2017-07-16 14:07:13] 	No enabled features
+
+
+[2017-07-16 14:08:51] Validating parental settings
+[2017-07-16 14:08:51] Settings dump:
+[2017-07-16 14:08:51] 	Account ID: 210726895
+[2017-07-16 14:08:51] 	Enabled: false
+[2017-07-16 14:08:51] 	Base list: 0 ()
+[2017-07-16 14:08:51] 	No custom list
+[2017-07-16 14:08:51] 	No enabled features
+
+
+[2017-07-16 14:14:50] Validating parental settings
+[2017-07-16 14:14:50] Settings dump:
+[2017-07-16 14:14:50] 	Account ID: 210726895
+[2017-07-16 14:14:50] 	Base list: 0 ()
+[2017-07-16 14:14:50] 	No custom list
+[2017-07-16 14:14:50] 	No enabled features
+
+
+[2017-07-16 14:18:28] Validating parental settings
+[2017-07-16 14:18:28] 	Account ID: 210726895
+[2017-07-16 14:18:28] 	Enabled: false
+[2017-07-16 14:18:28] 	Base list: 0 ()
+[2017-07-16 14:18:28] 	No custom list
+[2017-07-16 14:18:28] 	No enabled features
+
+
+[2017-07-16 18:13:03] Validating parental settings
+[2017-07-16 18:13:03] Settings dump:
+[2017-07-16 18:13:03] 	Account ID: 210726895
+[2017-07-16 18:13:03] 	Enabled: false
+[2017-07-16 18:13:03] 	Base list: 0 ()
+[2017-07-16 18:13:03] 	No custom list
+[2017-07-16 18:13:03] 	No enabled features
+
+
+[2017-07-16 18:24:53] Validating parental settings
+[2017-07-16 18:24:53] Settings dump:
+[2017-07-16 18:24:53] 	Account ID: 210726895
+[2017-07-16 18:24:53] 	Enabled: false
+[2017-07-16 18:24:53] 	Base list: 0 ()
+[2017-07-16 18:24:53] 	No custom list
+[2017-07-16 18:24:53] 	No enabled features
+
+
+[2017-07-16 18:25:50] Validating parental settings
+[2017-07-16 18:25:50] Settings dump:
+[2017-07-16 18:25:50] 	Account ID: 210726895
+[2017-07-16 18:25:50] 	Enabled: false
+[2017-07-16 18:25:50] 	Base list: 0 ()
+[2017-07-16 18:25:50] 	No custom list
+[2017-07-16 18:25:50] 	No enabled features
+
+
+[2017-07-16 18:28:17] Validating parental settings
+[2017-07-16 18:28:17] Settings dump:
+[2017-07-16 18:28:17] 	Account ID: 210726895
+[2017-07-16 18:28:17] 	Enabled: false
+[2017-07-16 18:28:17] 	Base list: 0 ()
+[2017-07-16 18:28:17] 	No custom list
+[2017-07-16 18:28:17] 	No enabled features
+
+
+[2017-07-16 18:33:21] 	Account ID: 210726895
+[2017-07-16 18:33:21] 	Enabled: false
+[2017-07-16 18:33:21] 	Base list: 0 ()
+[2017-07-16 18:33:21] 	No custom list
+[2017-07-16 18:33:21] 	No enabled features
+
+
+[2017-07-16 18:45:10] Validating parental settings
+[2017-07-16 18:45:10] Settings dump:
+[2017-07-16 18:45:10] 	Account ID: 210726895
+[2017-07-16 18:45:10] 	Enabled: false
+[2017-07-16 18:45:10] 	Base list: 0 ()
+[2017-07-16 18:45:10] 	No custom list
+[2017-07-16 18:45:10] 	No enabled features
+
+
+[2017-07-16 19:18:26] Validating parental settings
+[2017-07-16 19:18:26] Settings dump:
+[2017-07-16 19:18:26] 	Account ID: 210726895
+[2017-07-16 19:18:26] 	Enabled: false
+[2017-07-16 19:18:26] 	No enabled features
+7-07-16 19:18:26] 	No custom list
+
+
+[2017-07-16 20:57:24] Validating parental settings
+[2017-07-16 20:57:24] Settings dump:
+[2017-07-16 20:57:24] 	Account ID: 210726895
+[2017-07-16 20:57:24] 	Enabled: false
+[2017-07-16 20:57:24] 	Base list: 0 ()
+[2017-07-16 20:57:24] 	No custom list
+[2017-07-16 20:57:24] 	No enabled features
+
+
+[2017-07-16 21:19:15] Validating parental settings
+[2017-07-16 21:19:15] Settings dump:
+[2017-07-16 21:19:15] 	Account ID: 210726895
+[2017-07-16 21:19:15] 	Enabled: false
+[2017-07-16 21:19:15] 	Base list: 0 ()
+[2017-07-16 21:19:15] 	No custom list
+[2017-07-16 21:19:15] 	No enabled features
+
+
+[2017-07-16 21:37:37] Validating parental settings
+[2017-07-16 21:37:37] Settings dump:
+[2017-07-16 21:37:37] 	Account ID: 210726895
+[2017-07-16 21:37:37] 	Enabled: false
+[2017-07-16 21:37:37] 	Base list: 0 ()
+[2017-07-16 21:37:37] 	No custom list
+[2017-07-16 21:37:37] 	No enabled features
+
+
+[2017-07-16 21:38:10] Validating parental settings
+[2017-07-16 21:38:10] Settings dump:
+[2017-07-16 21:38:10] 	Account ID: 210726895
+[2017-07-16 21:38:10] 	Enabled: false
+[2017-07-16 21:38:10] 	Base list: 0 ()
+[2017-07-16 21:38:10] 	No custom list
+[2017-07-16 21:38:10] 	No enabled features
+
+
+[2017-07-16 23:01:38] Validating parental settings
+[2017-07-16 23:01:38] Settings dump:
+[2017-07-16 23:01:38] 	Account ID: 210726895
+[2017-07-16 23:01:38] 	Enabled: false
+[2017-07-16 23:01:38] 	Base list: 0 ()
+[2017-07-16 23:01:38] 	No custom list
+[2017-07-16 23:01:38] 	No enabled features
+
+
+[2017-07-17 00:33:13] Validating parental settings
+[2017-07-17 00:33:13] Settings dump:
+[2017-07-17 00:33:13] 	Account ID: 210726895
+[2017-07-17 00:33:13] 	Enabled: false
+[2017-07-17 00:33:13] 	Base list: 0 ()
+[2017-07-17 00:33:13] 	No custom list
+[2017-07-17 00:33:13] 	No enabled features
+
+
+[2017-07-17 08:05:07] Validating parental settings
+[2017-07-17 08:05:07] Settings dump:
+[2017-07-17 08:05:07] 	Account ID: 210726895
+[2017-07-17 08:05:07] 	Enabled: false
+[2017-07-17 08:05:07] 	Base list: 0 ()
+[2017-07-17 08:05:07] 	No custom list
+[2017-07-17 08:05:07] 	No enabled features
+
+
+[2017-07-17 08:06:42] 	Account ID: 210726895
+[2017-07-17 08:06:42] 	Enabled: false
+[2017-07-17 08:06:42] 	Base list: 0 ()
+[2017-07-17 08:06:42] 	No custom list
+[2017-07-17 08:06:42] 	No enabled features
+
+
+[2017-07-17 09:31:25] Validating parental settings
+[2017-07-17 09:31:25] Settings dump:
+[2017-07-17 09:31:25] 	Account ID: 210726895
+[2017-07-17 09:31:25] 	Enabled: false
+[2017-07-17 09:31:25] 	Base list: 0 ()
+[2017-07-17 09:31:25] 	No custom list
+[2017-07-17 09:31:25] 	No enabled features
+
+
+[2017-07-17 10:22:57] Failed to get ParentalSettings\Settings from config file for account ID 306794314
+[2017-07-17 10:22:57] Got parental settings for account ID 306794314
+
+
+[2017-07-17 11:34:37] Validating parental settings
+[2017-07-17 11:34:37] Settings dump:
+[2017-07-17 11:34:37] 	Account ID: 306794314
+[2017-07-17 11:34:37] 	Enabled: false
+[2017-07-17 11:34:37] 	Base list: 0 ()
+[2017-07-17 11:34:37] 	No custom list
+[2017-07-17 11:34:37] 	No enabled features
