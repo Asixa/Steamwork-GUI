@@ -41,7 +41,7 @@
     <sys:String x:Key="Confirm">Confirm</sys:String>
     <sys:String x:Key="SteamworkGUI_on_Github">SteamworkGUI on Github</sys:String>
     <sys:String x:Key="Are you sure to start uploading?">Are you sure to start uploading?</sys:String>
-    <sys:String x:Key="You cannot not cancel during the uploading">You cannot not cancel during the uploading</sys:String>
+    <sys:String x:Key="You cannot not cancel during the uploading">You cannot cancel during the uploading</sys:String>
 
     <sys:String x:Key="preparing">Preparing</sys:String>
     <sys:String x:Key="Rate Limit Exceeded">Rate Limit Exceeded</sys:String>
